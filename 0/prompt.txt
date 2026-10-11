@@ -1,0 +1,6 @@
+Great! Now let's build the reusable Agent Skill for Project B.
+Please review the existing Python MVP, README.md, snapshot.schema.json, interview notes, and project plan.
+Create a reusable Agent Skill that helps review regulatory changes, identify missing or conflicting evidence, draft impact assessments, and recommend actions for human review.
+Keep all legal decisions and approvals under human control.
+Follow the Agent Skill structure required by the fellowship if documented. Do not change the original interview export or snapshot.schema.json.
+Test the skill with our fictional example and explain what is completed and what still needs verification against the formal assignment.
