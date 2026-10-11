@@ -1,0 +1,3 @@
+Please review README.md, snapshot.schema.json, docs/interview-notes.md, and docs/project-plan.md.
+Explain what Project B requires me to submit, what I have completed, and what is still missing.
+Do not start coding yet. Give me a simple checklist and clearly identify any requirements that cannot be confirmed from the available files.
