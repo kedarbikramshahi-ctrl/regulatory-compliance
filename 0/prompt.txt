@@ -1,0 +1,13 @@
+I'm working on Project B – Regulatory Change Impact for my AI Fellowship.
+
+I completed an interview with a Compliance and Operations Manager and saved the findings in `docs/interview-notes.md`.
+
+Please:
+
+1. Read my interview notes, README.md, and snapshot.schema.json.
+2. Summarize the main business problem and requirements.
+3. Identify the most important features for an AI compliance review tool.
+4. Recommend a simple MVP that a beginner can build.
+5. Create a step-by-step implementation plan in `docs/project-plan.md`.
+
+Do not modify my existing interview notes or other files. Do not start coding yet. Explain everything in simple English.
