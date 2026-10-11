@@ -1,0 +1,13 @@
+Please check whether Entire coding-session capture is installed and active in this repository.
+
+Check:
+
+1. Whether Entire is installed.
+2. Whether session capture was enabled.
+3. Whether any actual coding-session history or checkpoints exist.
+4. Whether the recorded sessions contain my Project B development work.
+5. Whether the existing capture can be verified for the assignment.
+
+Use read-only commands. Do not install anything, modify files, create recordings, commit, or push.
+
+Report what is verified, what is missing, and what requires facilitator confirmation. Do not claim that missing past recordings can be recreated.
