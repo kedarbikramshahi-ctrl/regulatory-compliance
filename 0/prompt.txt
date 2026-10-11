@@ -1,0 +1,5 @@
+Hi, I'm working on Project B — Regulatory Change Impact & Compliance Actions.
+I've completed my initial prototype, created and tested the Agent Skill, and reviewed the official assignment requirements.
+Before continuing, could you please confirm that my stakeholder interview export, coding-session capture, source access, and GitHub submission destination are correctly set up?
+I want to make sure everything meets the assessment requirements.
+Thank you!
