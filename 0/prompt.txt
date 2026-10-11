@@ -1,0 +1,7 @@
+<environment_context>
+  <cwd>C:\Users\kedar\regulatory-compliance</cwd>
+  <shell>powershell</shell>
+  <current_date>2026-10-11</current_date>
+  <timezone>America/New_York</timezone>
+  <filesystem><workspace_roots><root>C:\Users\kedar\regulatory-compliance</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>C:\Users\kedar\regulatory-compliance</path></entry><entry access="write"><special>:slash_tmp</special></entry><entry access="write"><special>:tmpdir</special></entry><entry access="read"><path>C:\Users\kedar\regulatory-compliance\.git</path></entry><entry access="read"><path>C:\Users\kedar\regulatory-compliance\.agents</path></entry><entry access="read"><path>C:\Users\kedar\regulatory-compliance\.codex</path></entry><entry access="read"><path>C:\Users\kedar\regulatory-compliance\.aws</path></entry></file_system></permission_profile></filesystem>
+</environment_context>
