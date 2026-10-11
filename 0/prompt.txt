@@ -1,0 +1,15 @@
+I now have the complete official Project B assignment.
+
+First, review the assignment instructions I will provide and compare them against my existing repository.
+
+Create docs/assignment-gap-analysis.md showing:
+
+1. Requirements already completed.
+2. Requirements partially completed.
+3. Missing requirements.
+4. Required changes to the Skill name, folder structure, source retrieval, seven snapshots, final deliverables, history/recovery, and tests.
+5. Requirements that need facilitator confirmation or access.
+
+Do not assume fictional demo data satisfies the live-source requirements. Preserve the original interview export and snapshot.schema.json unchanged.
+
+Do not start implementing changes or push to GitHub yet. Explain the most important next step.
