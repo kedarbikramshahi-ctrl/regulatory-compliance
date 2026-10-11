@@ -1,0 +1,3 @@
+Please create an interviews folder and move my original Project B interview export Markdown file from the project root into that folder.
+Do not change the interview content. Verify that the file is complete and explain what you checked.
+Keep snapshot.schema.json unchanged. Do not start coding yet.
