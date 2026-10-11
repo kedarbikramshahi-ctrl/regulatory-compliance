@@ -1,0 +1,5 @@
+I have completed and saved my interview notes in docs/interview-notes.md.
+Please read the interview notes, README.md, and snapshot.schema.json.
+Update docs/project-plan.md based on the interview findings and project requirements.
+Make sure the plan includes the main business problem, required features, MVP, and implementation steps.
+Do not start coding yet. Explain the next steps in simple English.
