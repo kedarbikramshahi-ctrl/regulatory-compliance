@@ -1,0 +1,5 @@
+Now let's start building Project B — Regulatory Change Impact.
+Please review README.md, snapshot.schema.json, docs/interview-notes.md, and docs/project-plan.md.
+Build a beginner-friendly working MVP using Python that reviews one example regulatory change, identifies missing or conflicting evidence, generates the seven review-stage JSON snapshots required by the schema, and produces a Markdown review report.
+Use fictional sample data. Do not invent legal conclusions or automatically approve compliance. Keep the original interview export and snapshot.schema.json unchanged.
+Create clear setup instructions, run the program, and test the generated outputs against the schema. Explain what you completed and what is still missing from the formal assignment.
