@@ -1,0 +1,5 @@
+Please verify that my regulatory-change-review Agent Skill can be discovered and invoked by Codex.
+Check whether the Skill folder and SKILL.md follow the required structure.
+If any changes are needed, fix them without modifying snapshot.schema.json or my original interview export.
+Run a demonstration using the Skill, verify the outputs, and explain whether the Skill is working or whether automatic discovery still needs testing.
+Do not commit or push anything to GitHub yet.
