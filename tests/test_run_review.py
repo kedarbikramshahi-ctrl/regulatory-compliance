@@ -38,6 +38,44 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(scope['state']['supersedes_run_id'],first['run_id'])
         self.assertEqual(scope['state']['review_date'],'2026-08-26')
         self.assertEqual(second['publication_status'],'blocked')
+    def test_bad_rows_reach_snapshots_and_drafts_even_when_no_valid_rows(self):
+        import csv
+        from html import escape
+        source=next(s for s in w.c.load(self.manifest)['sources'] if s['name']=='SYSTEMS')
+        response=self.responses[(source['url'],None)]
+        _,meta,_,_=w.c.inspect(source,'original',response)
+        headers=meta['headers']
+        def row(cells): return '<tr>'+''.join('<td>'+escape(v)+'</td>' for v in cells)+'</tr>'
+        valid=[list(r['values'][h] for h in headers) for r in meta['rows']]
+        blank=list(valid[0]);blank[headers.index('system_id')]=''
+        malformed=valid[0][:-1]
+        for keep_valid in (True,False):
+            with self.subTest(valid_rows=keep_valid):
+                response['body']=('<table>'+row(headers)+''.join(row(v) for v in (valid if keep_valid else [])+[blank,malformed])+'</table>').encode()
+                result=self.execute()
+                self.assertTrue(result['final_files_agree_with_stage06'])
+                second=w.c.load(self.out/'snapshots/02-source-capture.json')
+                fourth=w.c.load(self.out/'snapshots/04-evidence-reconciliation.json')
+                sixth=w.c.load(self.out/'snapshots/06-actions-and-approvals.json')
+                self.assertEqual(second['status'],'partial')
+                source_record=next(s for s in second['state']['sources'] if s['source_name']=='SYSTEMS')
+                self.assertEqual(source_record['requested_content_available'],keep_valid)
+                self.assertEqual(len([r for r in second['unresolved'] if r['id'].startswith('UNRESOLVED-ROW-')]),2)
+                gaps=[r for r in fourth['state']['evidence_gaps'] if r['id'].startswith('GAP-ROW-')]
+                self.assertEqual(len(gaps),2)
+                self.assertEqual([x['row_issue']['cells'] for x in gaps],[blank,malformed])
+                self.assertEqual(gaps[0]['owner'],valid[0][headers.index('owner')])
+                self.assertEqual(gaps[1]['owner'],'Source owner')
+                self.assertEqual(len(fourth['state']['system_facts']),len(valid) if keep_valid else 0)
+                with (self.out/'impact-register.csv').open(encoding='utf-8',newline='') as stream:
+                    register={r['impact_id']:r for r in csv.DictReader(stream)}
+                brief=(self.out/'compliance-brief.md').read_text(encoding='utf-8')
+                for gap in gaps:
+                    self.assertIn(gap['id'],{x['id'] for x in sixth['state']['escalations']})
+                    self.assertEqual(register[gap['id']]['state'],'unresolved')
+                    self.assertEqual(register[gap['id']]['system_id'],'ALL')
+                    self.assertIn(gap['id'],brief)
+                    self.assertIn(gap['row_issue']['reason'],brief)
     def test_missing_and_damaged_outputs_detected_and_rebuilt_fresh(self):
         self.execute();(self.out/'impact-register.csv').unlink()
         source=self.out/'sources/SOURCE-SYSTEMS-original.response';source.write_bytes(b'damaged retained bytes')

@@ -29,6 +29,8 @@ The manifest must contain exactly the ten disclosed names and the fixed review_d
 
 All seven stages run in order. Each new run has a unique ID, new snapshot IDs, correct predecessor hashes, actual retrieval times and Stage 01 supersession/reason. The full run recomputes from the earliest changed basis by fetching and rebuilding everything; it does not infer that unchanged business labels permit reuse of a previous success. The assigned date is never replaced with today's date.
 
+Register parsing stays within the table containing the required headers. Empty grid slots (including Google Sheets row-number cells) and unrelated navigation tables are not business records. Populated rows with a missing business ID or a cell/header count mismatch retain their parsed cells, header context, row locator, reason, source owner and resolution need. Raw response bytes remain the exact source. Such rows become Stage 02 unresolved records and Stage 04 evidence gaps carried through the register and brief; no system ID or field alignment is inferred. Valid rows remain usable, with source record quality marked partial. If no valid rows remain, the requested register is unverified and the row issues remain visible alongside the source gap.
+
 ## Expected output
 
 ```text

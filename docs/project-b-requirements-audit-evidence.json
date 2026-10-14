@@ -1,0 +1,90 @@
+{
+  "run_id": "live-c873be1df1c843eea1d9813d7b23ea84",
+  "stages": [
+    {
+      "sequence": 1,
+      "status": "complete",
+      "record_count": 1,
+      "decision_count": 0
+    },
+    {
+      "sequence": 2,
+      "status": "partial",
+      "record_count": 19,
+      "decision_count": 1
+    },
+    {
+      "sequence": 3,
+      "status": "partial",
+      "record_count": 31,
+      "decision_count": 1
+    },
+    {
+      "sequence": 4,
+      "status": "partial",
+      "record_count": 59,
+      "decision_count": 1
+    },
+    {
+      "sequence": 5,
+      "status": "partial",
+      "record_count": 106,
+      "decision_count": 1
+    },
+    {
+      "sequence": 6,
+      "status": "partial",
+      "record_count": 217,
+      "decision_count": 1
+    },
+    {
+      "sequence": 7,
+      "status": "blocked",
+      "record_count": 103,
+      "decision_count": 1
+    }
+  ],
+  "current_counts": {
+    "source_attempts": 17,
+    "systems": 8,
+    "impacts": 80,
+    "requests": 70,
+    "request_bindings": 70
+  },
+  "clone_byte_comparison": {
+    "tracked_files": 356,
+    "different_files": [
+      "snapshot.schema.json"
+    ]
+  },
+  "synthetic_row_probes": {
+    "missing_cell": {
+      "synthetic": true,
+      "input_record_count": 2,
+      "retained_record_count": 1,
+      "retrieval_state": "retrieved",
+      "explanation": "Readable disclosed register; revisions preserved, not certified historical completeness.",
+      "metadata_keys": [
+        "title",
+        "historical_suitability",
+        "headers",
+        "rows",
+        "observed_versions"
+      ]
+    },
+    "blank_id": {
+      "synthetic": true,
+      "input_record_count": 2,
+      "retained_record_count": 1,
+      "retrieval_state": "retrieved",
+      "explanation": "Readable disclosed register; revisions preserved, not certified historical completeness.",
+      "metadata_keys": [
+        "title",
+        "historical_suitability",
+        "headers",
+        "rows",
+        "observed_versions"
+      ]
+    }
+  }
+}

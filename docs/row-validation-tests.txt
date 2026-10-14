@@ -1,0 +1,130 @@
+.\.runtime\python\python.exe : test_all_systems_scoped_outcomes_policy_and_conflicts 
+(test_analyze_impacts.ImpactTests.test_all_systems_scoped_outcomes_policy_and_conflicts) ... ok
+At line:2 char:1
++ .\.runtime\python\python.exe -m unittest discover -s tests -v 2>&1 |  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_all_system...nflicts) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_authority_block_and_role_changes_do_not_reuse_conclusions 
+(test_analyze_impacts.ImpactTests.test_authority_block_and_role_changes_do_not_reuse_conclusions) ... ok
+test_no_invented_dates_approvals_or_sent_requests 
+(test_analyze_impacts.ImpactTests.test_no_invented_dates_approvals_or_sent_requests) ... ok
+test_schema_chain_replay_and_tampering (test_analyze_impacts.ImpactTests.test_schema_chain_replay_and_tampering) ... ok
+test_stable_ids_under_reordering (test_analyze_impacts.ImpactTests.test_stable_ids_under_reordering) ... ok
+test_unknown_output_requires_clarification_without_no_impact 
+(test_analyze_impacts.ImpactTests.test_unknown_output_requires_clarification_without_no_impact) ... ok
+test_unknown_reviewer_remains_unassigned_pending_and_unsent 
+(test_analyze_impacts.ImpactTests.test_unknown_reviewer_remains_unassigned_pending_and_unsent) ... ok
+test_bad_rows_retained_with_cells_locators_and_no_inferred_identity 
+(test_capture_sources.CaptureTests.test_bad_rows_retained_with_cells_locators_and_no_inferred_identity) ... ok
+test_credentials_and_unapproved_redirect_hosts_rejected 
+(test_capture_sources.CaptureTests.test_credentials_and_unapproved_redirect_hosts_rejected) ... ok
+test_empty_grid_slots_and_unrelated_tables_are_not_missing_records 
+(test_capture_sources.CaptureTests.test_empty_grid_slots_and_unrelated_tables_are_not_missing_records) ... ok
+test_evidence_tamper_is_detected (test_capture_sources.CaptureTests.test_evidence_tamper_is_detected) ... ok
+test_network_failure_preserved_and_never_synthesized 
+(test_capture_sources.CaptureTests.test_network_failure_preserved_and_never_synthesized) ... ok
+test_only_two_valid_snapshots_and_all_fresh_attempts 
+(test_capture_sources.CaptureTests.test_only_two_valid_snapshots_and_all_fresh_attempts) ... ok
+test_predecessor_tamper_is_detected (test_capture_sources.CaptureTests.test_predecessor_tamper_is_detected) ... ok
+test_reordered_headers_and_extra_columns_keep_values 
+(test_capture_sources.CaptureTests.test_reordered_headers_and_extra_columns_keep_values) ... ok
+test_repeated_runs_are_fresh_and_preserved 
+(test_capture_sources.CaptureTests.test_repeated_runs_are_fresh_and_preserved) ... ok
+test_wrong_date_rejected_before_requests (test_capture_sources.CaptureTests.test_wrong_date_rejected_before_requests) 
+... ok
+test_wrong_identity_and_landing_pages_rejected 
+(test_capture_sources.CaptureTests.test_wrong_identity_and_landing_pages_rejected) ... ok
+test_binding_and_run_tampering_missing_files_and_no_overwrite 
+(test_publish_drafts.PublicationTests.test_binding_and_run_tampering_missing_files_and_no_overwrite) ... ok
+test_calendar_actual_proposals_stable_uids_and_no_undated_events 
+(test_publish_drafts.PublicationTests.test_calendar_actual_proposals_stable_uids_and_no_undated_events) ... ok
+test_changed_file_rehash_cannot_hide_stage06_disagreement 
+(test_publish_drafts.PublicationTests.test_changed_file_rehash_cannot_hide_stage06_disagreement) ... ok
+test_csv_scope_ids_evidence_and_unborrowed_dates 
+(test_publish_drafts.PublicationTests.test_csv_scope_ids_evidence_and_unborrowed_dates) ... ok
+test_empty_calendar_and_utf8_folding_escaping 
+(test_publish_drafts.PublicationTests.test_empty_calendar_and_utf8_folding_escaping) ... ok
+test_seven_run_ids_schema_hashes_requests_and_stage06_agreement 
+(test_publish_drafts.PublicationTests.test_seven_run_ids_schema_hashes_requests_and_stage06_agreement) ... ok
+test_identity_paragraphs_timing_and_chain 
+(test_reconcile_evidence.ReconciliationTests.test_identity_paragraphs_timing_and_chain) ... ok
+test_invalid_fields_remain_unresolved 
+(test_reconcile_evidence.ReconciliationTests.test_invalid_fields_remain_unresolved) ... ok
+test_missing_fields_and_unavailable_authority_remain_visible 
+(test_reconcile_evidence.ReconciliationTests.test_missing_fields_and_unavailable_authority_remain_visible) ... ok
+test_no_overwrite_and_source_tamper (test_reconcile_evidence.ReconciliationTests.test_no_overwrite_and_source_tamper) 
+... ok
+test_paragraph_layout_and_changed_rule_detection 
+(test_reconcile_evidence.ReconciliationTests.test_paragraph_layout_and_changed_rule_detection) ... ok
+test_policy_support_and_exception_not_approved 
+(test_reconcile_evidence.ReconciliationTests.test_policy_support_and_exception_not_approved) ... ok
+test_row_order_extras_duplicates_and_orphans 
+(test_reconcile_evidence.ReconciliationTests.test_row_order_extras_duplicates_and_orphans) ... ok
+test_tampering_and_unsupported_completion_rejected 
+(test_reconcile_evidence.ReconciliationTests.test_tampering_and_unsupported_completion_rejected) ... ok
+test_complete_consistent_evidence (test_review.ReviewTests.test_complete_consistent_evidence) ... ok
+test_missing_and_conflicting_evidence (test_review.ReviewTests.test_missing_and_conflicting_evidence) ... ok
+test_predecessor_tampering (test_review.ReviewTests.test_predecessor_tampering) ... ok
+test_publication_and_reference_controls (test_review.ReviewTests.test_publication_and_reference_controls) ... ok
+test_reject_real_data_and_duplicate_ids (test_review.ReviewTests.test_reject_real_data_and_duplicate_ids) ... ok
+test_report_tampering (test_review.ReviewTests.test_report_tampering) ... ok
+test_schema_rejects_missing_fields_and_bad_dates 
+(test_review.ReviewTests.test_schema_rejects_missing_fields_and_bad_dates) ... ok
+test_seven_stages_pending_approvals_and_preserved_runs 
+(test_review.ReviewTests.test_seven_stages_pending_approvals_and_preserved_runs) ... ok
+test_active_lock_and_unsafe_output_refused (test_run_review.WorkflowTests.test_active_lock_and_unsafe_output_refused) 
+... ok
+test_bad_rows_reach_snapshots_and_drafts_even_when_no_valid_rows 
+(test_run_review.WorkflowTests.test_bad_rows_reach_snapshots_and_drafts_even_when_no_valid_rows) ... ok
+test_interrupted_promotion_restores_archived_previous_and_preserves_observed 
+(test_run_review.WorkflowTests.test_interrupted_promotion_restores_archived_previous_and_preserves_observed) ... ok
+test_missing_and_damaged_outputs_detected_and_rebuilt_fresh 
+(test_run_review.WorkflowTests.test_missing_and_damaged_outputs_detected_and_rebuilt_fresh) ... ok
+test_pending_journal_and_stale_lock_recovery_without_reusing_capture 
+(test_run_review.WorkflowTests.test_pending_journal_and_stale_lock_recovery_without_reusing_capture) ... ok
+test_stage_failure_keeps_previous_and_candidate_then_fresh_retry 
+(test_run_review.WorkflowTests.test_stage_failure_keeps_previous_and_candidate_then_fresh_retry) ... ok
+test_two_fresh_runs_all_stages_history_and_hashes 
+(test_run_review.WorkflowTests.test_two_fresh_runs_all_stages_history_and_hashes) ... ok
+test_all_binding_fields_and_duplicate_paths_rejected 
+(test_validate_feedback.FeedbackTests.test_all_binding_fields_and_duplicate_paths_rejected) ... ok
+test_ambiguous_responses_and_attestations_are_unresolved 
+(test_validate_feedback.FeedbackTests.test_ambiguous_responses_and_attestations_are_unresolved) ... ok
+test_attestation_missing_or_changed_proof_fields_stays_unverified 
+(test_validate_feedback.FeedbackTests.test_attestation_missing_or_changed_proof_fields_stays_unverified) ... ok
+test_binding_record_order_can_change_without_guessing_values 
+(test_validate_feedback.FeedbackTests.test_binding_record_order_can_change_without_guessing_values) ... ok
+test_cli_reports_unresolved_with_nonzero_exit 
+(test_validate_feedback.FeedbackTests.test_cli_reports_unresolved_with_nonzero_exit) ... ok
+test_invalid_bundle_and_stale_actual_draft_detected 
+(test_validate_feedback.FeedbackTests.test_invalid_bundle_and_stale_actual_draft_detected) ... ok
+test_malformed_or_missing_file_reported_and_original_bytes_preserved 
+(test_validate_feedback.FeedbackTests.test_malformed_or_missing_file_reported_and_original_bytes_preserved) ... ok
+test_matching_synthetic_receipt_preserved_without_applying_approval 
+(test_validate_feedback.FeedbackTests.test_matching_synthetic_receipt_preserved_without_applying_approval) ... ok
+test_missing_fields_invalid_values_and_times_are_unresolved 
+(test_validate_feedback.FeedbackTests.test_missing_fields_invalid_values_and_times_are_unresolved) ... ok
+test_name_verified_flag_and_unpinned_attestation_do_not_authenticate 
+(test_validate_feedback.FeedbackTests.test_name_verified_flag_and_unpinned_attestation_do_not_authenticate) ... ok
+test_repeated_intakes_never_overwrite_and_protected_output_refused 
+(test_validate_feedback.FeedbackTests.test_repeated_intakes_never_overwrite_and_protected_output_refused) ... ok
+test_wrong_pin_and_changed_response_rejected 
+(test_validate_feedback.FeedbackTests.test_wrong_pin_and_changed_response_rejected) ... ok
+test_wrong_reviewer_identity_role_or_channel_not_accepted 
+(test_validate_feedback.FeedbackTests.test_wrong_reviewer_identity_role_or_channel_not_accepted) ... ok
+test_changed_archive_basis_stops_before_canonical_replacement 
+(test_workflow_safety.WorkflowSafetyTests.test_changed_archive_basis_stops_before_canonical_replacement) ... ok
+test_malformed_snapshot_inspection_and_fresh_blocked_recovery 
+(test_workflow_safety.WorkflowSafetyTests.test_malformed_snapshot_inspection_and_fresh_blocked_recovery) ... ok
+test_unknown_lock_owner_is_preserved (test_workflow_safety.WorkflowSafetyTests.test_unknown_lock_owner_is_preserved) 
+... ok
+test_generated_decisions_describe_implemented_workflow_and_pending_review 
+(test_workflow_status.WorkflowStatusTests.test_generated_decisions_describe_implemented_workflow_and_pending_review) 
+... ok
+
+----------------------------------------------------------------------
+Ran 64 tests in 700.654s
+
+OK

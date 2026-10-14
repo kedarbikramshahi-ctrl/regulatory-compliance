@@ -1,0 +1,75 @@
+{
+  "review_date": "2026-08-26",
+  "sources": [
+    {
+      "name": "POLICY",
+      "url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+      "source_role": "internal-policy",
+      "authority": "internal-control",
+      "cellar_id": null
+    },
+    {
+      "name": "SYSTEMS",
+      "url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+      "source_role": "operational-record",
+      "authority": "operational-evidence",
+      "cellar_id": null
+    },
+    {
+      "name": "EVIDENCE",
+      "url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+      "source_role": "operational-record",
+      "authority": "operational-evidence",
+      "cellar_id": null
+    },
+    {
+      "name": "CALENDAR",
+      "url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+      "source_role": "operational-record",
+      "authority": "operational-evidence",
+      "cellar_id": null
+    },
+    {
+      "name": "LAW",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "source_role": "official-guidance",
+      "authority": "advisory",
+      "cellar_id": null
+    },
+    {
+      "name": "OJ",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "source_role": "binding-regulation",
+      "authority": "binding",
+      "cellar_id": "32024R1689"
+    },
+    {
+      "name": "AMEND",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+      "source_role": "binding-regulation",
+      "authority": "binding",
+      "cellar_id": "32026R1744"
+    },
+    {
+      "name": "CONSOLIDATED",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+      "source_role": "other",
+      "authority": "unknown",
+      "cellar_id": "02024R1689-20260727"
+    },
+    {
+      "name": "TIME",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+      "source_role": "official-guidance",
+      "authority": "advisory",
+      "cellar_id": null
+    },
+    {
+      "name": "FAQ",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "source_role": "official-guidance",
+      "authority": "advisory",
+      "cellar_id": null
+    }
+  ]
+}

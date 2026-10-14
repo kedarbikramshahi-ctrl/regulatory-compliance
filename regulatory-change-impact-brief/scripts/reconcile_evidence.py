@@ -188,6 +188,12 @@ class Review:
         gaps.append(issue('GAP-POLICY','POLICY unavailable; no internal controls inferred',
             [s['id'] for s in self.sources if s['source_name']=='POLICY'],'Facilitator/source owner','Provide authorized POLICY content and version'))
         for name,key,collection in [('SYSTEMS','system_id',facts),('EVIDENCE','record_id',incidents),('CALENDAR','action_id',calendar)]:
+            for source in self.sources:
+                if source['source_name'] != name: continue
+                for index, problem in enumerate((source.get('version_metadata') or {}).get('row_issues', []), 1):
+                    gaps.append(issue('GAP-ROW-'+source['id']+'-'+str(index),
+                        name+' '+problem['locator']+': '+problem['reason'], [source['id']],
+                        problem['owner'], problem['resolution_need'], row_issue=problem))
             try:
                 s,rows=self.rows(name)
                 counts={}

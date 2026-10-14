@@ -104,8 +104,39 @@ class CaptureTests(unittest.TestCase):
         self.assertIsNone(rec['content_hash'])
         self.assertIn('technical_error',rec)
         self.assertGreaterEqual(rec['completed_at'],rec['started_at'])
+    def test_bad_rows_retained_with_cells_locators_and_no_inferred_identity(self):
+        columns={'SYSTEMS':['system_id','system_name','record_version'],
+                 'EVIDENCE':['record_id','system_id','evidence_state'],
+                 'CALENDAR':['action_id','system_id','source_version']}
+        def row(cells): return '<tr>'+''.join('<td>'+v+'</td>' for v in cells)+'</tr>'
+        for name, headers in columns.items():
+            source=next(s for s in self.sources if s['name']==name)
+            bad=[['TOO','SHORT'],['TOO','MANY','CELLS','HERE'],['   ','value','version']]
+            for valid in ([],[['TEST-ID','value','version']]):
+                with self.subTest(source=name,valid=bool(valid)):
+                    body=('<table>'+row(headers)+''.join(row(v) for v in valid+bad)+'</table>').encode()
+                    state,meta,locators,_=capture.inspect(source,'original',dict(status=200,body=body))
+                    self.assertEqual(state,'retrieved' if valid else 'unverified')
+                    self.assertEqual(len(meta['rows']),len(valid))
+                    self.assertEqual([x['cells'] for x in meta['row_issues']],[[v.strip() for v in cells] for cells in bad])
+                    self.assertEqual(meta['record_quality'],'partial')
+                    self.assertEqual(len({x['locator'] for x in meta['row_issues']}),3)
+                    for problem in meta['row_issues']:
+                        self.assertIn(problem['locator'],locators)
+                        self.assertTrue(problem['owner']);self.assertTrue(problem['resolution_need'])
+                        self.assertNotIn('values',problem)
     def test_credentials_and_unapproved_redirect_hosts_rejected(self):
         for url in ['https://user:password@docs.google.com/x','https://docs.google.com/x?api_key=secret','https://unapproved.example/x']:
             with self.assertRaises(ValueError): capture.check_url(url)
+    def test_empty_grid_slots_and_unrelated_tables_are_not_missing_records(self):
+        source=next(s for s in self.sources if s['name']=='SYSTEMS')
+        body=('<table><tr><th>1</th><th>system_id</th><th>system_name</th><th>record_version</th></tr>'
+              '<tr><td>2</td><td>TEST-1</td><td>Test</td><td>v1</td></tr>'
+              '<tr><td>3</td><td></td><td></td><td></td></tr>'
+              '<tr><td></td><td></td><td></td><td></td></tr></table>'
+              '<table><tr><td>Unrelated navigation</td></tr></table>').encode()
+        state,meta,_,_=capture.inspect(source,'original',dict(status=200,body=body))
+        self.assertEqual(state,'retrieved');self.assertEqual(len(meta['rows']),1)
+        self.assertNotIn('row_issues',meta)
 
 if __name__=='__main__': unittest.main()

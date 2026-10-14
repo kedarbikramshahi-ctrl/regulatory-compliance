@@ -1,15 +1,15 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "live-c873be1df1c843eea1d9813d7b23ea84-3-1ceca04d709349f696942d542b98e8ea",
-  "run_id": "live-c873be1df1c843eea1d9813d7b23ea84",
+  "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-3-fd953ee736ca4ce7848ff18445c55e0b",
+  "run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
   "stage": "authority-and-timing",
   "sequence": 3,
-  "created_at": "2026-10-12T13:16:27.239905+00:00",
+  "created_at": "2026-10-14T12:20:34.084749+00:00",
   "status": "partial",
   "predecessor": {
-    "snapshot_id": "live-c873be1df1c843eea1d9813d7b23ea84-2",
+    "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-2",
     "path": "snapshots/02-source-capture.json",
-    "sha256": "sha256:d42366aab4247c59a71544fe498c5043e0bcd9fc8299481d40cc81fd8810b9cc"
+    "sha256": "sha256:f68320634acd6b47141388988d2b1fb55098efba4a36a982d3c693cc8a3bdcb6"
   },
   "consumed_record_ids": [
     "SOURCE-POLICY-original",
@@ -502,7 +502,7 @@
           "end": 16186,
           "section": "Context"
         },
-        "source_hash": "sha256:dd09700d18616b9ff9e6bb6a667d6fb0a2173755ab9e46be1039baf77474acaf"
+        "source_hash": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf"
       },
       {
         "id": "CLAIM-TIME-Context",
@@ -517,7 +517,7 @@
           "end": 2758,
           "section": "Context"
         },
-        "source_hash": "sha256:28f0a7b623182b2f16da79dca8b628b5ef10233a0bcb8def1f83da0a8a231127"
+        "source_hash": "sha256:89997b2547a7e93a90445865695feb533025085b92febaf1ed404e220aaba422"
       },
       {
         "id": "CLAIM-FAQ-Context",
@@ -532,7 +532,7 @@
           "end": 18179,
           "section": "Context"
         },
-        "source_hash": "sha256:6e33e4ee5c02f99d82d9c05d6063d1a5327f07d5bd1c99c3ad5b37c6a1b10878"
+        "source_hash": "sha256:ae2b31a7c6996c13276051f4eb7576c2a0d40746fd4f5d67d01713d9aa7aab49"
       }
     ],
     "legal_approval": "pending",

@@ -167,7 +167,7 @@
 ><span class="ecl-button__container"><span 
   class="wt-icon--search ecl-icon ecl-icon--m ecl-button__icon ecl-icon--search"
   aria-hidden="true"
-   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Search</span></span></button><input autocomplete="off" data-drupal-selector="form-raguujt2tgpyuv76efvr-dboboi6sckqwbixabwl68s" type="hidden" name="form_build_id" value="form-RagUujT2tgpyuv76efVr_dBOBOi6sCkQwbixaBWl68s" /><input data-drupal-selector="edit-header-search-form" type="hidden" name="form_id" value="header_search_form" /></form>
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Search</span></span></button><input autocomplete="off" data-drupal-selector="form-py1jwyrqarua4aoablmxhznhb9d-mgj-kufd2czbqg" type="hidden" name="form_build_id" value="form-_PY1JWYRQaRUA4aoAblmXhZNhb9d_mGj-KUfd2CZbqg" /><input data-drupal-selector="edit-header-search-form" type="hidden" name="form_id" value="header_search_form" /></form>
   </div>
 
 
@@ -240,46 +240,46 @@
 ><span class="ecl-button__container"><span 
   class="wt-icon--corner-arrow ecl-icon ecl-icon--s ecl-icon--rotate-90 ecl-button__icon ecl-icon--corner-arrow"
   aria-hidden="true"
-   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Next items</span></span></button><ul class="ecl-menu__list" data-ecl-menu-list><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-0"><a
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Next items</span></span></button><ul class="ecl-menu__list" data-ecl-menu-list><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-0"><a
   href="/en"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-0-link"
->Home</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-1"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-0-link"
+>Home</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-1"><a
   href="/en/ai-act-explorer"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-1-link"
->AI Act Explorer </a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-2"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-1-link"
+>AI Act Explorer </a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-2"><a
   href="/en/eu-ai-act-compliance-checker"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-2-link"
->Compliance Checker</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-3"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-2-link"
+>Compliance Checker</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-3"><a
   href="/en/ai-act-service-desk"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-3-link"
->Contact the AI Act Service Desk</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-4"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-3-link"
+>Contact the AI Act Service Desk</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-4"><a
   href="/en/ai-act/timeline/timeline-implementation-eu-ai-act"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-4-link"
->AI Act Timeline</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-5"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-4-link"
+>AI Act Timeline</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-5"><a
   href="/en/resources"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-5-link"
->Resources</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-6"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-5-link"
+>Resources</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-6"><a
   href="/en/national-resources"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-6-link"
->National Resources</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1440023512-7"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-6-link"
+>National Resources</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1577337444-7"><a
   href="/en/faq"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-7-link"
->FAQ</a></li><li class="ecl-menu__item ecl-menu__item--has-children" data-ecl-menu-item data-ecl-has-children aria-haspopup data-expanded="false" id="ecl-menu-item-ecl-menu-1440023512-8"><a
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-7-link"
+>FAQ</a></li><li class="ecl-menu__item ecl-menu__item--has-children" data-ecl-menu-item data-ecl-has-children aria-haspopup data-expanded="false" id="ecl-menu-item-ecl-menu-1577337444-8"><a
   href="/en/guidelines-classification-high-risk-ai-systems"
   class="ecl-link ecl-link--standalone ecl-menu__link"
-   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1440023512-8-link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1577337444-8-link"
 >High-risk AI Systems Guidelines</a><button
   class="ecl-button ecl-button--tertiary ecl-button--m ecl-button--neutral ecl-menu__button-caret"
   type="button"
-   data-ecl-menu-caret aria-label="Access&#x20;item&#x27;s&#x20;children" aria-describedby="ecl-menu-item-ecl-menu-1440023512-8-link" aria-expanded="false"
+   data-ecl-menu-caret aria-label="Access&#x20;item&#x27;s&#x20;children" aria-describedby="ecl-menu-item-ecl-menu-1577337444-8-link" aria-expanded="false"
 ><span class="ecl-button__container"><span 
   class="wt-icon--corner-arrow ecl-icon ecl-icon--xs ecl-icon--rotate-180 ecl-button__icon ecl-icon--corner-arrow"
   aria-hidden="true"

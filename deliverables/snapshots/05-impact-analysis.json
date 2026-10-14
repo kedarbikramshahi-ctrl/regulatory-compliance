@@ -1,15 +1,15 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "live-c873be1df1c843eea1d9813d7b23ea84-5-7634925629754d5ca61c67ebcc750299",
-  "run_id": "live-c873be1df1c843eea1d9813d7b23ea84",
+  "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-5-995eb3ebb9fd4bfc826c9b23ba19590a",
+  "run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
   "stage": "impact-analysis",
   "sequence": 5,
-  "created_at": "2026-10-12T13:16:30.006011+00:00",
+  "created_at": "2026-10-14T12:20:37.351158+00:00",
   "status": "partial",
   "predecessor": {
-    "snapshot_id": "live-c873be1df1c843eea1d9813d7b23ea84-4-01ed478055ad4bfcb880a560dc4cfffe",
+    "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-4-4eac74c5beff42bd84435833df904659",
     "path": "snapshots/04-evidence-reconciliation.json",
-    "sha256": "sha256:ea5516d044af21d244108de6ccc0e57df029199642e8536f0f0db5dc6cac12f3"
+    "sha256": "sha256:65ff399c4599a0da6d695ccb15565309cce62e0ef8901dbfc3fcb445d14fd192"
   },
   "consumed_record_ids": [
     "BLOCK-HISTORICAL",

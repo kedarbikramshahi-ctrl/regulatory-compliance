@@ -93,6 +93,10 @@ class Document(HTMLParser):
         self.skip = 0
         self.visible = []
         self.rows = []
+        self.row_tables = []
+        self.table_stack = []
+        self.table_count = 0
+        self.row_table = None
         self.row = None
         self.cell = None
         self.in_title = False
@@ -102,7 +106,12 @@ class Document(HTMLParser):
         if tag in ('script','style'):
             self.skip += 1
         if tag == 'title': self.in_title = True
-        if tag == 'tr': self.row = []
+        if tag == 'table':
+            self.table_count += 1
+            self.table_stack.append(self.table_count)
+        if tag == 'tr':
+            self.row = []
+            self.row_table = self.table_stack[-1] if self.table_stack else None
         if tag in ('td','th') and self.row is not None: self.cell = []
     def handle_endtag(self, tag):
         if tag in ('script','style'): self.skip = max(0,self.skip-1)
@@ -112,7 +121,9 @@ class Document(HTMLParser):
             self.cell = None
         if tag == 'tr' and self.row is not None:
             self.rows.append(self.row)
+            self.row_tables.append(self.row_table)
             self.row = None
+        if tag == 'table' and self.table_stack: self.table_stack.pop()
     def handle_data(self, data):
         if self.skip: return
         if self.in_title: self.title.append(data)
@@ -163,18 +174,36 @@ def inspect(source, mode, response):
                 header_set = [h for h in headers if h in needed]
                 if len(header_set) != len(set(header_set)):
                     return 'unverified', metadata, [], 'Ambiguous duplicate required table header.'
-                rows = []
+                rows, row_issues = [], []
                 for n, values in enumerate(doc.rows[index+1:],index+2):
-                    if len(values) != len(headers): continue
-                    item = dict(zip(headers,values))
+                    if doc.row_tables[n-1] != doc.row_tables[index]: continue
+                    # Empty spreadsheet grid slots are not business records. Google
+                    # renders their row number in the leading header-labelled "1" cell.
+                    if len(values) == len(headers):
+                        content = values[1:] if headers[0]=='1' and values[0].isdigit() else values
+                        if not any(value.strip() for value in content): continue
+                    locator = 'HTML table row '+str(n)
                     id_field = 'record_id' if name=='EVIDENCE' else 'action_id' if name=='CALENDAR' else 'system_id'
-                    if item.get(id_field):
-                        rows.append(dict(locator='HTML table row '+str(n), values=item))
-                if not rows: return 'unverified', metadata, [], 'Expected headers present but no records verified.'
+                    reason = None
+                    if len(values) != len(headers):
+                        reason = 'Cell count does not match header count; field alignment unresolved'
+                    elif not values[headers.index(id_field)].strip():
+                        reason = 'Missing required '+id_field+'; business identity unresolved'
+                    if reason:
+                        owner = (values[headers.index('owner')] if len(values)==len(headers) and headers.count('owner')==1 else '') or 'Source owner'
+                        row_issues.append(dict(locator=locator, cells=values, headers=headers,
+                            reason=reason, owner=owner,
+                            resolution_need='Correct or explain the source row; no field alignment or business ID inferred'))
+                        continue
+                    rows.append(dict(locator=locator, values=dict(zip(headers,values))))
                 versions = sorted({r['values'].get('record_version') or r['values'].get('source_version') for r in rows} - {None,''})
                 metadata.update(headers=headers,rows=rows,observed_versions=versions,
                                 historical_suitability='provisional source labels only; row dates and meanings need stage 03/04 review')
-                return 'retrieved', metadata, ['HTML header row '+str(index+1)]+[r['locator'] for r in rows], 'Readable disclosed register; revisions preserved, not certified historical completeness.'
+                if row_issues:
+                    metadata.update(row_issues=row_issues, record_quality='partial')
+                locators = ['HTML header row '+str(index+1)]+[r['locator'] for r in rows+row_issues]
+                if not rows: return 'unverified', metadata, locators, 'Expected headers present but no records verified; row issues retained.'
+                return 'retrieved', metadata, locators, ('Readable disclosed register; unresolved row issues retained; record quality partial.' if row_issues else 'Readable disclosed register; revisions preserved, not certified historical completeness.')
         return 'unverified', metadata, [], 'Expected register headers not verified; JavaScript shell is not table content.'
     if name in ('OJ','AMEND','CONSOLIDATED'):
         expected = '2024/1689' if name=='OJ' else '2026/1744' if name=='AMEND' else '02024R1689'
@@ -327,6 +356,11 @@ def build(manifest_path, output, transport=fetch, run_id=None, supersedes_run_id
             sources.append(capture(source,mode,url,headers,staging,transport))
             save(staging/'attempts.json',sources)  # Durable attempt boundary.
     unresolved=[]
+    for source in sources:
+        for index, problem in enumerate((source.get('version_metadata') or {}).get('row_issues', []), 1):
+            unresolved.append(record('UNRESOLVED-ROW-'+source['id']+'-'+str(index),
+                source['source_name']+' '+problem['locator']+': '+problem['reason'], [source['id']],
+                owner=problem['owner'], resolution_need=problem['resolution_need'], row_issue=problem))
     for name in sorted(NAMES):
         actual=[s for s in sources if s['source_name']==name and s['mode']!='cellar-metadata' and s['requested_content_available']]
         if not actual:

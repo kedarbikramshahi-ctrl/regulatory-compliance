@@ -36,6 +36,8 @@ Follow the [end-to-end setup and recovery guide](regulatory-change-impact-brief/
 
 This retrieves all ten disclosed sources fresh, runs seven stages, preserves prior bundles in history, and creates three local review-only drafts. The review date stays August 26, 2026. Missing POLICY and legal questions remain unresolved; approvals stay pending and requests unsent. See [Milestone 5 verification](docs/milestone-5-results.md) for actual results and remaining assignment requirements.
 
+Malformed register rows and populated rows without business IDs remain explicit unresolved issues through the snapshots, register and brief. Empty spreadsheet grid slots and unrelated tables are excluded. See the [row-validation correction](docs/row-validation-fix.md) for regression coverage and fresh-run evidence.
+
 ## Reproduce from a checkout
 
 Prerequisites: standard Python 3.10+ with venv and pip (Python 3.12 was exercised here), outbound HTTPS access to PyPI for installation and disclosed sources for a fresh run, and a writable checkout/output directory. Git is needed to obtain the repository. Codex is needed only for Agent Skill discovery/invocation, not the Python workflow. Verify required coding-session capture separately using the course guide before assessed development.
