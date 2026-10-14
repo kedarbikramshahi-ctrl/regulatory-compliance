@@ -1,0 +1,10 @@
+test_all_systems_scoped_outcomes_policy_and_conflicts (test_analyze_impacts.ImpactTests.test_all_systems_scoped_outcomes_policy_and_conflicts) ... ok
+test_authority_block_and_role_changes_do_not_reuse_conclusions (test_analyze_impacts.ImpactTests.test_authority_block_and_role_changes_do_not_reuse_conclusions) ... ok
+test_no_invented_dates_approvals_or_sent_requests (test_analyze_impacts.ImpactTests.test_no_invented_dates_approvals_or_sent_requests) ... ok
+test_schema_chain_replay_and_tampering (test_analyze_impacts.ImpactTests.test_schema_chain_replay_and_tampering) ... ok
+test_stable_ids_under_reordering (test_analyze_impacts.ImpactTests.test_stable_ids_under_reordering) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 37.540s
+
+OK

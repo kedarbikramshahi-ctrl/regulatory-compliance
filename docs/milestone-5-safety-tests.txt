@@ -1,0 +1,8 @@
+test_changed_archive_basis_stops_before_canonical_replacement (test_workflow_safety.WorkflowSafetyTests.test_changed_archive_basis_stops_before_canonical_replacement) ... ok
+test_malformed_snapshot_inspection_and_fresh_blocked_recovery (test_workflow_safety.WorkflowSafetyTests.test_malformed_snapshot_inspection_and_fresh_blocked_recovery) ... ok
+test_unknown_lock_owner_is_preserved (test_workflow_safety.WorkflowSafetyTests.test_unknown_lock_owner_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.898s
+
+OK

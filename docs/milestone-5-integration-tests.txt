@@ -1,0 +1,11 @@
+test_active_lock_and_unsafe_output_refused (test_run_review.WorkflowTests.test_active_lock_and_unsafe_output_refused) ... ok
+test_interrupted_promotion_restores_archived_previous_and_preserves_observed (test_run_review.WorkflowTests.test_interrupted_promotion_restores_archived_previous_and_preserves_observed) ... ok
+test_missing_and_damaged_outputs_detected_and_rebuilt_fresh (test_run_review.WorkflowTests.test_missing_and_damaged_outputs_detected_and_rebuilt_fresh) ... ok
+test_pending_journal_and_stale_lock_recovery_without_reusing_capture (test_run_review.WorkflowTests.test_pending_journal_and_stale_lock_recovery_without_reusing_capture) ... ok
+test_stage_failure_keeps_previous_and_candidate_then_fresh_retry (test_run_review.WorkflowTests.test_stage_failure_keeps_previous_and_candidate_then_fresh_retry) ... ok
+test_two_fresh_runs_all_stages_history_and_hashes (test_run_review.WorkflowTests.test_two_fresh_runs_all_stages_history_and_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 364.064s
+
+OK

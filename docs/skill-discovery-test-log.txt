@@ -1,0 +1,18 @@
+{
+  "structureResult": {
+    "stdout": "Skill is valid!\r\n",
+    "stderr": ""
+  },
+  "validationResult": {
+    "stdout": "{\r\n  \"snapshots_validated\": 7,\r\n  \"schema_valid\": true,\r\n  \"references_and_hashes_valid\": true,\r\n  \"human_approvals\": \"pending\",\r\n  \"final_publication\": \"blocked\"\r\n}\r\n",
+    "stderr": ""
+  },
+  "regressionResult": {
+    "stdout": "",
+    "stderr": "test_complete_consistent_evidence (test_review.ReviewTests.test_complete_consistent_evidence) ... ok\r\ntest_missing_and_conflicting_evidence (test_review.ReviewTests.test_missing_and_conflicting_evidence) ... ok\r\ntest_predecessor_tampering (test_review.ReviewTests.test_predecessor_tampering) ... ok\r\ntest_publication_and_reference_controls (test_review.ReviewTests.test_publication_and_reference_controls) ... ok\r\ntest_reject_real_data_and_duplicate_ids (test_review.ReviewTests.test_reject_real_data_and_duplicate_ids) ... ok\r\ntest_report_tampering (test_review.ReviewTests.test_report_tampering) ... ok\r\ntest_schema_rejects_missing_fields_and_bad_dates (test_review.ReviewTests.test_schema_rejects_missing_fields_and_bad_dates) ... ok\r\ntest_seven_stages_pending_approvals_and_preserved_runs (test_review.ReviewTests.test_seven_stages_pending_approvals_and_preserved_runs) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 8 tests in 1.768s\r\n\r\nOK\r\n"
+  },
+  "preserved": {
+    "snapshot.schema.json": true,
+    "interviews/project-b-regulatory-compliance-20261011-2051.md": true
+  }
+}

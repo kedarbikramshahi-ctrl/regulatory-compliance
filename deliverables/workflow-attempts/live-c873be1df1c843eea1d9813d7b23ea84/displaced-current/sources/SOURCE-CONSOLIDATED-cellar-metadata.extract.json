@@ -1,0 +1,21 @@
+{
+  "source_id": "SOURCE-CONSOLIDATED-cellar-metadata",
+  "raw_reference": "sources/SOURCE-CONSOLIDATED-cellar-metadata.response",
+  "raw_hash": "sha256:893e0aa27e30736f6880c376c11c6b093cb7f3fd93993b5286a8dcde8aa5430e",
+  "metadata": {
+    "title": "Cellar metadata for CELEX 02024R1689-20260727",
+    "historical_suitability": "unverified",
+    "celex": "02024R1689-20260727",
+    "identifiers": [
+      "02024R1689-20260727",
+      "2024R1689/20260727",
+      "b1730fb2-8f1c-11f1-9262-01aa75ed71a1",
+      "reg:2024:1689:2026-07-27"
+    ],
+    "document_role": "metadata only, not legal text"
+  },
+  "locators": [
+    "XML /NOTICE/WORK/URI and /NOTICE/WORK/SAMEAS"
+  ],
+  "visible_text": []
+}

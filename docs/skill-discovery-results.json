@@ -1,0 +1,16 @@
+{
+  "codexVersion": "0.162.0-alpha.2",
+  "method": "skills/list",
+  "configMode": "isolated workspace CODEX_HOME; no user config copied",
+  "matches": [
+    {
+      "name": "regulatory-change-review",
+      "description": "Review regulatory changes against company evidence, identify gaps and contradictions, and draft impacts and actions for Legal and Operations review. Use for Project B compliance review preparation, including its fictional Python demonstration.",
+      "path": "C:\\Users\\kedar\\regulatory-compliance\\.agents\\skills\\regulatory-change-review\\SKILL.md",
+      "scope": "repo",
+      "enabled": true,
+      "pluginId": null
+    }
+  ],
+  "errors": []
+}

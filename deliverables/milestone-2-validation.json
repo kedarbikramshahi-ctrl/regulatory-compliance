@@ -1,0 +1,16 @@
+{
+  "run_id": "live-c873be1df1c843eea1d9813d7b23ea84",
+  "stages_validated": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "schema_valid": true,
+  "predecessor_hashes_valid": true,
+  "evidence_references_valid": true,
+  "semantic_replay_valid": true,
+  "stage03_status": "partial",
+  "stage04_status": "partial",
+  "assessment_complete": false
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "live-1ce68e8edd6e4c7ca56f039f06cdae60",
+  "schema_valid": true,
+  "evidence_hashes_valid": true,
+  "stages_validated": [
+    1,
+    2
+  ],
+  "attempt_count": 17,
+  "source_capture_status": "partial",
+  "assessment_complete": false
+}

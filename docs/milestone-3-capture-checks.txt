@@ -1,0 +1,14 @@
+test_credentials_and_unapproved_redirect_hosts_rejected (test_capture_sources.CaptureTests.test_credentials_and_unapproved_redirect_hosts_rejected) ... ok
+test_evidence_tamper_is_detected (test_capture_sources.CaptureTests.test_evidence_tamper_is_detected) ... ok
+test_network_failure_preserved_and_never_synthesized (test_capture_sources.CaptureTests.test_network_failure_preserved_and_never_synthesized) ... ok
+test_only_two_valid_snapshots_and_all_fresh_attempts (test_capture_sources.CaptureTests.test_only_two_valid_snapshots_and_all_fresh_attempts) ... ok
+test_predecessor_tamper_is_detected (test_capture_sources.CaptureTests.test_predecessor_tamper_is_detected) ... ok
+test_reordered_headers_and_extra_columns_keep_values (test_capture_sources.CaptureTests.test_reordered_headers_and_extra_columns_keep_values) ... ok
+test_repeated_runs_are_fresh_and_preserved (test_capture_sources.CaptureTests.test_repeated_runs_are_fresh_and_preserved) ... ok
+test_wrong_date_rejected_before_requests (test_capture_sources.CaptureTests.test_wrong_date_rejected_before_requests) ... ok
+test_wrong_identity_and_landing_pages_rejected (test_capture_sources.CaptureTests.test_wrong_identity_and_landing_pages_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.596s
+
+OK

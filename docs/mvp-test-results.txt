@@ -1,0 +1,13 @@
+test_complete_consistent_evidence (test_review.ReviewTests.test_complete_consistent_evidence) ... ok
+test_missing_and_conflicting_evidence (test_review.ReviewTests.test_missing_and_conflicting_evidence) ... ok
+test_predecessor_tampering (test_review.ReviewTests.test_predecessor_tampering) ... ok
+test_publication_and_reference_controls (test_review.ReviewTests.test_publication_and_reference_controls) ... ok
+test_reject_real_data_and_duplicate_ids (test_review.ReviewTests.test_reject_real_data_and_duplicate_ids) ... ok
+test_report_tampering (test_review.ReviewTests.test_report_tampering) ... ok
+test_schema_rejects_missing_fields_and_bad_dates (test_review.ReviewTests.test_schema_rejects_missing_fields_and_bad_dates) ... ok
+test_seven_stages_pending_approvals_and_preserved_runs (test_review.ReviewTests.test_seven_stages_pending_approvals_and_preserved_runs) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.768s
+
+OK

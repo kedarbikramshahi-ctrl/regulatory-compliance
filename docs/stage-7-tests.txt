@@ -1,0 +1,11 @@
+test_binding_and_run_tampering_missing_files_and_no_overwrite (test_publish_drafts.PublicationTests.test_binding_and_run_tampering_missing_files_and_no_overwrite) ... ok
+test_calendar_actual_proposals_stable_uids_and_no_undated_events (test_publish_drafts.PublicationTests.test_calendar_actual_proposals_stable_uids_and_no_undated_events) ... ok
+test_changed_file_rehash_cannot_hide_stage06_disagreement (test_publish_drafts.PublicationTests.test_changed_file_rehash_cannot_hide_stage06_disagreement) ... ok
+test_csv_scope_ids_evidence_and_unborrowed_dates (test_publish_drafts.PublicationTests.test_csv_scope_ids_evidence_and_unborrowed_dates) ... ok
+test_empty_calendar_and_utf8_folding_escaping (test_publish_drafts.PublicationTests.test_empty_calendar_and_utf8_folding_escaping) ... ok
+test_seven_run_ids_schema_hashes_requests_and_stage06_agreement (test_publish_drafts.PublicationTests.test_seven_run_ids_schema_hashes_requests_and_stage06_agreement) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 86.283s
+
+OK

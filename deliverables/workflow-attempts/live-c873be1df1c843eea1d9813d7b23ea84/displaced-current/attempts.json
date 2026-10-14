@@ -1,0 +1,1269 @@
+[
+  {
+    "id": "SOURCE-POLICY-original",
+    "summary": "Authentication/access required; no credential retry.",
+    "evidence_ids": [],
+    "source_name": "POLICY",
+    "source_role": "internal-policy",
+    "authority": "internal-control",
+    "locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+    "original_locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:42.379638+00:00",
+    "retrieved_at": "2026-10-12T04:03:42.596649+00:00",
+    "retrieval_status": "unavailable",
+    "content_type": "text/plain; charset=UTF-8",
+    "version_metadata": null,
+    "content_hash": null,
+    "local_reference": null,
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-POLICY-original.response",
+    "diagnostic_hash": "sha256:2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+    "requested_content_available": false,
+    "response_received_at": "2026-10-12T04:03:42.596649+00:00",
+    "http_status": 403,
+    "final_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+    "redirects": [],
+    "locators": [],
+    "resolution_need": "Authorized policy access",
+    "completed_at": "2026-10-12T04:03:42.602326+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-POLICY-policy-api",
+    "summary": "Authentication/access required; no credential retry.",
+    "evidence_ids": [],
+    "source_name": "POLICY",
+    "source_role": "internal-policy",
+    "authority": "internal-control",
+    "locator": "https://api.notion.com/v1/pages/3ba0b700-541e-81f0-9998-d48f3b1c2856",
+    "original_locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+    "request_headers": {
+      "Notion-Version": "2026-03-11"
+    },
+    "started_at": "2026-10-12T04:03:42.604337+00:00",
+    "retrieved_at": "2026-10-12T04:03:42.849816+00:00",
+    "retrieval_status": "unavailable",
+    "content_type": "application/json; charset=utf-8",
+    "version_metadata": null,
+    "content_hash": null,
+    "local_reference": null,
+    "mode": "policy-api",
+    "diagnostic_reference": "sources/SOURCE-POLICY-policy-api.response",
+    "diagnostic_hash": "sha256:bb1d17c177f567c07f1162f7c1ff65eb541738fb9849b898e677b55b8e791f01",
+    "requested_content_available": false,
+    "response_received_at": "2026-10-12T04:03:42.849816+00:00",
+    "http_status": 401,
+    "final_url": "https://api.notion.com/v1/pages/3ba0b700-541e-81f0-9998-d48f3b1c2856",
+    "redirects": [],
+    "locators": [],
+    "resolution_need": "Authorized policy access",
+    "completed_at": "2026-10-12T04:03:42.849816+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-SYSTEMS-original",
+    "summary": "Readable disclosed register; revisions preserved, not certified historical completeness.",
+    "evidence_ids": [],
+    "source_name": "SYSTEMS",
+    "source_role": "operational-record",
+    "authority": "operational-evidence",
+    "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+    "original_locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:42.858513+00:00",
+    "retrieved_at": "2026-10-12T04:03:43.927124+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "text/html; charset=utf-8",
+    "version_metadata": {
+      "title": "Project B — AI System Register - Google Sheets Loading...",
+      "historical_suitability": "provisional source labels only; row dates and meanings need stage 03/04 review",
+      "headers": [
+        "1",
+        "system_id",
+        "system_name",
+        "use_case",
+        "owner",
+        "provider_role",
+        "deployer_role",
+        "exposed_group",
+        "output_type",
+        "current_notice",
+        "human_review",
+        "evidence_status",
+        "evidence_updated_at",
+        "record_version",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        {
+          "locator": "HTML table row 3",
+          "values": {
+            "1": "2",
+            "system_id": "AI-001",
+            "system_name": "Learner Support Chat",
+            "use_case": "Answers routine learner questions",
+            "owner": "Learner Operations",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "learners",
+            "output_type": "direct_interaction",
+            "current_notice": "yes",
+            "human_review": "staff escalation",
+            "evidence_status": "complete",
+            "evidence_updated_at": "2026-08-20",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 4",
+          "values": {
+            "1": "3",
+            "system_id": "AI-002",
+            "system_name": "Admissions Draft Assistant",
+            "use_case": "Drafts applicant email replies",
+            "owner": "Admissions",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "applicants",
+            "output_type": "text",
+            "current_notice": "unknown",
+            "human_review": "advisor approval",
+            "evidence_status": "partial",
+            "evidence_updated_at": "2026-07-01",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 5",
+          "values": {
+            "1": "4",
+            "system_id": "AI-003",
+            "system_name": "Campaign Image Studio",
+            "use_case": "Creates public campaign images",
+            "owner": "Communications",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "public",
+            "output_type": "synthetic_image",
+            "current_notice": "visible_label",
+            "human_review": "communications approval",
+            "evidence_status": "complete",
+            "evidence_updated_at": "2026-08-22",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 6",
+          "values": {
+            "1": "5",
+            "system_id": "AI-004",
+            "system_name": "Pronunciation Coach",
+            "use_case": "Provides spoken practice feedback",
+            "owner": "Learning Experience",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "learners",
+            "output_type": "direct_interaction",
+            "current_notice": "no",
+            "human_review": "instructor escalation",
+            "evidence_status": "complete",
+            "evidence_updated_at": "2026-08-18",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 7",
+          "values": {
+            "1": "6",
+            "system_id": "AI-005",
+            "system_name": "Remote Proctor Signal",
+            "use_case": "Flags assessment sessions for review",
+            "owner": "Assessment Operations",
+            "provider_role": "unknown",
+            "deployer_role": "yes",
+            "exposed_group": "learners",
+            "output_type": "classification",
+            "current_notice": "yes",
+            "human_review": "human adjudication",
+            "evidence_status": "stale",
+            "evidence_updated_at": "2026-04-15",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 8",
+          "values": {
+            "1": "7",
+            "system_id": "AI-006",
+            "system_name": "Staff Summary Assistant",
+            "use_case": "Summarizes internal meeting notes",
+            "owner": "People Operations",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "staff",
+            "output_type": "text",
+            "current_notice": "not_applicable",
+            "human_review": "author review",
+            "evidence_status": "complete",
+            "evidence_updated_at": "2026-08-14",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 9",
+          "values": {
+            "1": "8",
+            "system_id": "AI-007",
+            "system_name": "Website Guide Avatar",
+            "use_case": "Answers public programme questions",
+            "owner": "Marketing",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "public",
+            "output_type": "direct_interaction",
+            "current_notice": "no",
+            "human_review": "marketing escalation",
+            "evidence_status": "conflicting",
+            "evidence_updated_at": "2026-08-21",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 10",
+          "values": {
+            "1": "9",
+            "system_id": "AI-008",
+            "system_name": "Video Localisation Tool",
+            "use_case": "Generates dubbed public programme videos",
+            "owner": "Communications",
+            "provider_role": "no",
+            "deployer_role": "yes",
+            "exposed_group": "public",
+            "output_type": "synthetic_audio_video",
+            "current_notice": "visible_label",
+            "human_review": "communications approval",
+            "evidence_status": "partial",
+            "evidence_updated_at": "2026-08-19",
+            "record_version": "register-2026-08-26",
+            "": ""
+          }
+        }
+      ],
+      "observed_versions": [
+        "register-2026-08-26"
+      ]
+    },
+    "content_hash": "sha256:4969d400e7858a2438b835cd8869ad366dbf59ef7689f858e608e08118d88934",
+    "local_reference": "sources/SOURCE-SYSTEMS-original.response",
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-SYSTEMS-original.response",
+    "diagnostic_hash": "sha256:4969d400e7858a2438b835cd8869ad366dbf59ef7689f858e608e08118d88934",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:43.927124+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
+    "redirects": [
+      {
+        "status": 302,
+        "url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/"
+      },
+      {
+        "status": 302,
+        "url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit"
+      }
+    ],
+    "locators": [
+      "HTML header row 2",
+      "HTML table row 3",
+      "HTML table row 4",
+      "HTML table row 5",
+      "HTML table row 6",
+      "HTML table row 7",
+      "HTML table row 8",
+      "HTML table row 9",
+      "HTML table row 10"
+    ],
+    "extract_reference": "sources/SOURCE-SYSTEMS-original.extract.json",
+    "extract_hash": "sha256:d0698d29b6f88e61ed8e429a5568fe1e5d4ca48a5728f95de8a4ecf334adc57c",
+    "completed_at": "2026-10-12T04:03:44.023995+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-EVIDENCE-original",
+    "summary": "Readable disclosed register; revisions preserved, not certified historical completeness.",
+    "evidence_ids": [],
+    "source_name": "EVIDENCE",
+    "source_role": "operational-record",
+    "authority": "operational-evidence",
+    "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+    "original_locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:44.023995+00:00",
+    "retrieved_at": "2026-10-12T04:03:45.048869+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "text/html; charset=utf-8",
+    "version_metadata": {
+      "title": "Project B — Incident and Evidence Register - Google Sheets Loading...",
+      "historical_suitability": "provisional source labels only; row dates and meanings need stage 03/04 review",
+      "headers": [
+        "1",
+        "record_id",
+        "system_id",
+        "record_type",
+        "reported_at",
+        "owner",
+        "status",
+        "evidence_ref",
+        "evidence_state",
+        "notes",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        {
+          "locator": "HTML table row 3",
+          "values": {
+            "1": "2",
+            "record_id": "REC-001",
+            "system_id": "AI-001",
+            "record_type": "evidence",
+            "reported_at": "2026-08-20",
+            "owner": "Learner Operations",
+            "status": "closed",
+            "evidence_ref": "notice-screen-v3",
+            "evidence_state": "complete",
+            "notes": "Notice screenshot and release record agree",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 4",
+          "values": {
+            "1": "3",
+            "record_id": "REC-002",
+            "system_id": "AI-002",
+            "record_type": "evidence_gap",
+            "reported_at": "2026-08-23",
+            "owner": "Admissions",
+            "status": "open",
+            "evidence_ref": "applicant-email-sample",
+            "evidence_state": "missing",
+            "notes": "No evidence that recipients are told when generated text is used",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 5",
+          "values": {
+            "1": "4",
+            "record_id": "REC-003",
+            "system_id": "AI-003",
+            "record_type": "incident",
+            "reported_at": "2026-08-24",
+            "owner": "Communications",
+            "status": "open",
+            "evidence_ref": "social-post-884",
+            "evidence_state": "conflicting",
+            "notes": "Visible label exists but exported platform copy may have lost metadata",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 6",
+          "values": {
+            "1": "5",
+            "record_id": "REC-004",
+            "system_id": "AI-004",
+            "record_type": "incident",
+            "reported_at": "2026-08-18",
+            "owner": "Learning Experience",
+            "status": "open",
+            "evidence_ref": "coach-onboarding-v2",
+            "evidence_state": "complete",
+            "notes": "First interaction contains no AI notice",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 7",
+          "values": {
+            "1": "6",
+            "record_id": "REC-005",
+            "system_id": "AI-005",
+            "record_type": "evidence_gap",
+            "reported_at": "2026-08-25",
+            "owner": "Assessment Operations",
+            "status": "open",
+            "evidence_ref": "provider-role-questionnaire",
+            "evidence_state": "stale",
+            "notes": "Provider role questionnaire predates the current release",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 8",
+          "values": {
+            "1": "7",
+            "record_id": "REC-006",
+            "system_id": "AI-005",
+            "record_type": "evidence",
+            "reported_at": "2026-08-25",
+            "owner": "Assessment Operations",
+            "status": "open",
+            "evidence_ref": "human-review-sop-v4",
+            "evidence_state": "complete",
+            "notes": "Flag never makes the final assessment decision",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 9",
+          "values": {
+            "1": "8",
+            "record_id": "REC-007",
+            "system_id": "AI-006",
+            "record_type": "evidence",
+            "reported_at": "2026-08-14",
+            "owner": "People Operations",
+            "status": "closed",
+            "evidence_ref": "internal-use-review",
+            "evidence_state": "complete",
+            "notes": "Tool is restricted to staff workspace",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 10",
+          "values": {
+            "1": "9",
+            "record_id": "REC-008",
+            "system_id": "AI-007",
+            "record_type": "incident",
+            "reported_at": "2026-08-21",
+            "owner": "Marketing",
+            "status": "open",
+            "evidence_ref": "avatar-page-capture",
+            "evidence_state": "conflicting",
+            "notes": "Owner says a banner exists but the current capture shows none",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 11",
+          "values": {
+            "1": "10",
+            "record_id": "REC-009",
+            "system_id": "AI-008",
+            "record_type": "evidence",
+            "reported_at": "2026-08-19",
+            "owner": "Communications",
+            "status": "open",
+            "evidence_ref": "localisation-export-test",
+            "evidence_state": "partial",
+            "notes": "Visible label verified but machine-readable provenance not checked",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 12",
+          "values": {
+            "1": "11",
+            "record_id": "REC-010",
+            "system_id": "AI-008",
+            "record_type": "exception_request",
+            "reported_at": "2026-08-26",
+            "owner": "Communications",
+            "status": "draft",
+            "evidence_ref": "exception-draft-008",
+            "evidence_state": "missing",
+            "notes": "No Legal approval or expiry date recorded",
+            "": ""
+          }
+        }
+      ],
+      "observed_versions": []
+    },
+    "content_hash": "sha256:5a5b6095eb93cc6499bfb8a98c1c000943f07d6f1c28095e87832726211e4100",
+    "local_reference": "sources/SOURCE-EVIDENCE-original.response",
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-EVIDENCE-original.response",
+    "diagnostic_hash": "sha256:5a5b6095eb93cc6499bfb8a98c1c000943f07d6f1c28095e87832726211e4100",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:45.048869+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+    "redirects": [
+      {
+        "status": 302,
+        "url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/"
+      },
+      {
+        "status": 302,
+        "url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit"
+      }
+    ],
+    "locators": [
+      "HTML header row 2",
+      "HTML table row 3",
+      "HTML table row 4",
+      "HTML table row 5",
+      "HTML table row 6",
+      "HTML table row 7",
+      "HTML table row 8",
+      "HTML table row 9",
+      "HTML table row 10",
+      "HTML table row 11",
+      "HTML table row 12"
+    ],
+    "extract_reference": "sources/SOURCE-EVIDENCE-original.extract.json",
+    "extract_hash": "sha256:c98e60aca7291a5d178646a32e30a96d0b92ee62d90015c35957c3ea8d2a2ac4",
+    "completed_at": "2026-10-12T04:03:45.170790+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-CALENDAR-original",
+    "summary": "Readable disclosed register; revisions preserved, not certified historical completeness.",
+    "evidence_ids": [],
+    "source_name": "CALENDAR",
+    "source_role": "operational-record",
+    "authority": "operational-evidence",
+    "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+    "original_locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:45.177690+00:00",
+    "retrieved_at": "2026-10-12T04:03:46.186193+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "text/html; charset=utf-8",
+    "version_metadata": {
+      "title": "Project B — Compliance Calendar - Google Sheets Loading...",
+      "historical_suitability": "provisional source labels only; row dates and meanings need stage 03/04 review",
+      "headers": [
+        "1",
+        "action_id",
+        "system_id",
+        "action",
+        "owner",
+        "due_date",
+        "status",
+        "approval_required",
+        "source_version",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        {
+          "locator": "HTML table row 3",
+          "values": {
+            "1": "2",
+            "action_id": "ACT-001",
+            "system_id": "AI-004",
+            "action": "Add and verify first-interaction AI notice",
+            "owner": "Learning Experience",
+            "due_date": "2026-09-04",
+            "status": "planned",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 4",
+          "values": {
+            "1": "3",
+            "action_id": "ACT-002",
+            "system_id": "AI-007",
+            "action": "Resolve disclosure evidence conflict",
+            "owner": "Marketing",
+            "due_date": "2026-09-03",
+            "status": "open",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 5",
+          "values": {
+            "1": "4",
+            "action_id": "ACT-003",
+            "system_id": "AI-002",
+            "action": "Confirm recipient disclosure practice",
+            "owner": "Admissions",
+            "due_date": "2026-09-08",
+            "status": "open",
+            "approval_required": "legal",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 6",
+          "values": {
+            "1": "5",
+            "action_id": "ACT-004",
+            "system_id": "AI-003",
+            "action": "Verify machine-readable provenance after publishing",
+            "owner": "Communications",
+            "due_date": "2026-09-10",
+            "status": "open",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 7",
+          "values": {
+            "1": "6",
+            "action_id": "ACT-005",
+            "system_id": "AI-005",
+            "action": "Refresh provider-role and release evidence",
+            "owner": "Assessment Operations",
+            "due_date": "2026-09-12",
+            "status": "open",
+            "approval_required": "legal",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 8",
+          "values": {
+            "1": "7",
+            "action_id": "ACT-006",
+            "system_id": "AI-008",
+            "action": "Complete provenance test",
+            "owner": "Communications",
+            "due_date": "2026-09-09",
+            "status": "open",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 9",
+          "values": {
+            "1": "8",
+            "action_id": "ACT-007",
+            "system_id": "AI-008",
+            "action": "Review exception request",
+            "owner": "Legal",
+            "due_date": "2026-09-15",
+            "status": "blocked",
+            "approval_required": "legal",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        },
+        {
+          "locator": "HTML table row 10",
+          "values": {
+            "1": "9",
+            "action_id": "ACT-008",
+            "system_id": "ALL",
+            "action": "Quarterly AI register evidence review",
+            "owner": "Operations",
+            "due_date": "2026-10-02",
+            "status": "scheduled",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26",
+            "": ""
+          }
+        }
+      ],
+      "observed_versions": [
+        "calendar-2026-08-26"
+      ]
+    },
+    "content_hash": "sha256:cee6e81e4254a3f06e25c9836fd770f504d2fb69a80bcad4aea825fe29779619",
+    "local_reference": "sources/SOURCE-CALENDAR-original.response",
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-CALENDAR-original.response",
+    "diagnostic_hash": "sha256:cee6e81e4254a3f06e25c9836fd770f504d2fb69a80bcad4aea825fe29779619",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:46.186193+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+    "redirects": [
+      {
+        "status": 302,
+        "url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/"
+      },
+      {
+        "status": 302,
+        "url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit"
+      }
+    ],
+    "locators": [
+      "HTML header row 2",
+      "HTML table row 3",
+      "HTML table row 4",
+      "HTML table row 5",
+      "HTML table row 6",
+      "HTML table row 7",
+      "HTML table row 8",
+      "HTML table row 9",
+      "HTML table row 10"
+    ],
+    "extract_reference": "sources/SOURCE-CALENDAR-original.extract.json",
+    "extract_hash": "sha256:ccb9710138a31651bc2635456c49081bd2188bbd3c8b902140dcdb3de3bf0a91",
+    "completed_at": "2026-10-12T04:03:46.372220+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-LAW-original",
+    "summary": "Official context page retrieved; not substituted for primary authority.",
+    "evidence_ids": [],
+    "source_name": "LAW",
+    "source_role": "official-guidance",
+    "authority": "advisory",
+    "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+    "original_locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:46.377724+00:00",
+    "retrieved_at": "2026-10-12T04:03:47.083248+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "text/html; charset=utf-8",
+    "version_metadata": {
+      "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+      "historical_suitability": "context only; version/date suitability not a legal applicability decision",
+      "declared_text_basis": "27 July 2026"
+    },
+    "content_hash": "sha256:dd09700d18616b9ff9e6bb6a667d6fb0a2173755ab9e46be1039baf77474acaf",
+    "local_reference": "sources/SOURCE-LAW-original.response",
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-LAW-original.response",
+    "diagnostic_hash": "sha256:dd09700d18616b9ff9e6bb6a667d6fb0a2173755ab9e46be1039baf77474acaf",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:47.083248+00:00",
+    "http_status": 200,
+    "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+    "redirects": [],
+    "locators": [
+      "HTML title",
+      "Visible text passages"
+    ],
+    "extract_reference": "sources/SOURCE-LAW-original.extract.json",
+    "extract_hash": "sha256:6f0664638f92eb1fd1325dfa7f19d0c39db993444a98a12583f66d0d8d86a54c",
+    "completed_at": "2026-10-12T04:03:47.161216+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-OJ-original",
+    "summary": "No usable document returned (HTTP 202).",
+    "evidence_ids": [],
+    "source_name": "OJ",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "original_locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:47.166961+00:00",
+    "retrieved_at": "2026-10-12T04:03:47.316956+00:00",
+    "retrieval_status": "unavailable",
+    "content_type": "text/html; charset=UTF-8",
+    "version_metadata": null,
+    "content_hash": null,
+    "local_reference": null,
+    "mode": "original",
+    "diagnostic_reference": null,
+    "diagnostic_hash": null,
+    "requested_content_available": false,
+    "response_received_at": "2026-10-12T04:03:47.316956+00:00",
+    "http_status": 202,
+    "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "redirects": [],
+    "locators": [],
+    "resolution_need": "Verify returned document/access route",
+    "completed_at": "2026-10-12T04:03:47.316956+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-OJ-cellar-metadata",
+    "summary": "Verified CELEX mapping; metadata is not a legal-text capture.",
+    "evidence_ids": [],
+    "source_name": "OJ",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://publications.europa.eu/resource/celex/32024R1689",
+    "original_locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "request_headers": {
+      "Accept": "application/xml;notice=tree",
+      "Accept-Language": "eng"
+    },
+    "started_at": "2026-10-12T04:03:47.321846+00:00",
+    "retrieved_at": "2026-10-12T04:03:48.311967+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "application/xml;notice=tree;charset=UTF-8",
+    "version_metadata": {
+      "title": "Cellar metadata for CELEX 32024R1689",
+      "historical_suitability": "unverified",
+      "celex": "32024R1689",
+      "identifiers": [
+        "32024R1689",
+        "L_202401689",
+        "dc8116a1-3fe6-11ef-865a-01aa75ed71a1",
+        "reg:2024:1689:oj"
+      ],
+      "document_role": "metadata only, not legal text"
+    },
+    "content_hash": "sha256:f51011cd3bb6ecf95c71b4f2c16a81614ec79ee025219d4ed374bb26ecb75500",
+    "local_reference": "sources/SOURCE-OJ-cellar-metadata.response",
+    "mode": "cellar-metadata",
+    "diagnostic_reference": "sources/SOURCE-OJ-cellar-metadata.response",
+    "diagnostic_hash": "sha256:f51011cd3bb6ecf95c71b4f2c16a81614ec79ee025219d4ed374bb26ecb75500",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:48.311967+00:00",
+    "http_status": 200,
+    "final_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1/xml/tree?decoding=en",
+    "redirects": [
+      {
+        "status": 303,
+        "url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1/xml/tree?decoding=en"
+      }
+    ],
+    "locators": [
+      "XML /NOTICE/WORK/URI and /NOTICE/WORK/SAMEAS"
+    ],
+    "extract_reference": "sources/SOURCE-OJ-cellar-metadata.extract.json",
+    "extract_hash": "sha256:42d2e2aeaf226f4902889be63162df210df49fa48687e73ba5f4f26067ae8112",
+    "completed_at": "2026-10-12T04:03:49.187486+00:00",
+    "transport_limitation": "HTTP redirect observed"
+  },
+  {
+    "id": "SOURCE-OJ-cellar-content",
+    "summary": "Identity/version verified; no legal interpretation or signature verification.",
+    "evidence_ids": [],
+    "source_name": "OJ",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://publications.europa.eu/resource/celex/32024R1689",
+    "original_locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "request_headers": {
+      "Accept": "application/xhtml+xml",
+      "Accept-Language": "eng"
+    },
+    "started_at": "2026-10-12T04:03:49.193806+00:00",
+    "retrieved_at": "2026-10-12T04:03:50.164299+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "application/xhtml+xml;charset=UTF-8",
+    "version_metadata": {
+      "title": "L_202401689EN.000101.fmx.xml",
+      "historical_suitability": "identified pre-review version; full authority/timing reconciliation deferred to stage 03",
+      "celex": "32024R1689",
+      "publication_date": "12.7.2024",
+      "document_role": "original OJ rendition"
+    },
+    "content_hash": "sha256:8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+    "local_reference": "sources/SOURCE-OJ-cellar-content.response",
+    "mode": "cellar-content",
+    "diagnostic_reference": "sources/SOURCE-OJ-cellar-content.response",
+    "diagnostic_hash": "sha256:8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:50.164299+00:00",
+    "http_status": 200,
+    "final_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0006.03/DOC_1",
+    "redirects": [
+      {
+        "status": 303,
+        "url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0006.03/DOC_1"
+      }
+    ],
+    "locators": [
+      "Document header/version",
+      "Article 50 (or amendment references)"
+    ],
+    "extract_reference": "sources/SOURCE-OJ-cellar-content.extract.json",
+    "extract_hash": "sha256:eb9df55772b4a5b5a51224e3c7ab2302bbd19da24168b004ed3ff35ac1b6ef58",
+    "completed_at": "2026-10-12T04:03:50.679700+00:00",
+    "transport_limitation": "HTTP redirect observed"
+  },
+  {
+    "id": "SOURCE-AMEND-original",
+    "summary": "No usable document returned (HTTP 202).",
+    "evidence_ids": [],
+    "source_name": "AMEND",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:50.679700+00:00",
+    "retrieved_at": "2026-10-12T04:03:50.779956+00:00",
+    "retrieval_status": "unavailable",
+    "content_type": "text/html; charset=UTF-8",
+    "version_metadata": null,
+    "content_hash": null,
+    "local_reference": null,
+    "mode": "original",
+    "diagnostic_reference": null,
+    "diagnostic_hash": null,
+    "requested_content_available": false,
+    "response_received_at": "2026-10-12T04:03:50.779956+00:00",
+    "http_status": 202,
+    "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "redirects": [],
+    "locators": [],
+    "resolution_need": "Verify returned document/access route",
+    "completed_at": "2026-10-12T04:03:50.779956+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-AMEND-cellar-metadata",
+    "summary": "Verified CELEX mapping; metadata is not a legal-text capture.",
+    "evidence_ids": [],
+    "source_name": "AMEND",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://publications.europa.eu/resource/celex/32026R1744",
+    "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "request_headers": {
+      "Accept": "application/xml;notice=tree",
+      "Accept-Language": "eng"
+    },
+    "started_at": "2026-10-12T04:03:50.784618+00:00",
+    "retrieved_at": "2026-10-12T04:03:51.707685+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "application/xml;notice=tree;charset=UTF-8",
+    "version_metadata": {
+      "title": "Cellar metadata for CELEX 32026R1744",
+      "historical_suitability": "unverified",
+      "celex": "32026R1744",
+      "identifiers": [
+        "32026R1744",
+        "L_202601744",
+        "b459c07f-86fb-11f1-bf5e-01aa75ed71a1",
+        "reg:2026:1744:oj"
+      ],
+      "document_role": "metadata only, not legal text"
+    },
+    "content_hash": "sha256:89e59451d13fdb0a272410d24e89a6c78e8472f901c48899e500c09045527efd",
+    "local_reference": "sources/SOURCE-AMEND-cellar-metadata.response",
+    "mode": "cellar-metadata",
+    "diagnostic_reference": "sources/SOURCE-AMEND-cellar-metadata.response",
+    "diagnostic_hash": "sha256:89e59451d13fdb0a272410d24e89a6c78e8472f901c48899e500c09045527efd",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:51.707685+00:00",
+    "http_status": 200,
+    "final_url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1/xml/tree?decoding=en",
+    "redirects": [
+      {
+        "status": 303,
+        "url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1/xml/tree?decoding=en"
+      }
+    ],
+    "locators": [
+      "XML /NOTICE/WORK/URI and /NOTICE/WORK/SAMEAS"
+    ],
+    "extract_reference": "sources/SOURCE-AMEND-cellar-metadata.extract.json",
+    "extract_hash": "sha256:66a9304bd04519e6e6e02b12835a2e1dbf1f6f5496354def583af04da96468be",
+    "completed_at": "2026-10-12T04:03:52.873230+00:00",
+    "transport_limitation": "HTTP redirect observed"
+  },
+  {
+    "id": "SOURCE-AMEND-cellar-content",
+    "summary": "Identity/version verified; no legal interpretation or signature verification.",
+    "evidence_ids": [],
+    "source_name": "AMEND",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://publications.europa.eu/resource/celex/32026R1744",
+    "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "request_headers": {
+      "Accept": "application/xhtml+xml",
+      "Accept-Language": "eng"
+    },
+    "started_at": "2026-10-12T04:03:52.879400+00:00",
+    "retrieved_at": "2026-10-12T04:03:53.732813+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "application/xhtml+xml;charset=UTF-8",
+    "version_metadata": {
+      "title": "L_202601744EN.000101.fmx.xml",
+      "historical_suitability": "identified pre-review version; full authority/timing reconciliation deferred to stage 03",
+      "celex": "32026R1744",
+      "publication_date": "24.7.2026",
+      "document_role": "original OJ rendition"
+    },
+    "content_hash": "sha256:9d754652b867722807e4219c85912ce354233e58a1b4eb8c7752b4d1922993db",
+    "local_reference": "sources/SOURCE-AMEND-cellar-content.response",
+    "mode": "cellar-content",
+    "diagnostic_reference": "sources/SOURCE-AMEND-cellar-content.response",
+    "diagnostic_hash": "sha256:9d754652b867722807e4219c85912ce354233e58a1b4eb8c7752b4d1922993db",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:53.732813+00:00",
+    "http_status": 200,
+    "final_url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1.0006.03/DOC_1",
+    "redirects": [
+      {
+        "status": 303,
+        "url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1.0006.03/DOC_1"
+      }
+    ],
+    "locators": [
+      "Document header/version",
+      "Article 50 (or amendment references)"
+    ],
+    "extract_reference": "sources/SOURCE-AMEND-cellar-content.extract.json",
+    "extract_hash": "sha256:753ddde16e6fcabc0a80d53a380d76c3c54f6e8e4467459c4eecbe280be8ce5a",
+    "completed_at": "2026-10-12T04:03:53.937525+00:00",
+    "transport_limitation": "HTTP redirect observed"
+  },
+  {
+    "id": "SOURCE-CONSOLIDATED-original",
+    "summary": "No usable document returned (HTTP 202).",
+    "evidence_ids": [],
+    "source_name": "CONSOLIDATED",
+    "source_role": "other",
+    "authority": "unknown",
+    "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:53.942755+00:00",
+    "retrieved_at": "2026-10-12T04:03:54.089529+00:00",
+    "retrieval_status": "unavailable",
+    "content_type": "text/html; charset=UTF-8",
+    "version_metadata": null,
+    "content_hash": null,
+    "local_reference": null,
+    "mode": "original",
+    "diagnostic_reference": null,
+    "diagnostic_hash": null,
+    "requested_content_available": false,
+    "response_received_at": "2026-10-12T04:03:54.089529+00:00",
+    "http_status": 202,
+    "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "redirects": [],
+    "locators": [],
+    "resolution_need": "Verify returned document/access route",
+    "completed_at": "2026-10-12T04:03:54.093314+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-CONSOLIDATED-cellar-metadata",
+    "summary": "Verified CELEX mapping; metadata is not a legal-text capture.",
+    "evidence_ids": [],
+    "source_name": "CONSOLIDATED",
+    "source_role": "other",
+    "authority": "unknown",
+    "locator": "https://publications.europa.eu/resource/celex/02024R1689-20260727",
+    "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "request_headers": {
+      "Accept": "application/xml;notice=tree",
+      "Accept-Language": "eng"
+    },
+    "started_at": "2026-10-12T04:03:54.100361+00:00",
+    "retrieved_at": "2026-10-12T04:03:54.815729+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "application/xml;notice=tree;charset=UTF-8",
+    "version_metadata": {
+      "title": "Cellar metadata for CELEX 02024R1689-20260727",
+      "historical_suitability": "unverified",
+      "celex": "02024R1689-20260727",
+      "identifiers": [
+        "02024R1689-20260727",
+        "2024R1689/20260727",
+        "b1730fb2-8f1c-11f1-9262-01aa75ed71a1",
+        "reg:2024:1689:2026-07-27"
+      ],
+      "document_role": "metadata only, not legal text"
+    },
+    "content_hash": "sha256:893e0aa27e30736f6880c376c11c6b093cb7f3fd93993b5286a8dcde8aa5430e",
+    "local_reference": "sources/SOURCE-CONSOLIDATED-cellar-metadata.response",
+    "mode": "cellar-metadata",
+    "diagnostic_reference": "sources/SOURCE-CONSOLIDATED-cellar-metadata.response",
+    "diagnostic_hash": "sha256:893e0aa27e30736f6880c376c11c6b093cb7f3fd93993b5286a8dcde8aa5430e",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:54.815729+00:00",
+    "http_status": 200,
+    "final_url": "http://publications.europa.eu/resource/cellar/b1730fb2-8f1c-11f1-9262-01aa75ed71a1/xml/tree?decoding=en",
+    "redirects": [
+      {
+        "status": 303,
+        "url": "http://publications.europa.eu/resource/cellar/b1730fb2-8f1c-11f1-9262-01aa75ed71a1/xml/tree?decoding=en"
+      }
+    ],
+    "locators": [
+      "XML /NOTICE/WORK/URI and /NOTICE/WORK/SAMEAS"
+    ],
+    "extract_reference": "sources/SOURCE-CONSOLIDATED-cellar-metadata.extract.json",
+    "extract_hash": "sha256:99d003165ec00c4c089fe0c30415d53e562775077235419b79d196c086aea6e4",
+    "completed_at": "2026-10-12T04:03:55.192101+00:00",
+    "transport_limitation": "HTTP redirect observed"
+  },
+  {
+    "id": "SOURCE-CONSOLIDATED-cellar-content",
+    "summary": "Identity/version verified; no legal interpretation or signature verification.",
+    "evidence_ids": [],
+    "source_name": "CONSOLIDATED",
+    "source_role": "other",
+    "authority": "unknown",
+    "locator": "https://publications.europa.eu/resource/celex/02024R1689-20260727",
+    "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "request_headers": {
+      "Accept": "application/xhtml+xml",
+      "Accept-Language": "eng"
+    },
+    "started_at": "2026-10-12T04:03:55.197191+00:00",
+    "retrieved_at": "2026-10-12T04:03:56.161918+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "application/xhtml+xml;charset=UTF-8",
+    "version_metadata": {
+      "title": "Consolidated TEXT: 32024R1689 — EN — 27.07.2026",
+      "historical_suitability": "identified pre-review version; full authority/timing reconciliation deferred to stage 03",
+      "celex": "02024R1689-20260727",
+      "version_date": "27.07.2026",
+      "revision": "001.001",
+      "document_role": "documentation consolidation; not an authentic OJ act"
+    },
+    "content_hash": "sha256:5e7719f77e8a606b257dc25958ee3222c4383300a5a34270a5b850a2ce8b8715",
+    "local_reference": "sources/SOURCE-CONSOLIDATED-cellar-content.response",
+    "mode": "cellar-content",
+    "diagnostic_reference": "sources/SOURCE-CONSOLIDATED-cellar-content.response",
+    "diagnostic_hash": "sha256:5e7719f77e8a606b257dc25958ee3222c4383300a5a34270a5b850a2ce8b8715",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:56.161918+00:00",
+    "http_status": 200,
+    "final_url": "http://publications.europa.eu/resource/cellar/b1730fb2-8f1c-11f1-9262-01aa75ed71a1.0001.03/DOC_1",
+    "redirects": [
+      {
+        "status": 303,
+        "url": "http://publications.europa.eu/resource/cellar/b1730fb2-8f1c-11f1-9262-01aa75ed71a1.0001.03/DOC_1"
+      }
+    ],
+    "locators": [
+      "Document header/version",
+      "Article 50 (or amendment references)"
+    ],
+    "extract_reference": "sources/SOURCE-CONSOLIDATED-cellar-content.extract.json",
+    "extract_hash": "sha256:6094af3c72a0e7be62bcb90aa3dddb054b588e6563c2ce234cce203fdb8fe847",
+    "completed_at": "2026-10-12T04:03:56.494883+00:00",
+    "transport_limitation": "HTTP redirect observed"
+  },
+  {
+    "id": "SOURCE-TIME-original",
+    "summary": "Official context page retrieved; not substituted for primary authority.",
+    "evidence_ids": [],
+    "source_name": "TIME",
+    "source_role": "official-guidance",
+    "authority": "advisory",
+    "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+    "original_locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:56.499689+00:00",
+    "retrieved_at": "2026-10-12T04:03:56.991859+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "text/html; charset=utf-8",
+    "version_metadata": {
+      "title": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+      "historical_suitability": "context only; version/date suitability not a legal applicability decision"
+    },
+    "content_hash": "sha256:28f0a7b623182b2f16da79dca8b628b5ef10233a0bcb8def1f83da0a8a231127",
+    "local_reference": "sources/SOURCE-TIME-original.response",
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-TIME-original.response",
+    "diagnostic_hash": "sha256:28f0a7b623182b2f16da79dca8b628b5ef10233a0bcb8def1f83da0a8a231127",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:56.991859+00:00",
+    "http_status": 200,
+    "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+    "redirects": [],
+    "locators": [
+      "HTML title",
+      "Visible text passages"
+    ],
+    "extract_reference": "sources/SOURCE-TIME-original.extract.json",
+    "extract_hash": "sha256:80c15f97e4dad3744a2b153090002a138278f0cd7138aa3a47b0ce1592371717",
+    "completed_at": "2026-10-12T04:03:57.026046+00:00",
+    "transport_limitation": null
+  },
+  {
+    "id": "SOURCE-FAQ-original",
+    "summary": "Official context page retrieved; not substituted for primary authority.",
+    "evidence_ids": [],
+    "source_name": "FAQ",
+    "source_role": "official-guidance",
+    "authority": "advisory",
+    "locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+    "original_locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+    "request_headers": {},
+    "started_at": "2026-10-12T04:03:57.028762+00:00",
+    "retrieved_at": "2026-10-12T04:03:57.249311+00:00",
+    "retrieval_status": "retrieved",
+    "content_type": "text/html; charset=UTF-8",
+    "version_metadata": {
+      "title": "Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future",
+      "historical_suitability": "context only; version/date suitability not a legal applicability decision",
+      "last_update": "24 July 2026"
+    },
+    "content_hash": "sha256:ae7d9c8addf77d3257fbe9a4dcff393dd35ff9e41a9ac634d9fa86f5f7bee41c",
+    "local_reference": "sources/SOURCE-FAQ-original.response",
+    "mode": "original",
+    "diagnostic_reference": "sources/SOURCE-FAQ-original.response",
+    "diagnostic_hash": "sha256:ae7d9c8addf77d3257fbe9a4dcff393dd35ff9e41a9ac634d9fa86f5f7bee41c",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-12T04:03:57.249311+00:00",
+    "http_status": 200,
+    "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+    "redirects": [],
+    "locators": [
+      "HTML title",
+      "Visible text passages"
+    ],
+    "extract_reference": "sources/SOURCE-FAQ-original.extract.json",
+    "extract_hash": "sha256:bd1a83cf2db1b0876651a66c8650b55ac945201875a9adbc5e63d9cdf83f075f",
+    "completed_at": "2026-10-12T04:03:57.333996+00:00",
+    "transport_limitation": null
+  }
+]

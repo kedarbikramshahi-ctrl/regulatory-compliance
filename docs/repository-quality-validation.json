@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-10-12T15:08:12.399Z",
+  "head": "ee337e3d963d088cda3257bd806ac611d4118944",
+  "full_suite": {
+    "exit_code": 0,
+    "tests": 61,
+    "failures": 0,
+    "seconds": 499.586,
+    "log": "docs/repository-quality-tests.txt"
+  },
+  "current_bundle": {
+    "run_id": "live-c873be1df1c843eea1d9813d7b23ea84",
+    "stages_validated": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "all_seven_run_ids_match": true,
+    "schemas_valid": true,
+    "predecessor_hashes_valid": true,
+    "evidence_references_valid": true,
+    "artifact_hashes_valid": true,
+    "request_bindings_valid": true,
+    "final_files_agree_with_stage06": true,
+    "calendar_valid": true,
+    "publication_status": "blocked",
+    "assessment_complete": false
+  },
+  "workflow_result_agrees": true,
+  "current_inspection_valid": true,
+  "skill_discovery": {
+    "enabled": true,
+    "scope": "repo",
+    "name": "regulatory-change-impact-brief",
+    "errors": [],
+    "evidence": "docs/repository-quality-discovery.json"
+  },
+  "candidate_entrypoint_validation_exit_code": 0,
+  "fresh_dependency_install": {
+    "result": "passed outside sandbox",
+    "python": "3.12.10 embedded isolated test runtime",
+    "packages": [
+      "jsonschema==4.26.0",
+      "rfc3339-validator==0.1.4",
+      "attrs==26.1.0",
+      "jsonschema-specifications==2025.9.1",
+      "referencing==0.37.0",
+      "rpds-py==2026.9.1",
+      "six==1.17.0",
+      "typing-extensions==4.16.0"
+    ],
+    "normal_py_venv_command_tested": false
+  },
+  "isolated_fresh_run": {
+    "run_id": "live-51ec509b6919424abf58bab679b999c2",
+    "output": ".runtime/repro",
+    "source_attempts": 17,
+    "all_seven_stages_valid": true,
+    "publication_status": "blocked",
+    "assessment_complete": false
+  },
+  "long_path_attempt": {
+    "result": "failed and retained",
+    "path_length": 263,
+    "run_id": "live-b596b97029ba43eb96f0c2dfc96c3f5b",
+    "location": "C:/Users/kedar/regulatory-compliance/.runtime/quality-1ccd48a3-bf26-4cea-9258-9e629f7fd7f4/candidate/reproduction-output",
+    "resolution": "Retry with short Windows output path passed; no OS policy/permission changes"
+  },
+  "protected_files": {
+    "checked": 280,
+    "changed": []
+  },
+  "clean_checkout": {
+    "result": "FAIL",
+    "tracked_files": [
+      "README.md",
+      "snapshot.schema.json"
+    ],
+    "explanation": "Working implementation/evidence are untracked; isolated working-copy test is not a clean clone of HEAD"
+  },
+  "changes": [
+    "README.md",
+    "regulatory-change-impact-brief/references/end-to-end.md",
+    "docs/repository-quality-report.md",
+    "docs/repository-quality-tests.txt",
+    "docs/repository-quality-discovery.json",
+    "docs/repository-quality-validation.json"
+  ],
+  "skill_structure": {
+    "exit_code": 0,
+    "result": "Skill is valid!"
+  }
+}

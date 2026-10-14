@@ -1,0 +1,11 @@
+{
+  "original_files": {
+    "snapshot.schema.json": true,
+    "interviews/project-b-regulatory-compliance-20261011-2051.md": true
+  },
+  "archived_final_drafts": {
+    "impact-register.csv": true,
+    "compliance-brief.md": true,
+    "action-calendar.ics": true
+  }
+}

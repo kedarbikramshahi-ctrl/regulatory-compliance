@@ -1,0 +1,29 @@
+{
+  "run_id": "live-1ce68e8edd6e4c7ca56f039f06cdae60",
+  "stages_validated": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_seven_run_ids_match": true,
+  "schemas_valid": true,
+  "predecessor_hashes_valid": true,
+  "evidence_references_valid": true,
+  "artifact_hashes_valid": true,
+  "request_bindings_valid": true,
+  "final_files_agree_with_stage06": true,
+  "calendar_valid": true,
+  "publication_status": "blocked",
+  "assessment_complete": false,
+  "workflow_status": "finished",
+  "source_attempt_count": 17,
+  "supersedes_run_id": "live-070d798484d1497495fa28fac99dcb2f",
+  "prior_bundle_valid": false,
+  "history_path": "C:\\Users\\kedar\\regulatory-compliance\\deliverables\\history\\live-070d798484d1497495fa28fac99dcb2f",
+  "attempt_path": "C:\\Users\\kedar\\regulatory-compliance\\deliverables\\workflow-attempts\\live-1ce68e8edd6e4c7ca56f039f06cdae60",
+  "finished_at": "2026-10-12T04:04:17.952840+00:00"
+}

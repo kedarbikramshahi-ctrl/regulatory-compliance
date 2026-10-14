@@ -1,0 +1,13 @@
+test_identity_paragraphs_timing_and_chain (test_reconcile_evidence.ReconciliationTests.test_identity_paragraphs_timing_and_chain) ... ok
+test_invalid_fields_remain_unresolved (test_reconcile_evidence.ReconciliationTests.test_invalid_fields_remain_unresolved) ... ok
+test_missing_fields_and_unavailable_authority_remain_visible (test_reconcile_evidence.ReconciliationTests.test_missing_fields_and_unavailable_authority_remain_visible) ... ok
+test_no_overwrite_and_source_tamper (test_reconcile_evidence.ReconciliationTests.test_no_overwrite_and_source_tamper) ... ok
+test_paragraph_layout_and_changed_rule_detection (test_reconcile_evidence.ReconciliationTests.test_paragraph_layout_and_changed_rule_detection) ... ok
+test_policy_support_and_exception_not_approved (test_reconcile_evidence.ReconciliationTests.test_policy_support_and_exception_not_approved) ... ok
+test_row_order_extras_duplicates_and_orphans (test_reconcile_evidence.ReconciliationTests.test_row_order_extras_duplicates_and_orphans) ... ok
+test_tampering_and_unsupported_completion_rejected (test_reconcile_evidence.ReconciliationTests.test_tampering_and_unsupported_completion_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 30.686s
+
+OK

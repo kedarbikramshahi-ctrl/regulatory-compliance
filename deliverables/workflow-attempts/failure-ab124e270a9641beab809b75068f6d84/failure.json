@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-12T03:58:34.091051+00:00",
+  "stage": "workflow",
+  "error": "ValueError: Final file disagrees with Stage 06/evidence: compliance-brief.md",
+  "owner": "Learner",
+  "resolution_need": "Inspect workflow-attempts journals and retained files; retry only with fresh source retrieval"
+}

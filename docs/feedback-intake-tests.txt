@@ -1,0 +1,47 @@
+SYNTHETIC response/attestation fixtures only; no actual feedback received or decisions applied.
+Final feedback regression
+test_all_binding_fields_and_duplicate_paths_rejected (test_validate_feedback.FeedbackTests.test_all_binding_fields_and_duplicate_paths_rejected) ... ok
+test_ambiguous_responses_and_attestations_are_unresolved (test_validate_feedback.FeedbackTests.test_ambiguous_responses_and_attestations_are_unresolved) ... ok
+test_attestation_missing_or_changed_proof_fields_stays_unverified (test_validate_feedback.FeedbackTests.test_attestation_missing_or_changed_proof_fields_stays_unverified) ... ok
+test_binding_record_order_can_change_without_guessing_values (test_validate_feedback.FeedbackTests.test_binding_record_order_can_change_without_guessing_values) ... ok
+test_cli_reports_unresolved_with_nonzero_exit (test_validate_feedback.FeedbackTests.test_cli_reports_unresolved_with_nonzero_exit) ... ok
+test_invalid_bundle_and_stale_actual_draft_detected (test_validate_feedback.FeedbackTests.test_invalid_bundle_and_stale_actual_draft_detected) ... ok
+test_malformed_or_missing_file_reported_and_original_bytes_preserved (test_validate_feedback.FeedbackTests.test_malformed_or_missing_file_reported_and_original_bytes_preserved) ... ok
+test_matching_synthetic_receipt_preserved_without_applying_approval (test_validate_feedback.FeedbackTests.test_matching_synthetic_receipt_preserved_without_applying_approval) ... ok
+test_missing_fields_invalid_values_and_times_are_unresolved (test_validate_feedback.FeedbackTests.test_missing_fields_invalid_values_and_times_are_unresolved) ... ok
+test_name_verified_flag_and_unpinned_attestation_do_not_authenticate (test_validate_feedback.FeedbackTests.test_name_verified_flag_and_unpinned_attestation_do_not_authenticate) ... ok
+test_repeated_intakes_never_overwrite_and_protected_output_refused (test_validate_feedback.FeedbackTests.test_repeated_intakes_never_overwrite_and_protected_output_refused) ... ok
+test_wrong_pin_and_changed_response_rejected (test_validate_feedback.FeedbackTests.test_wrong_pin_and_changed_response_rejected) ... ok
+test_wrong_reviewer_identity_role_or_channel_not_accepted (test_validate_feedback.FeedbackTests.test_wrong_reviewer_identity_role_or_channel_not_accepted) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 89.325s
+
+OK
+
+Publication regression
+test_binding_and_run_tampering_missing_files_and_no_overwrite (test_publish_drafts.PublicationTests.test_binding_and_run_tampering_missing_files_and_no_overwrite) ... ok
+test_calendar_actual_proposals_stable_uids_and_no_undated_events (test_publish_drafts.PublicationTests.test_calendar_actual_proposals_stable_uids_and_no_undated_events) ... ok
+test_changed_file_rehash_cannot_hide_stage06_disagreement (test_publish_drafts.PublicationTests.test_changed_file_rehash_cannot_hide_stage06_disagreement) ... ok
+test_csv_scope_ids_evidence_and_unborrowed_dates (test_publish_drafts.PublicationTests.test_csv_scope_ids_evidence_and_unborrowed_dates) ... ok
+test_empty_calendar_and_utf8_folding_escaping (test_publish_drafts.PublicationTests.test_empty_calendar_and_utf8_folding_escaping) ... ok
+test_seven_run_ids_schema_hashes_requests_and_stage06_agreement (test_publish_drafts.PublicationTests.test_seven_run_ids_schema_hashes_requests_and_stage06_agreement) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 28.300s
+
+OK
+
+Impact regression
+test_all_systems_scoped_outcomes_policy_and_conflicts (test_analyze_impacts.ImpactTests.test_all_systems_scoped_outcomes_policy_and_conflicts) ... ok
+test_authority_block_and_role_changes_do_not_reuse_conclusions (test_analyze_impacts.ImpactTests.test_authority_block_and_role_changes_do_not_reuse_conclusions) ... ok
+test_no_invented_dates_approvals_or_sent_requests (test_analyze_impacts.ImpactTests.test_no_invented_dates_approvals_or_sent_requests) ... ok
+test_schema_chain_replay_and_tampering (test_analyze_impacts.ImpactTests.test_schema_chain_replay_and_tampering) ... ok
+test_stable_ids_under_reordering (test_analyze_impacts.ImpactTests.test_stable_ids_under_reordering) ... ok
+test_unknown_output_requires_clarification_without_no_impact (test_analyze_impacts.ImpactTests.test_unknown_output_requires_clarification_without_no_impact) ... ok
+test_unknown_reviewer_remains_unassigned_pending_and_unsent (test_analyze_impacts.ImpactTests.test_unknown_reviewer_remains_unassigned_pending_and_unsent) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 14.304s
+
+OK

@@ -1,0 +1,51 @@
+# Local Python environments, installed tools, and caches
+.venv/
+venv/
+.runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Machine-specific discovery junction; submit the canonical root Skill instead
+/.agents/skills/regulatory-change-impact-brief/
+
+# Fictional demo outputs, isolated reproductions, and staging scratch data
+/outputs/
+/reproduction-output/
+/.deliverables-staging/
+/%SystemDrive%/
+
+# Private response receipts: preserve locally; share only through an approved route
+/feedback-reports/
+
+# Credentials and private keys; example environment templates may be included
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+/.aws/
+/auth.json
+/credentials.json
+
+# Keep only reviewed portable Codex hook configuration visible
+/.codex/*
+!/.codex/hooks.json
+
+# Private Entire working state; do not ignore reviewed capture configuration
+/.entire/metadata/
+/.entire/logs/
+/.entire/tmp/
+/.entire/settings.local.json
+/.entire/redactors/local/
+/.entire/*.lock

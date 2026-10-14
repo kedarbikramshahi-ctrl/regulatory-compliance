@@ -1,0 +1,3 @@
+# Preserve exact evidence, snapshot, draft, and interview bytes across checkouts.
+# Workflow SHA-256 bindings depend on the original line endings.
+* -text

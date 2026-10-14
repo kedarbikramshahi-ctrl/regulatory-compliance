@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-12T15:01:21.856Z",
+  "scanner_version": "0.162.0-alpha.2",
+  "isolated_codex_home": true,
+  "skill": [
+    {
+      "name": "regulatory-change-impact-brief",
+      "description": "Capture Project B sources, reconcile authority and company evidence, and generate review-only impacts, actions, draft files and exact request bindings for human review. Use for EU AI Act Article 50 review preparation for Legal and Operations.",
+      "path": "C:\\Users\\kedar\\regulatory-compliance\\regulatory-change-impact-brief\\SKILL.md",
+      "scope": "repo",
+      "enabled": true,
+      "pluginId": null
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Isolated Codex home intentionally has no project trust; project hooks disabled there while skills load. This does not establish normal-session hook trust or capture.",
+    "No separate model turn or automatic unnamed selection was tested."
+  ]
+}

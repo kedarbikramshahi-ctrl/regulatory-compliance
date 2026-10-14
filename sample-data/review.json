@@ -1,0 +1,38 @@
+{
+  "fictional": true,
+  "system_id": "DEMO-001",
+  "change": {
+    "id": "CHANGE-001",
+    "title": "Fictional proposal: review a customer-facing AI notice",
+    "summary": "Training scenario only: a fictional proposal asks reviewers to check notice evidence. It is not a real law.",
+    "effective_date": null
+  },
+  "required_evidence": [
+    "notice_test",
+    "owner_signoff"
+  ],
+  "records": [
+    {
+      "id": "SYSTEM-001",
+      "system_id": "DEMO-001",
+      "owner": "Demo system owner",
+      "notice_enabled": true
+    },
+    {
+      "id": "INCIDENT-001",
+      "system_id": "DEMO-001",
+      "owner": "Demo Operations",
+      "notice_enabled": false
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVIDENCE-001",
+      "system_id": "DEMO-001",
+      "kind": "notice_test",
+      "status": "missing",
+      "content": null
+    }
+  ],
+  "proposed_date": null
+}
