@@ -1,0 +1,51 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4YSHC391Z6W7X0BP57459TP",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 15,
+  "files_touched": [
+    "deliverables/action-calendar.ics",
+    "deliverables/attempts.json",
+    "deliverables/capture-validation.json",
+    "deliverables/compliance-brief.md",
+    "deliverables/impact-register.csv",
+    "deliverables/milestone-2-validation.json",
+    "deliverables/milestone-3-validation.json",
+    "deliverables/snapshots/01-scope.json",
+    "deliverables/snapshots/02-source-capture.json",
+    "deliverables/snapshots/03-authority-and-timing.json",
+    "deliverables/snapshots/04-evidence-reconciliation.json",
+    "deliverables/snapshots/05-impact-analysis.json",
+    "deliverables/snapshots/06-actions-and-approvals.json",
+    "deliverables/snapshots/07-publication-validation.json",
+    "deliverables/sources/SOURCE-CALENDAR-original.extract.json",
+    "deliverables/sources/SOURCE-CALENDAR-original.response",
+    "deliverables/sources/SOURCE-EVIDENCE-original.extract.json",
+    "deliverables/sources/SOURCE-EVIDENCE-original.response",
+    "deliverables/sources/SOURCE-FAQ-original.extract.json",
+    "deliverables/sources/SOURCE-FAQ-original.response",
+    "deliverables/sources/SOURCE-POLICY-policy-api.response",
+    "deliverables/sources/SOURCE-SYSTEMS-original.extract.json",
+    "deliverables/sources/SOURCE-SYSTEMS-original.response",
+    "deliverables/stage-7-validation.json",
+    "deliverables/workflow-result.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 499332,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 31046272,
+    "output_tokens": 60872,
+    "api_call_count": 212,
+    "subagent_tokens_complete": true
+  }
+}
