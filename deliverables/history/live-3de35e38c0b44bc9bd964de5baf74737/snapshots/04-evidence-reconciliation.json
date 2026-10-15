@@ -1,0 +1,1614 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-4-4eac74c5beff42bd84435833df904659",
+  "run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
+  "stage": "evidence-reconciliation",
+  "sequence": 4,
+  "created_at": "2026-10-14T12:20:34.425514+00:00",
+  "status": "partial",
+  "predecessor": {
+    "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-3-fd953ee736ca4ce7848ff18445c55e0b",
+    "path": "snapshots/03-authority-and-timing.json",
+    "sha256": "sha256:06d9920c40f29da484efc0bb4302bca7507a9c8ed96e6eeb9cf369efcbe28848"
+  },
+  "consumed_record_ids": [
+    "RULE-50-1",
+    "RULE-50-2",
+    "RULE-50-3",
+    "RULE-50-4",
+    "RULE-50-5",
+    "RULE-50-6",
+    "RULE-50-7",
+    "TIMING-OJ-ENTRY",
+    "TIMING-AMEND-ENTRY",
+    "TIMING-50-GENERAL",
+    "TIMING-50-2-TRANSITION",
+    "TIMING-113-OTHER-BASES",
+    "CONSOLIDATION-CONTEXT",
+    "GUIDANCE-LAW",
+    "GUIDANCE-TIME",
+    "GUIDANCE-FAQ",
+    "BLOCK-HISTORICAL",
+    "CLAIM-OJ-Article-50",
+    "CLAIM-CONSOLIDATED-Article-50",
+    "CLAIM-AMEND-Article-1-20",
+    "CLAIM-OJ-Article-113",
+    "CLAIM-AMEND-Article-4",
+    "CLAIM-CONSOLIDATED-Article-113",
+    "CLAIM-CONSOLIDATED-Article-111",
+    "CLAIM-AMEND-Article-1-39",
+    "CLAIM-AMEND-Article-1-40",
+    "CLAIM-CONSOLIDATED-Header",
+    "CLAIM-LAW-Context",
+    "CLAIM-TIME-Context",
+    "CLAIM-FAQ-Context",
+    "DECISION-STAGE-3",
+    "SOURCE-POLICY-original",
+    "SOURCE-POLICY-policy-api",
+    "SOURCE-SYSTEMS-original",
+    "SOURCE-EVIDENCE-original",
+    "SOURCE-CALENDAR-original",
+    "SOURCE-LAW-original",
+    "SOURCE-OJ-original",
+    "SOURCE-OJ-cellar-metadata",
+    "SOURCE-OJ-cellar-content",
+    "SOURCE-AMEND-original",
+    "SOURCE-AMEND-cellar-metadata",
+    "SOURCE-AMEND-cellar-content",
+    "SOURCE-CONSOLIDATED-original",
+    "SOURCE-CONSOLIDATED-cellar-metadata",
+    "SOURCE-CONSOLIDATED-cellar-content",
+    "SOURCE-TIME-original",
+    "SOURCE-FAQ-original"
+  ],
+  "produced_record_ids": [
+    "SYSTEMS-AI-001",
+    "SYSTEMS-AI-002",
+    "SYSTEMS-AI-003",
+    "SYSTEMS-AI-004",
+    "SYSTEMS-AI-005",
+    "SYSTEMS-AI-006",
+    "SYSTEMS-AI-007",
+    "SYSTEMS-AI-008",
+    "EVIDENCE-REC-001",
+    "EVIDENCE-REC-002",
+    "EVIDENCE-REC-003",
+    "EVIDENCE-REC-004",
+    "EVIDENCE-REC-005",
+    "EVIDENCE-REC-006",
+    "EVIDENCE-REC-007",
+    "EVIDENCE-REC-008",
+    "EVIDENCE-REC-009",
+    "EVIDENCE-REC-010",
+    "CALENDAR-ACT-001",
+    "CALENDAR-ACT-002",
+    "CALENDAR-ACT-003",
+    "CALENDAR-ACT-004",
+    "CALENDAR-ACT-005",
+    "CALENDAR-ACT-006",
+    "CALENDAR-ACT-007",
+    "CALENDAR-ACT-008",
+    "JOIN-AI-001",
+    "JOIN-AI-002",
+    "JOIN-AI-003",
+    "JOIN-AI-004",
+    "JOIN-AI-005",
+    "JOIN-AI-006",
+    "JOIN-AI-007",
+    "JOIN-AI-008",
+    "ISSUE-SYSTEMS-AI-007",
+    "ISSUE-EVIDENCE-REC-003",
+    "ISSUE-EVIDENCE-REC-008",
+    "GAP-POLICY",
+    "ISSUE-SYSTEMS-AI-002",
+    "GAP-FIELDS-SYSTEMS-AI-005",
+    "ISSUE-SYSTEMS-AI-005",
+    "ISSUE-SYSTEMS-AI-008",
+    "GAP-SUPPORT-EVIDENCE-REC-001",
+    "ISSUE-EVIDENCE-REC-002",
+    "GAP-SUPPORT-EVIDENCE-REC-002",
+    "GAP-SUPPORT-EVIDENCE-REC-003",
+    "GAP-SUPPORT-EVIDENCE-REC-004",
+    "ISSUE-EVIDENCE-REC-005",
+    "GAP-SUPPORT-EVIDENCE-REC-005",
+    "GAP-SUPPORT-EVIDENCE-REC-006",
+    "GAP-SUPPORT-EVIDENCE-REC-007",
+    "GAP-SUPPORT-EVIDENCE-REC-008",
+    "ISSUE-EVIDENCE-REC-009",
+    "GAP-SUPPORT-EVIDENCE-REC-009",
+    "ISSUE-EVIDENCE-REC-010",
+    "GAP-SUPPORT-EVIDENCE-REC-010",
+    "GAP-EXCEPTION-EVIDENCE-REC-010",
+    "GAP-TRANSITION-AI-005",
+    "DECISION-STAGE-4"
+  ],
+  "state": {
+    "review_date": "2026-08-26",
+    "system_facts": [
+      {
+        "id": "SYSTEMS-AI-001",
+        "summary": "Captured SYSTEMS record AI-001",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "2",
+          "system_id": "AI-001",
+          "system_name": "Learner Support Chat",
+          "use_case": "Answers routine learner questions",
+          "owner": "Learner Operations",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "learners",
+          "output_type": "direct_interaction",
+          "current_notice": "yes",
+          "human_review": "staff escalation",
+          "evidence_status": "complete",
+          "evidence_updated_at": "2026-08-20",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 3",
+        "owner": "Learner Operations",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-002",
+        "summary": "Captured SYSTEMS record AI-002",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "3",
+          "system_id": "AI-002",
+          "system_name": "Admissions Draft Assistant",
+          "use_case": "Drafts applicant email replies",
+          "owner": "Admissions",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "applicants",
+          "output_type": "text",
+          "current_notice": "unknown",
+          "human_review": "advisor approval",
+          "evidence_status": "partial",
+          "evidence_updated_at": "2026-07-01",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 4",
+        "owner": "Admissions",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-003",
+        "summary": "Captured SYSTEMS record AI-003",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "4",
+          "system_id": "AI-003",
+          "system_name": "Campaign Image Studio",
+          "use_case": "Creates public campaign images",
+          "owner": "Communications",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "public",
+          "output_type": "synthetic_image",
+          "current_notice": "visible_label",
+          "human_review": "communications approval",
+          "evidence_status": "complete",
+          "evidence_updated_at": "2026-08-22",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 5",
+        "owner": "Communications",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-004",
+        "summary": "Captured SYSTEMS record AI-004",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "5",
+          "system_id": "AI-004",
+          "system_name": "Pronunciation Coach",
+          "use_case": "Provides spoken practice feedback",
+          "owner": "Learning Experience",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "learners",
+          "output_type": "direct_interaction",
+          "current_notice": "no",
+          "human_review": "instructor escalation",
+          "evidence_status": "complete",
+          "evidence_updated_at": "2026-08-18",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 6",
+        "owner": "Learning Experience",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-005",
+        "summary": "Captured SYSTEMS record AI-005",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "6",
+          "system_id": "AI-005",
+          "system_name": "Remote Proctor Signal",
+          "use_case": "Flags assessment sessions for review",
+          "owner": "Assessment Operations",
+          "provider_role": "unknown",
+          "deployer_role": "yes",
+          "exposed_group": "learners",
+          "output_type": "classification",
+          "current_notice": "yes",
+          "human_review": "human adjudication",
+          "evidence_status": "stale",
+          "evidence_updated_at": "2026-04-15",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 7",
+        "owner": "Assessment Operations",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-006",
+        "summary": "Captured SYSTEMS record AI-006",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "7",
+          "system_id": "AI-006",
+          "system_name": "Staff Summary Assistant",
+          "use_case": "Summarizes internal meeting notes",
+          "owner": "People Operations",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "staff",
+          "output_type": "text",
+          "current_notice": "not_applicable",
+          "human_review": "author review",
+          "evidence_status": "complete",
+          "evidence_updated_at": "2026-08-14",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 8",
+        "owner": "People Operations",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-007",
+        "summary": "Captured SYSTEMS record AI-007",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "8",
+          "system_id": "AI-007",
+          "system_name": "Website Guide Avatar",
+          "use_case": "Answers public programme questions",
+          "owner": "Marketing",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "public",
+          "output_type": "direct_interaction",
+          "current_notice": "no",
+          "human_review": "marketing escalation",
+          "evidence_status": "conflicting",
+          "evidence_updated_at": "2026-08-21",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 9",
+        "owner": "Marketing",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "SYSTEMS-AI-008",
+        "summary": "Captured SYSTEMS record AI-008",
+        "evidence_ids": [
+          "SOURCE-SYSTEMS-original"
+        ],
+        "values": {
+          "1": "9",
+          "system_id": "AI-008",
+          "system_name": "Video Localisation Tool",
+          "use_case": "Generates dubbed public programme videos",
+          "owner": "Communications",
+          "provider_role": "no",
+          "deployer_role": "yes",
+          "exposed_group": "public",
+          "output_type": "synthetic_audio_video",
+          "current_notice": "visible_label",
+          "human_review": "communications approval",
+          "evidence_status": "partial",
+          "evidence_updated_at": "2026-08-19",
+          "record_version": "register-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 10",
+        "owner": "Communications",
+        "source_versions": [
+          "register-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      }
+    ],
+    "policy_controls": [],
+    "incident_evidence": [
+      {
+        "id": "EVIDENCE-REC-001",
+        "summary": "Captured EVIDENCE record REC-001",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "2",
+          "record_id": "REC-001",
+          "system_id": "AI-001",
+          "record_type": "evidence",
+          "reported_at": "2026-08-20",
+          "owner": "Learner Operations",
+          "status": "closed",
+          "evidence_ref": "notice-screen-v3",
+          "evidence_state": "complete",
+          "notes": "Notice screenshot and release record agree",
+          "": ""
+        },
+        "locator": "HTML table row 3",
+        "owner": "Learner Operations",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-002",
+        "summary": "Captured EVIDENCE record REC-002",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "3",
+          "record_id": "REC-002",
+          "system_id": "AI-002",
+          "record_type": "evidence_gap",
+          "reported_at": "2026-08-23",
+          "owner": "Admissions",
+          "status": "open",
+          "evidence_ref": "applicant-email-sample",
+          "evidence_state": "missing",
+          "notes": "No evidence that recipients are told when generated text is used",
+          "": ""
+        },
+        "locator": "HTML table row 4",
+        "owner": "Admissions",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-003",
+        "summary": "Captured EVIDENCE record REC-003",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "4",
+          "record_id": "REC-003",
+          "system_id": "AI-003",
+          "record_type": "incident",
+          "reported_at": "2026-08-24",
+          "owner": "Communications",
+          "status": "open",
+          "evidence_ref": "social-post-884",
+          "evidence_state": "conflicting",
+          "notes": "Visible label exists but exported platform copy may have lost metadata",
+          "": ""
+        },
+        "locator": "HTML table row 5",
+        "owner": "Communications",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-004",
+        "summary": "Captured EVIDENCE record REC-004",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "5",
+          "record_id": "REC-004",
+          "system_id": "AI-004",
+          "record_type": "incident",
+          "reported_at": "2026-08-18",
+          "owner": "Learning Experience",
+          "status": "open",
+          "evidence_ref": "coach-onboarding-v2",
+          "evidence_state": "complete",
+          "notes": "First interaction contains no AI notice",
+          "": ""
+        },
+        "locator": "HTML table row 6",
+        "owner": "Learning Experience",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-005",
+        "summary": "Captured EVIDENCE record REC-005",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "6",
+          "record_id": "REC-005",
+          "system_id": "AI-005",
+          "record_type": "evidence_gap",
+          "reported_at": "2026-08-25",
+          "owner": "Assessment Operations",
+          "status": "open",
+          "evidence_ref": "provider-role-questionnaire",
+          "evidence_state": "stale",
+          "notes": "Provider role questionnaire predates the current release",
+          "": ""
+        },
+        "locator": "HTML table row 7",
+        "owner": "Assessment Operations",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-006",
+        "summary": "Captured EVIDENCE record REC-006",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "7",
+          "record_id": "REC-006",
+          "system_id": "AI-005",
+          "record_type": "evidence",
+          "reported_at": "2026-08-25",
+          "owner": "Assessment Operations",
+          "status": "open",
+          "evidence_ref": "human-review-sop-v4",
+          "evidence_state": "complete",
+          "notes": "Flag never makes the final assessment decision",
+          "": ""
+        },
+        "locator": "HTML table row 8",
+        "owner": "Assessment Operations",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-007",
+        "summary": "Captured EVIDENCE record REC-007",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "8",
+          "record_id": "REC-007",
+          "system_id": "AI-006",
+          "record_type": "evidence",
+          "reported_at": "2026-08-14",
+          "owner": "People Operations",
+          "status": "closed",
+          "evidence_ref": "internal-use-review",
+          "evidence_state": "complete",
+          "notes": "Tool is restricted to staff workspace",
+          "": ""
+        },
+        "locator": "HTML table row 9",
+        "owner": "People Operations",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-008",
+        "summary": "Captured EVIDENCE record REC-008",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "9",
+          "record_id": "REC-008",
+          "system_id": "AI-007",
+          "record_type": "incident",
+          "reported_at": "2026-08-21",
+          "owner": "Marketing",
+          "status": "open",
+          "evidence_ref": "avatar-page-capture",
+          "evidence_state": "conflicting",
+          "notes": "Owner says a banner exists but the current capture shows none",
+          "": ""
+        },
+        "locator": "HTML table row 10",
+        "owner": "Marketing",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-009",
+        "summary": "Captured EVIDENCE record REC-009",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "10",
+          "record_id": "REC-009",
+          "system_id": "AI-008",
+          "record_type": "evidence",
+          "reported_at": "2026-08-19",
+          "owner": "Communications",
+          "status": "open",
+          "evidence_ref": "localisation-export-test",
+          "evidence_state": "partial",
+          "notes": "Visible label verified but machine-readable provenance not checked",
+          "": ""
+        },
+        "locator": "HTML table row 11",
+        "owner": "Communications",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      },
+      {
+        "id": "EVIDENCE-REC-010",
+        "summary": "Captured EVIDENCE record REC-010",
+        "evidence_ids": [
+          "SOURCE-EVIDENCE-original"
+        ],
+        "values": {
+          "1": "11",
+          "record_id": "REC-010",
+          "system_id": "AI-008",
+          "record_type": "exception_request",
+          "reported_at": "2026-08-26",
+          "owner": "Communications",
+          "status": "draft",
+          "evidence_ref": "exception-draft-008",
+          "evidence_state": "missing",
+          "notes": "No Legal approval or expiry date recorded",
+          "": ""
+        },
+        "locator": "HTML table row 12",
+        "owner": "Communications",
+        "source_versions": [],
+        "claim_level": "Register statement, not inspected supporting artifact"
+      }
+    ],
+    "calendar_records": [
+      {
+        "id": "CALENDAR-ACT-001",
+        "summary": "Captured CALENDAR record ACT-001",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "2",
+          "action_id": "ACT-001",
+          "system_id": "AI-004",
+          "action": "Add and verify first-interaction AI notice",
+          "owner": "Learning Experience",
+          "due_date": "2026-09-04",
+          "status": "planned",
+          "approval_required": "operations",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 3",
+        "owner": "Learning Experience",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "operations"
+      },
+      {
+        "id": "CALENDAR-ACT-002",
+        "summary": "Captured CALENDAR record ACT-002",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "3",
+          "action_id": "ACT-002",
+          "system_id": "AI-007",
+          "action": "Resolve disclosure evidence conflict",
+          "owner": "Marketing",
+          "due_date": "2026-09-03",
+          "status": "open",
+          "approval_required": "operations",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 4",
+        "owner": "Marketing",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "operations"
+      },
+      {
+        "id": "CALENDAR-ACT-003",
+        "summary": "Captured CALENDAR record ACT-003",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "4",
+          "action_id": "ACT-003",
+          "system_id": "AI-002",
+          "action": "Confirm recipient disclosure practice",
+          "owner": "Admissions",
+          "due_date": "2026-09-08",
+          "status": "open",
+          "approval_required": "legal",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 5",
+        "owner": "Admissions",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "legal"
+      },
+      {
+        "id": "CALENDAR-ACT-004",
+        "summary": "Captured CALENDAR record ACT-004",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "5",
+          "action_id": "ACT-004",
+          "system_id": "AI-003",
+          "action": "Verify machine-readable provenance after publishing",
+          "owner": "Communications",
+          "due_date": "2026-09-10",
+          "status": "open",
+          "approval_required": "operations",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 6",
+        "owner": "Communications",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "operations"
+      },
+      {
+        "id": "CALENDAR-ACT-005",
+        "summary": "Captured CALENDAR record ACT-005",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "6",
+          "action_id": "ACT-005",
+          "system_id": "AI-005",
+          "action": "Refresh provider-role and release evidence",
+          "owner": "Assessment Operations",
+          "due_date": "2026-09-12",
+          "status": "open",
+          "approval_required": "legal",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 7",
+        "owner": "Assessment Operations",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "legal"
+      },
+      {
+        "id": "CALENDAR-ACT-006",
+        "summary": "Captured CALENDAR record ACT-006",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "7",
+          "action_id": "ACT-006",
+          "system_id": "AI-008",
+          "action": "Complete provenance test",
+          "owner": "Communications",
+          "due_date": "2026-09-09",
+          "status": "open",
+          "approval_required": "operations",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 8",
+        "owner": "Communications",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "operations"
+      },
+      {
+        "id": "CALENDAR-ACT-007",
+        "summary": "Captured CALENDAR record ACT-007",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "8",
+          "action_id": "ACT-007",
+          "system_id": "AI-008",
+          "action": "Review exception request",
+          "owner": "Legal",
+          "due_date": "2026-09-15",
+          "status": "blocked",
+          "approval_required": "legal",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 9",
+        "owner": "Legal",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "legal"
+      },
+      {
+        "id": "CALENDAR-ACT-008",
+        "summary": "Captured CALENDAR record ACT-008",
+        "evidence_ids": [
+          "SOURCE-CALENDAR-original"
+        ],
+        "values": {
+          "1": "9",
+          "action_id": "ACT-008",
+          "system_id": "ALL",
+          "action": "Quarterly AI register evidence review",
+          "owner": "Operations",
+          "due_date": "2026-10-02",
+          "status": "scheduled",
+          "approval_required": "operations",
+          "source_version": "calendar-2026-08-26",
+          "": ""
+        },
+        "locator": "HTML table row 10",
+        "owner": "Operations",
+        "source_versions": [
+          "calendar-2026-08-26"
+        ],
+        "claim_level": "Register statement, not inspected supporting artifact",
+        "date_role": "source-proposed; not legal date or verified approved deadline",
+        "approval_status": "unverified",
+        "approval_required": "operations"
+      }
+    ],
+    "system_links": [
+      {
+        "id": "JOIN-AI-001",
+        "summary": "Records linked by exact system_id AI-001",
+        "evidence_ids": [
+          "SYSTEMS-AI-001",
+          "EVIDENCE-REC-001",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-001",
+        "system_records": [
+          "SYSTEMS-AI-001"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-001"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Learner Operations",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-002",
+        "summary": "Records linked by exact system_id AI-002",
+        "evidence_ids": [
+          "SYSTEMS-AI-002",
+          "EVIDENCE-REC-002",
+          "CALENDAR-ACT-003",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-002",
+        "system_records": [
+          "SYSTEMS-AI-002"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-002"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-003",
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Admissions",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-003",
+        "summary": "Records linked by exact system_id AI-003",
+        "evidence_ids": [
+          "SYSTEMS-AI-003",
+          "EVIDENCE-REC-003",
+          "CALENDAR-ACT-004",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-003",
+        "system_records": [
+          "SYSTEMS-AI-003"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-003"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-004",
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Communications",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-004",
+        "summary": "Records linked by exact system_id AI-004",
+        "evidence_ids": [
+          "SYSTEMS-AI-004",
+          "EVIDENCE-REC-004",
+          "CALENDAR-ACT-001",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-004",
+        "system_records": [
+          "SYSTEMS-AI-004"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-004"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-001",
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Learning Experience",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-005",
+        "summary": "Records linked by exact system_id AI-005",
+        "evidence_ids": [
+          "SYSTEMS-AI-005",
+          "EVIDENCE-REC-005",
+          "EVIDENCE-REC-006",
+          "CALENDAR-ACT-005",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-005",
+        "system_records": [
+          "SYSTEMS-AI-005"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-005",
+          "EVIDENCE-REC-006"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-005",
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Assessment Operations",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-006",
+        "summary": "Records linked by exact system_id AI-006",
+        "evidence_ids": [
+          "SYSTEMS-AI-006",
+          "EVIDENCE-REC-007",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-006",
+        "system_records": [
+          "SYSTEMS-AI-006"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-007"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "People Operations",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-007",
+        "summary": "Records linked by exact system_id AI-007",
+        "evidence_ids": [
+          "SYSTEMS-AI-007",
+          "EVIDENCE-REC-008",
+          "CALENDAR-ACT-002",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-007",
+        "system_records": [
+          "SYSTEMS-AI-007"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-008"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-002",
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Marketing",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      },
+      {
+        "id": "JOIN-AI-008",
+        "summary": "Records linked by exact system_id AI-008",
+        "evidence_ids": [
+          "SYSTEMS-AI-008",
+          "EVIDENCE-REC-009",
+          "EVIDENCE-REC-010",
+          "CALENDAR-ACT-006",
+          "CALENDAR-ACT-007",
+          "CALENDAR-ACT-008"
+        ],
+        "system_id": "AI-008",
+        "system_records": [
+          "SYSTEMS-AI-008"
+        ],
+        "evidence_records": [
+          "EVIDENCE-REC-009",
+          "EVIDENCE-REC-010"
+        ],
+        "calendar_records": [
+          "CALENDAR-ACT-006",
+          "CALENDAR-ACT-007",
+          "CALENDAR-ACT-008"
+        ],
+        "owner": "Communications",
+        "rationale": "Different statuses describe different subjects; complete evidence does not establish a notice or compliance"
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "ISSUE-SYSTEMS-AI-007",
+        "summary": "SYSTEMS reports evidence_status=conflicting",
+        "evidence_ids": [
+          "SYSTEMS-AI-007"
+        ],
+        "owner": "Marketing",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "conflicting",
+        "reported_notes": null
+      },
+      {
+        "id": "ISSUE-EVIDENCE-REC-003",
+        "summary": "EVIDENCE reports evidence_state=conflicting",
+        "evidence_ids": [
+          "EVIDENCE-REC-003"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "conflicting",
+        "reported_notes": "Visible label exists but exported platform copy may have lost metadata"
+      },
+      {
+        "id": "ISSUE-EVIDENCE-REC-008",
+        "summary": "EVIDENCE reports evidence_state=conflicting",
+        "evidence_ids": [
+          "EVIDENCE-REC-008"
+        ],
+        "owner": "Marketing",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "conflicting",
+        "reported_notes": "Owner says a banner exists but the current capture shows none"
+      }
+    ],
+    "evidence_gaps": [
+      {
+        "id": "GAP-POLICY",
+        "summary": "POLICY unavailable; no internal controls inferred",
+        "evidence_ids": [
+          "SOURCE-POLICY-original",
+          "SOURCE-POLICY-policy-api"
+        ],
+        "owner": "Facilitator/source owner",
+        "resolution_need": "Provide authorized POLICY content and version",
+        "status": "unresolved"
+      },
+      {
+        "id": "ISSUE-SYSTEMS-AI-002",
+        "summary": "SYSTEMS reports evidence_status=partial",
+        "evidence_ids": [
+          "SYSTEMS-AI-002"
+        ],
+        "owner": "Admissions",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "partial",
+        "reported_notes": null
+      },
+      {
+        "id": "GAP-FIELDS-SYSTEMS-AI-005",
+        "summary": "provider_role unresolved: unknown",
+        "evidence_ids": [
+          "SYSTEMS-AI-005"
+        ],
+        "owner": "Assessment Operations",
+        "resolution_need": "Confirm facts/field meaning with source owner",
+        "status": "unresolved"
+      },
+      {
+        "id": "ISSUE-SYSTEMS-AI-005",
+        "summary": "SYSTEMS reports evidence_status=stale",
+        "evidence_ids": [
+          "SYSTEMS-AI-005"
+        ],
+        "owner": "Assessment Operations",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "stale",
+        "reported_notes": null
+      },
+      {
+        "id": "ISSUE-SYSTEMS-AI-008",
+        "summary": "SYSTEMS reports evidence_status=partial",
+        "evidence_ids": [
+          "SYSTEMS-AI-008"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "partial",
+        "reported_notes": null
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-001",
+        "summary": "Supporting artifact notice-screen-v3 not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-001"
+        ],
+        "owner": "Learner Operations",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "ISSUE-EVIDENCE-REC-002",
+        "summary": "EVIDENCE reports evidence_state=missing",
+        "evidence_ids": [
+          "EVIDENCE-REC-002"
+        ],
+        "owner": "Admissions",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "missing",
+        "reported_notes": "No evidence that recipients are told when generated text is used"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-002",
+        "summary": "Supporting artifact applicant-email-sample not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-002"
+        ],
+        "owner": "Admissions",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-003",
+        "summary": "Supporting artifact social-post-884 not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-003"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-004",
+        "summary": "Supporting artifact coach-onboarding-v2 not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-004"
+        ],
+        "owner": "Learning Experience",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "ISSUE-EVIDENCE-REC-005",
+        "summary": "EVIDENCE reports evidence_state=stale",
+        "evidence_ids": [
+          "EVIDENCE-REC-005"
+        ],
+        "owner": "Assessment Operations",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "stale",
+        "reported_notes": "Provider role questionnaire predates the current release"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-005",
+        "summary": "Supporting artifact provider-role-questionnaire not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-005"
+        ],
+        "owner": "Assessment Operations",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-006",
+        "summary": "Supporting artifact human-review-sop-v4 not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-006"
+        ],
+        "owner": "Assessment Operations",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-007",
+        "summary": "Supporting artifact internal-use-review not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-007"
+        ],
+        "owner": "People Operations",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-008",
+        "summary": "Supporting artifact avatar-page-capture not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-008"
+        ],
+        "owner": "Marketing",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "ISSUE-EVIDENCE-REC-009",
+        "summary": "EVIDENCE reports evidence_state=partial",
+        "evidence_ids": [
+          "EVIDENCE-REC-009"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "partial",
+        "reported_notes": "Visible label verified but machine-readable provenance not checked"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-009",
+        "summary": "Supporting artifact localisation-export-test not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-009"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "ISSUE-EVIDENCE-REC-010",
+        "summary": "EVIDENCE reports evidence_state=missing",
+        "evidence_ids": [
+          "EVIDENCE-REC-010"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Supply/reconcile facts; no compliance determination",
+        "status": "unresolved",
+        "reported_state": "missing",
+        "reported_notes": "No Legal approval or expiry date recorded"
+      },
+      {
+        "id": "GAP-SUPPORT-EVIDENCE-REC-010",
+        "summary": "Supporting artifact exception-draft-008 not separately captured",
+        "evidence_ids": [
+          "EVIDENCE-REC-010"
+        ],
+        "owner": "Communications",
+        "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+        "status": "unresolved"
+      },
+      {
+        "id": "GAP-EXCEPTION-EVIDENCE-REC-010",
+        "summary": "Exception request is not verified Legal approval",
+        "evidence_ids": [
+          "EVIDENCE-REC-010"
+        ],
+        "owner": "Legal",
+        "resolution_need": "Verify criteria, actual approval, scope and expiry",
+        "status": "unresolved",
+        "reported_status": "draft",
+        "reported_notes": "No Legal approval or expiry date recorded"
+      },
+      {
+        "id": "GAP-TRANSITION-AI-005",
+        "summary": "Placed-on-market date not disclosed; transition eligibility unresolved",
+        "evidence_ids": [
+          "SYSTEMS-AI-005",
+          "TIMING-50-2-TRANSITION"
+        ],
+        "owner": "Assessment Operations",
+        "resolution_need": "Verify actor role, synthetic-output facts and placed-on-market date with Legal",
+        "status": "unresolved"
+      }
+    ],
+    "policy_status": "unresolved",
+    "approvals_applied": false,
+    "interpretation_status": "human review pending"
+  },
+  "unresolved": [
+    {
+      "id": "GAP-POLICY",
+      "summary": "POLICY unavailable; no internal controls inferred",
+      "evidence_ids": [
+        "SOURCE-POLICY-original",
+        "SOURCE-POLICY-policy-api"
+      ],
+      "owner": "Facilitator/source owner",
+      "resolution_need": "Provide authorized POLICY content and version",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-SYSTEMS-AI-002",
+      "summary": "SYSTEMS reports evidence_status=partial",
+      "evidence_ids": [
+        "SYSTEMS-AI-002"
+      ],
+      "owner": "Admissions",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "partial",
+      "reported_notes": null
+    },
+    {
+      "id": "GAP-FIELDS-SYSTEMS-AI-005",
+      "summary": "provider_role unresolved: unknown",
+      "evidence_ids": [
+        "SYSTEMS-AI-005"
+      ],
+      "owner": "Assessment Operations",
+      "resolution_need": "Confirm facts/field meaning with source owner",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-SYSTEMS-AI-005",
+      "summary": "SYSTEMS reports evidence_status=stale",
+      "evidence_ids": [
+        "SYSTEMS-AI-005"
+      ],
+      "owner": "Assessment Operations",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "stale",
+      "reported_notes": null
+    },
+    {
+      "id": "ISSUE-SYSTEMS-AI-008",
+      "summary": "SYSTEMS reports evidence_status=partial",
+      "evidence_ids": [
+        "SYSTEMS-AI-008"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "partial",
+      "reported_notes": null
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-001",
+      "summary": "Supporting artifact notice-screen-v3 not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-001"
+      ],
+      "owner": "Learner Operations",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-EVIDENCE-REC-002",
+      "summary": "EVIDENCE reports evidence_state=missing",
+      "evidence_ids": [
+        "EVIDENCE-REC-002"
+      ],
+      "owner": "Admissions",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "missing",
+      "reported_notes": "No evidence that recipients are told when generated text is used"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-002",
+      "summary": "Supporting artifact applicant-email-sample not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-002"
+      ],
+      "owner": "Admissions",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-003",
+      "summary": "Supporting artifact social-post-884 not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-003"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-004",
+      "summary": "Supporting artifact coach-onboarding-v2 not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-004"
+      ],
+      "owner": "Learning Experience",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-EVIDENCE-REC-005",
+      "summary": "EVIDENCE reports evidence_state=stale",
+      "evidence_ids": [
+        "EVIDENCE-REC-005"
+      ],
+      "owner": "Assessment Operations",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "stale",
+      "reported_notes": "Provider role questionnaire predates the current release"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-005",
+      "summary": "Supporting artifact provider-role-questionnaire not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-005"
+      ],
+      "owner": "Assessment Operations",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-006",
+      "summary": "Supporting artifact human-review-sop-v4 not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-006"
+      ],
+      "owner": "Assessment Operations",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-007",
+      "summary": "Supporting artifact internal-use-review not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-007"
+      ],
+      "owner": "People Operations",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-008",
+      "summary": "Supporting artifact avatar-page-capture not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-008"
+      ],
+      "owner": "Marketing",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-EVIDENCE-REC-009",
+      "summary": "EVIDENCE reports evidence_state=partial",
+      "evidence_ids": [
+        "EVIDENCE-REC-009"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "partial",
+      "reported_notes": "Visible label verified but machine-readable provenance not checked"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-009",
+      "summary": "Supporting artifact localisation-export-test not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-009"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-EVIDENCE-REC-010",
+      "summary": "EVIDENCE reports evidence_state=missing",
+      "evidence_ids": [
+        "EVIDENCE-REC-010"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "missing",
+      "reported_notes": "No Legal approval or expiry date recorded"
+    },
+    {
+      "id": "GAP-SUPPORT-EVIDENCE-REC-010",
+      "summary": "Supporting artifact exception-draft-008 not separately captured",
+      "evidence_ids": [
+        "EVIDENCE-REC-010"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Obtain authorized supporting evidence; complete/closed does not mean compliant",
+      "status": "unresolved"
+    },
+    {
+      "id": "GAP-EXCEPTION-EVIDENCE-REC-010",
+      "summary": "Exception request is not verified Legal approval",
+      "evidence_ids": [
+        "EVIDENCE-REC-010"
+      ],
+      "owner": "Legal",
+      "resolution_need": "Verify criteria, actual approval, scope and expiry",
+      "status": "unresolved",
+      "reported_status": "draft",
+      "reported_notes": "No Legal approval or expiry date recorded"
+    },
+    {
+      "id": "GAP-TRANSITION-AI-005",
+      "summary": "Placed-on-market date not disclosed; transition eligibility unresolved",
+      "evidence_ids": [
+        "SYSTEMS-AI-005",
+        "TIMING-50-2-TRANSITION"
+      ],
+      "owner": "Assessment Operations",
+      "resolution_need": "Verify actor role, synthetic-output facts and placed-on-market date with Legal",
+      "status": "unresolved"
+    },
+    {
+      "id": "ISSUE-SYSTEMS-AI-007",
+      "summary": "SYSTEMS reports evidence_status=conflicting",
+      "evidence_ids": [
+        "SYSTEMS-AI-007"
+      ],
+      "owner": "Marketing",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "conflicting",
+      "reported_notes": null
+    },
+    {
+      "id": "ISSUE-EVIDENCE-REC-003",
+      "summary": "EVIDENCE reports evidence_state=conflicting",
+      "evidence_ids": [
+        "EVIDENCE-REC-003"
+      ],
+      "owner": "Communications",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "conflicting",
+      "reported_notes": "Visible label exists but exported platform copy may have lost metadata"
+    },
+    {
+      "id": "ISSUE-EVIDENCE-REC-008",
+      "summary": "EVIDENCE reports evidence_state=conflicting",
+      "evidence_ids": [
+        "EVIDENCE-REC-008"
+      ],
+      "owner": "Marketing",
+      "resolution_need": "Supply/reconcile facts; no compliance determination",
+      "status": "unresolved",
+      "reported_state": "conflicting",
+      "reported_notes": "Owner says a banner exists but the current capture shows none"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DECISION-STAGE-4",
+      "summary": "Preserve claims and withhold formal conclusions/approvals",
+      "evidence_ids": [
+        "RULE-50-1",
+        "RULE-50-2",
+        "RULE-50-3",
+        "RULE-50-4",
+        "RULE-50-5",
+        "RULE-50-6",
+        "RULE-50-7",
+        "TIMING-OJ-ENTRY",
+        "TIMING-AMEND-ENTRY",
+        "TIMING-50-GENERAL",
+        "TIMING-50-2-TRANSITION",
+        "TIMING-113-OTHER-BASES",
+        "CONSOLIDATION-CONTEXT",
+        "GUIDANCE-LAW",
+        "GUIDANCE-TIME",
+        "GUIDANCE-FAQ",
+        "BLOCK-HISTORICAL",
+        "CLAIM-OJ-Article-50",
+        "CLAIM-CONSOLIDATED-Article-50",
+        "CLAIM-AMEND-Article-1-20",
+        "CLAIM-OJ-Article-113",
+        "CLAIM-AMEND-Article-4",
+        "CLAIM-CONSOLIDATED-Article-113",
+        "CLAIM-CONSOLIDATED-Article-111",
+        "CLAIM-AMEND-Article-1-39",
+        "CLAIM-AMEND-Article-1-40",
+        "CLAIM-CONSOLIDATED-Header",
+        "CLAIM-LAW-Context",
+        "CLAIM-TIME-Context",
+        "CLAIM-FAQ-Context",
+        "DECISION-STAGE-3"
+      ],
+      "concern": "Missing evidence and interpretation authority",
+      "options": [
+        "Infer or collapse claims",
+        "Preserve opposing claims and unresolved scope"
+      ],
+      "chosen_behavior": "Preserve",
+      "rationale": "Legal and Operations retain decisions; POLICY cannot be inferred",
+      "tradeoffs": [
+        "Useful bounded preparation; no complete compliance conclusion"
+      ],
+      "downstream_effect": "Stages 05-07 use these authority and evidence records for bounded impact screening, proposed actions and validated local drafts; POLICY remains unresolved, legal interpretation and approvals pending, and publication blocked while required evidence is missing"
+    }
+  ]
+}

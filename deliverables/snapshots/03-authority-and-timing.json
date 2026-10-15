@@ -1,15 +1,15 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-3-fd953ee736ca4ce7848ff18445c55e0b",
-  "run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
+  "snapshot_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9-3-bb5a2d1354104afa926c44b6ce76f6df",
+  "run_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9",
   "stage": "authority-and-timing",
   "sequence": 3,
-  "created_at": "2026-10-14T12:20:34.084749+00:00",
+  "created_at": "2026-10-15T02:27:07.318697+00:00",
   "status": "partial",
   "predecessor": {
-    "snapshot_id": "live-3de35e38c0b44bc9bd964de5baf74737-2",
+    "snapshot_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9-2",
     "path": "snapshots/02-source-capture.json",
-    "sha256": "sha256:f68320634acd6b47141388988d2b1fb55098efba4a36a982d3c693cc8a3bdcb6"
+    "sha256": "sha256:849322bd53c58320a66c887be077683d8f884042be36f52c5c119d47e54216c0"
   },
   "consumed_record_ids": [
     "SOURCE-POLICY-original",
@@ -517,7 +517,7 @@
           "end": 2758,
           "section": "Context"
         },
-        "source_hash": "sha256:89997b2547a7e93a90445865695feb533025085b92febaf1ed404e220aaba422"
+        "source_hash": "sha256:1f3ab3c705d2243e3965747edf90db6ba8e39af8919424c7054a4873566fda21"
       },
       {
         "id": "CLAIM-FAQ-Context",
@@ -532,7 +532,7 @@
           "end": 18179,
           "section": "Context"
         },
-        "source_hash": "sha256:ae2b31a7c6996c13276051f4eb7576c2a0d40746fd4f5d67d01713d9aa7aab49"
+        "source_hash": "sha256:a502c91d1b90f9963086fadec591507e1399d517ce9b36a2aaca5159080622e1"
       }
     ],
     "legal_approval": "pending",

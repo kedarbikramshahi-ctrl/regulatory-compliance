@@ -1,5 +1,5 @@
 {
-  "run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
+  "run_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9",
   "stages_validated": [
     1,
     2,
@@ -21,9 +21,9 @@
   "assessment_complete": false,
   "workflow_status": "finished",
   "source_attempt_count": 17,
-  "supersedes_run_id": "live-f9910087577c4ac9ad82e49b6d5e676d",
-  "prior_bundle_valid": false,
-  "history_path": "C:\\Users\\kedar\\regulatory-compliance\\deliverables\\history\\live-f9910087577c4ac9ad82e49b6d5e676d",
-  "attempt_path": "C:\\Users\\kedar\\regulatory-compliance\\deliverables\\workflow-attempts\\live-3de35e38c0b44bc9bd964de5baf74737",
-  "finished_at": "2026-10-14T12:20:47.272397+00:00"
+  "supersedes_run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
+  "prior_bundle_valid": true,
+  "history_path": "C:\\Users\\kedar\\regulatory-compliance\\deliverables\\history\\live-3de35e38c0b44bc9bd964de5baf74737",
+  "attempt_path": "C:\\Users\\kedar\\regulatory-compliance\\deliverables\\workflow-attempts\\live-cbf3e01bbbaa4176845f4a457fd08ed9",
+  "finished_at": "2026-10-15T02:27:16.078043+00:00"
 }
