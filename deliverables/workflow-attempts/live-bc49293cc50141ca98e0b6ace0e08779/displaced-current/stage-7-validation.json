@@ -1,0 +1,22 @@
+{
+  "run_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9",
+  "stages_validated": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_seven_run_ids_match": true,
+  "schemas_valid": true,
+  "predecessor_hashes_valid": true,
+  "evidence_references_valid": true,
+  "artifact_hashes_valid": true,
+  "request_bindings_valid": true,
+  "final_files_agree_with_stage06": true,
+  "calendar_valid": true,
+  "publication_status": "blocked",
+  "assessment_complete": false
+}

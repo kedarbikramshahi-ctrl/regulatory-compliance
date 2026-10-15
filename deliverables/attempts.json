@@ -9,8 +9,8 @@
     "locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
     "original_locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:51.982478+00:00",
-    "retrieved_at": "2026-10-15T02:26:52.180935+00:00",
+    "started_at": "2026-10-15T03:22:16.416636+00:00",
+    "retrieved_at": "2026-10-15T03:22:16.627985+00:00",
     "retrieval_status": "unavailable",
     "content_type": "text/plain; charset=UTF-8",
     "version_metadata": null,
@@ -20,13 +20,13 @@
     "diagnostic_reference": "sources/SOURCE-POLICY-original.response",
     "diagnostic_hash": "sha256:2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
     "requested_content_available": false,
-    "response_received_at": "2026-10-15T02:26:52.180935+00:00",
+    "response_received_at": "2026-10-15T03:22:16.627985+00:00",
     "http_status": 403,
     "final_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
     "redirects": [],
     "locators": [],
     "resolution_need": "Authorized policy access",
-    "completed_at": "2026-10-15T02:26:52.185419+00:00",
+    "completed_at": "2026-10-15T03:22:16.627985+00:00",
     "transport_limitation": null
   },
   {
@@ -41,8 +41,8 @@
     "request_headers": {
       "Notion-Version": "2026-03-11"
     },
-    "started_at": "2026-10-15T02:26:52.189424+00:00",
-    "retrieved_at": "2026-10-15T02:26:52.479223+00:00",
+    "started_at": "2026-10-15T03:22:16.636707+00:00",
+    "retrieved_at": "2026-10-15T03:22:16.858719+00:00",
     "retrieval_status": "unavailable",
     "content_type": "application/json; charset=utf-8",
     "version_metadata": null,
@@ -50,15 +50,15 @@
     "local_reference": null,
     "mode": "policy-api",
     "diagnostic_reference": "sources/SOURCE-POLICY-policy-api.response",
-    "diagnostic_hash": "sha256:2cdbf3e15ae6e426fbd10a5b80911132bad9f339e1905f3785a1d8c629d6c6fe",
+    "diagnostic_hash": "sha256:84848673516565bd8fb72d3f849b277924aaceec456888126201c58d8a2e360f",
     "requested_content_available": false,
-    "response_received_at": "2026-10-15T02:26:52.479223+00:00",
+    "response_received_at": "2026-10-15T03:22:16.858719+00:00",
     "http_status": 401,
     "final_url": "https://api.notion.com/v1/pages/3ba0b700-541e-81f0-9998-d48f3b1c2856",
     "redirects": [],
     "locators": [],
     "resolution_need": "Authorized policy access",
-    "completed_at": "2026-10-15T02:26:52.481221+00:00",
+    "completed_at": "2026-10-15T03:22:16.858719+00:00",
     "transport_limitation": null
   },
   {
@@ -71,8 +71,8 @@
     "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
     "original_locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:52.483230+00:00",
-    "retrieved_at": "2026-10-15T02:26:53.461726+00:00",
+    "started_at": "2026-10-15T03:22:16.865047+00:00",
+    "retrieved_at": "2026-10-15T03:22:17.788084+00:00",
     "retrieval_status": "retrieved",
     "content_type": "text/html; charset=utf-8",
     "version_metadata": {
@@ -273,13 +273,13 @@
         "register-2026-08-26"
       ]
     },
-    "content_hash": "sha256:c66c32d30c62fb1ef6e34c7bf35d9a73cc7c63a3d742424ddb705df8ed1b757f",
+    "content_hash": "sha256:02ee9684d1cbdfa997733f5f06ae6fe4728b2654d350b8068458a43cef0bf256",
     "local_reference": "sources/SOURCE-SYSTEMS-original.response",
     "mode": "original",
     "diagnostic_reference": "sources/SOURCE-SYSTEMS-original.response",
-    "diagnostic_hash": "sha256:c66c32d30c62fb1ef6e34c7bf35d9a73cc7c63a3d742424ddb705df8ed1b757f",
+    "diagnostic_hash": "sha256:02ee9684d1cbdfa997733f5f06ae6fe4728b2654d350b8068458a43cef0bf256",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:26:53.461726+00:00",
+    "response_received_at": "2026-10-15T03:22:17.788084+00:00",
     "http_status": 200,
     "final_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
     "redirects": [
@@ -304,8 +304,8 @@
       "HTML table row 10"
     ],
     "extract_reference": "sources/SOURCE-SYSTEMS-original.extract.json",
-    "extract_hash": "sha256:d25d65bed433d9884150e41758a679e6dd522c94845f5d4fc4146fc8a915d184",
-    "completed_at": "2026-10-15T02:26:53.557832+00:00",
+    "extract_hash": "sha256:f03dfe70653fc883649694dc23fde17009d8c4db41894a29a54aa855d628bcb2",
+    "completed_at": "2026-10-15T03:22:17.872706+00:00",
     "transport_limitation": null
   },
   {
@@ -318,8 +318,8 @@
     "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
     "original_locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:53.560128+00:00",
-    "retrieved_at": "2026-10-15T02:26:54.729183+00:00",
+    "started_at": "2026-10-15T03:22:17.876419+00:00",
+    "retrieved_at": "2026-10-15T03:22:19.059598+00:00",
     "retrieval_status": "retrieved",
     "content_type": "text/html; charset=utf-8",
     "version_metadata": {
@@ -518,13 +518,13 @@
       ],
       "observed_versions": []
     },
-    "content_hash": "sha256:409893d5b185d4493dbd2b5aba6cb0c7549d8137e1ccc75b751ed8743cf46a07",
+    "content_hash": "sha256:3ae55345948bba595ae0a271e5ab1dd17faa831457233e6eff1f36ea9f8747d2",
     "local_reference": "sources/SOURCE-EVIDENCE-original.response",
     "mode": "original",
     "diagnostic_reference": "sources/SOURCE-EVIDENCE-original.response",
-    "diagnostic_hash": "sha256:409893d5b185d4493dbd2b5aba6cb0c7549d8137e1ccc75b751ed8743cf46a07",
+    "diagnostic_hash": "sha256:3ae55345948bba595ae0a271e5ab1dd17faa831457233e6eff1f36ea9f8747d2",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:26:54.729183+00:00",
+    "response_received_at": "2026-10-15T03:22:19.059598+00:00",
     "http_status": 200,
     "final_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
     "redirects": [
@@ -551,8 +551,8 @@
       "HTML table row 12"
     ],
     "extract_reference": "sources/SOURCE-EVIDENCE-original.extract.json",
-    "extract_hash": "sha256:945cf1c7db50c5c5d42357d2ac78d9df56a079e76dbcf4c5a8b008f8fb513732",
-    "completed_at": "2026-10-15T02:26:54.802721+00:00",
+    "extract_hash": "sha256:63542a85f5f390180bd7eefe2f298ad6f1ab64164cc16f5d2e215dfd8936d5c7",
+    "completed_at": "2026-10-15T03:22:19.123329+00:00",
     "transport_limitation": null
   },
   {
@@ -565,8 +565,8 @@
     "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
     "original_locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:54.802721+00:00",
-    "retrieved_at": "2026-10-15T02:26:55.716953+00:00",
+    "started_at": "2026-10-15T03:22:19.139193+00:00",
+    "retrieved_at": "2026-10-15T03:22:20.052198+00:00",
     "retrieval_status": "retrieved",
     "content_type": "text/html; charset=utf-8",
     "version_metadata": {
@@ -727,13 +727,13 @@
         "calendar-2026-08-26"
       ]
     },
-    "content_hash": "sha256:52998bdb6f4f9ba44910434568de494d373750300b1ee5a1027a406f361cff09",
+    "content_hash": "sha256:d798fcd75fc65254841e923d1d1d3085e3bc50d28e5af005d56382eb524308ec",
     "local_reference": "sources/SOURCE-CALENDAR-original.response",
     "mode": "original",
     "diagnostic_reference": "sources/SOURCE-CALENDAR-original.response",
-    "diagnostic_hash": "sha256:52998bdb6f4f9ba44910434568de494d373750300b1ee5a1027a406f361cff09",
+    "diagnostic_hash": "sha256:d798fcd75fc65254841e923d1d1d3085e3bc50d28e5af005d56382eb524308ec",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:26:55.716953+00:00",
+    "response_received_at": "2026-10-15T03:22:20.052198+00:00",
     "http_status": 200,
     "final_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
     "redirects": [
@@ -758,8 +758,8 @@
       "HTML table row 10"
     ],
     "extract_reference": "sources/SOURCE-CALENDAR-original.extract.json",
-    "extract_hash": "sha256:46b50e65b924a64e83c35669d0842373c9328511b084f656c9d300fc76a8b8a5",
-    "completed_at": "2026-10-15T02:26:55.801697+00:00",
+    "extract_hash": "sha256:eb9e892e7056ca045cbd48bcb038cb577146782cd06d5dd5d56a10f8708c02e5",
+    "completed_at": "2026-10-15T03:22:20.145611+00:00",
     "transport_limitation": null
   },
   {
@@ -772,8 +772,8 @@
     "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
     "original_locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:55.803753+00:00",
-    "retrieved_at": "2026-10-15T02:26:56.427512+00:00",
+    "started_at": "2026-10-15T03:22:20.148384+00:00",
+    "retrieved_at": "2026-10-15T03:22:20.826555+00:00",
     "retrieval_status": "retrieved",
     "content_type": "text/html; charset=utf-8",
     "version_metadata": {
@@ -787,7 +787,7 @@
     "diagnostic_reference": "sources/SOURCE-LAW-original.response",
     "diagnostic_hash": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:26:56.427512+00:00",
+    "response_received_at": "2026-10-15T03:22:20.826555+00:00",
     "http_status": 200,
     "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
     "redirects": [],
@@ -797,12 +797,12 @@
     ],
     "extract_reference": "sources/SOURCE-LAW-original.extract.json",
     "extract_hash": "sha256:3eff908b8cbe10d6c260045bfe51f1f0cba9d3f3e0928628b5c3605718fb700c",
-    "completed_at": "2026-10-15T02:26:56.477759+00:00",
+    "completed_at": "2026-10-15T03:22:20.906825+00:00",
     "transport_limitation": null
   },
   {
     "id": "SOURCE-OJ-original",
-    "summary": "No usable document returned (HTTP 202).",
+    "summary": "Identity/version verified; no legal interpretation or signature verification.",
     "evidence_ids": [],
     "source_name": "OJ",
     "source_role": "binding-regulation",
@@ -810,24 +810,34 @@
     "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
     "original_locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:56.479763+00:00",
-    "retrieved_at": "2026-10-15T02:26:56.595938+00:00",
-    "retrieval_status": "unavailable",
+    "started_at": "2026-10-15T03:22:20.910820+00:00",
+    "retrieved_at": "2026-10-15T03:22:22.110836+00:00",
+    "retrieval_status": "retrieved",
     "content_type": "text/html; charset=UTF-8",
-    "version_metadata": null,
-    "content_hash": null,
-    "local_reference": null,
+    "version_metadata": {
+      "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex Log in English",
+      "historical_suitability": "identified pre-review version; full authority/timing reconciliation deferred to stage 03",
+      "celex": "32024R1689",
+      "publication_date": "12.7.2024",
+      "document_role": "original OJ rendition"
+    },
+    "content_hash": "sha256:be077fb77d0a1e780b36dbc35b71a0d49d2637b94bf07379d3136da2ef760df1",
+    "local_reference": "sources/SOURCE-OJ-original.response",
     "mode": "original",
-    "diagnostic_reference": null,
-    "diagnostic_hash": null,
-    "requested_content_available": false,
-    "response_received_at": "2026-10-15T02:26:56.595938+00:00",
-    "http_status": 202,
+    "diagnostic_reference": "sources/SOURCE-OJ-original.response",
+    "diagnostic_hash": "sha256:be077fb77d0a1e780b36dbc35b71a0d49d2637b94bf07379d3136da2ef760df1",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-15T03:22:22.110836+00:00",
+    "http_status": 200,
     "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
     "redirects": [],
-    "locators": [],
-    "resolution_need": "Verify returned document/access route",
-    "completed_at": "2026-10-15T02:26:56.595938+00:00",
+    "locators": [
+      "Document header/version",
+      "Article 50 (or amendment references)"
+    ],
+    "extract_reference": "sources/SOURCE-OJ-original.extract.json",
+    "extract_hash": "sha256:e305f0a6307c55c6c309ece2e0309078ec36a76796b8ea12a0492fcd9d785976",
+    "completed_at": "2026-10-15T03:22:22.456821+00:00",
     "transport_limitation": null
   },
   {
@@ -843,8 +853,8 @@
       "Accept": "application/xml;notice=tree",
       "Accept-Language": "eng"
     },
-    "started_at": "2026-10-15T02:26:56.608568+00:00",
-    "retrieved_at": "2026-10-15T02:26:57.427556+00:00",
+    "started_at": "2026-10-15T03:22:22.456821+00:00",
+    "retrieved_at": "2026-10-15T03:22:23.257799+00:00",
     "retrieval_status": "retrieved",
     "content_type": "application/xml;notice=tree;charset=UTF-8",
     "version_metadata": {
@@ -865,7 +875,7 @@
     "diagnostic_reference": "sources/SOURCE-OJ-cellar-metadata.response",
     "diagnostic_hash": "sha256:f51011cd3bb6ecf95c71b4f2c16a81614ec79ee025219d4ed374bb26ecb75500",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:26:57.427556+00:00",
+    "response_received_at": "2026-10-15T03:22:23.257799+00:00",
     "http_status": 200,
     "final_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1/xml/tree?decoding=en",
     "redirects": [
@@ -879,7 +889,7 @@
     ],
     "extract_reference": "sources/SOURCE-OJ-cellar-metadata.extract.json",
     "extract_hash": "sha256:42d2e2aeaf226f4902889be63162df210df49fa48687e73ba5f4f26067ae8112",
-    "completed_at": "2026-10-15T02:26:57.788432+00:00",
+    "completed_at": "2026-10-15T03:22:23.661297+00:00",
     "transport_limitation": "HTTP redirect observed"
   },
   {
@@ -895,8 +905,8 @@
       "Accept": "application/xhtml+xml",
       "Accept-Language": "eng"
     },
-    "started_at": "2026-10-15T02:26:57.790457+00:00",
-    "retrieved_at": "2026-10-15T02:26:58.659927+00:00",
+    "started_at": "2026-10-15T03:22:23.665544+00:00",
+    "retrieved_at": "2026-10-15T03:22:24.540114+00:00",
     "retrieval_status": "retrieved",
     "content_type": "application/xhtml+xml;charset=UTF-8",
     "version_metadata": {
@@ -912,7 +922,7 @@
     "diagnostic_reference": "sources/SOURCE-OJ-cellar-content.response",
     "diagnostic_hash": "sha256:8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:26:58.659927+00:00",
+    "response_received_at": "2026-10-15T03:22:24.540114+00:00",
     "http_status": 200,
     "final_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0006.03/DOC_1",
     "redirects": [
@@ -927,12 +937,12 @@
     ],
     "extract_reference": "sources/SOURCE-OJ-cellar-content.extract.json",
     "extract_hash": "sha256:eb9df55772b4a5b5a51224e3c7ab2302bbd19da24168b004ed3ff35ac1b6ef58",
-    "completed_at": "2026-10-15T02:26:58.959628+00:00",
+    "completed_at": "2026-10-15T03:22:24.857061+00:00",
     "transport_limitation": "HTTP redirect observed"
   },
   {
     "id": "SOURCE-AMEND-original",
-    "summary": "No usable document returned (HTTP 202).",
+    "summary": "Identity/version verified; no legal interpretation or signature verification.",
     "evidence_ids": [],
     "source_name": "AMEND",
     "source_role": "binding-regulation",
@@ -940,24 +950,34 @@
     "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
     "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
     "request_headers": {},
-    "started_at": "2026-10-15T02:26:58.977377+00:00",
-    "retrieved_at": "2026-10-15T02:26:59.099297+00:00",
-    "retrieval_status": "unavailable",
+    "started_at": "2026-10-15T03:22:24.861062+00:00",
+    "retrieved_at": "2026-10-15T03:22:25.764584+00:00",
+    "retrieval_status": "retrieved",
     "content_type": "text/html; charset=UTF-8",
-    "version_metadata": null,
-    "content_hash": null,
-    "local_reference": null,
+    "version_metadata": {
+      "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex Log in English",
+      "historical_suitability": "identified pre-review version; full authority/timing reconciliation deferred to stage 03",
+      "celex": "32026R1744",
+      "publication_date": "24.7.2026",
+      "document_role": "original OJ rendition"
+    },
+    "content_hash": "sha256:d4d4af66d3f9dda50b69b2ba4d521b4814469248630cf0231b9c82ca176aa27f",
+    "local_reference": "sources/SOURCE-AMEND-original.response",
     "mode": "original",
-    "diagnostic_reference": null,
-    "diagnostic_hash": null,
-    "requested_content_available": false,
-    "response_received_at": "2026-10-15T02:26:59.099297+00:00",
-    "http_status": 202,
+    "diagnostic_reference": "sources/SOURCE-AMEND-original.response",
+    "diagnostic_hash": "sha256:d4d4af66d3f9dda50b69b2ba4d521b4814469248630cf0231b9c82ca176aa27f",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-15T03:22:25.764584+00:00",
+    "http_status": 200,
     "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
     "redirects": [],
-    "locators": [],
-    "resolution_need": "Verify returned document/access route",
-    "completed_at": "2026-10-15T02:26:59.099297+00:00",
+    "locators": [
+      "Document header/version",
+      "Article 50 (or amendment references)"
+    ],
+    "extract_reference": "sources/SOURCE-AMEND-original.extract.json",
+    "extract_hash": "sha256:d78322e96ad130bb809af6cabe0a437fb5513c0e2dd498fda7349c661dc1d386",
+    "completed_at": "2026-10-15T03:22:25.911720+00:00",
     "transport_limitation": null
   },
   {
@@ -973,8 +993,8 @@
       "Accept": "application/xml;notice=tree",
       "Accept-Language": "eng"
     },
-    "started_at": "2026-10-15T02:26:59.099297+00:00",
-    "retrieved_at": "2026-10-15T02:27:00.037380+00:00",
+    "started_at": "2026-10-15T03:22:25.927471+00:00",
+    "retrieved_at": "2026-10-15T03:22:26.801494+00:00",
     "retrieval_status": "retrieved",
     "content_type": "application/xml;notice=tree;charset=UTF-8",
     "version_metadata": {
@@ -995,7 +1015,7 @@
     "diagnostic_reference": "sources/SOURCE-AMEND-cellar-metadata.response",
     "diagnostic_hash": "sha256:89e59451d13fdb0a272410d24e89a6c78e8472f901c48899e500c09045527efd",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:27:00.037380+00:00",
+    "response_received_at": "2026-10-15T03:22:26.801494+00:00",
     "http_status": 200,
     "final_url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1/xml/tree?decoding=en",
     "redirects": [
@@ -1009,7 +1029,7 @@
     ],
     "extract_reference": "sources/SOURCE-AMEND-cellar-metadata.extract.json",
     "extract_hash": "sha256:66a9304bd04519e6e6e02b12835a2e1dbf1f6f5496354def583af04da96468be",
-    "completed_at": "2026-10-15T02:27:00.446076+00:00",
+    "completed_at": "2026-10-15T03:22:27.243158+00:00",
     "transport_limitation": "HTTP redirect observed"
   },
   {
@@ -1025,8 +1045,8 @@
       "Accept": "application/xhtml+xml",
       "Accept-Language": "eng"
     },
-    "started_at": "2026-10-15T02:27:00.451011+00:00",
-    "retrieved_at": "2026-10-15T02:27:01.231310+00:00",
+    "started_at": "2026-10-15T03:22:27.243158+00:00",
+    "retrieved_at": "2026-10-15T03:22:28.012829+00:00",
     "retrieval_status": "retrieved",
     "content_type": "application/xhtml+xml;charset=UTF-8",
     "version_metadata": {
@@ -1042,7 +1062,7 @@
     "diagnostic_reference": "sources/SOURCE-AMEND-cellar-content.response",
     "diagnostic_hash": "sha256:9d754652b867722807e4219c85912ce354233e58a1b4eb8c7752b4d1922993db",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:27:01.231310+00:00",
+    "response_received_at": "2026-10-15T03:22:28.012829+00:00",
     "http_status": 200,
     "final_url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1.0006.03/DOC_1",
     "redirects": [
@@ -1057,12 +1077,12 @@
     ],
     "extract_reference": "sources/SOURCE-AMEND-cellar-content.extract.json",
     "extract_hash": "sha256:753ddde16e6fcabc0a80d53a380d76c3c54f6e8e4467459c4eecbe280be8ce5a",
-    "completed_at": "2026-10-15T02:27:01.351112+00:00",
+    "completed_at": "2026-10-15T03:22:28.162969+00:00",
     "transport_limitation": "HTTP redirect observed"
   },
   {
     "id": "SOURCE-CONSOLIDATED-original",
-    "summary": "No usable document returned (HTTP 202).",
+    "summary": "Identity/version verified; no legal interpretation or signature verification.",
     "evidence_ids": [],
     "source_name": "CONSOLIDATED",
     "source_role": "other",
@@ -1070,24 +1090,35 @@
     "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
     "original_locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
     "request_headers": {},
-    "started_at": "2026-10-15T02:27:01.353082+00:00",
-    "retrieved_at": "2026-10-15T02:27:01.413734+00:00",
-    "retrieval_status": "unavailable",
+    "started_at": "2026-10-15T03:22:28.167316+00:00",
+    "retrieved_at": "2026-10-15T03:22:29.435375+00:00",
+    "retrieval_status": "retrieved",
     "content_type": "text/html; charset=UTF-8",
-    "version_metadata": null,
-    "content_hash": null,
-    "local_reference": null,
+    "version_metadata": {
+      "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex Log in English",
+      "historical_suitability": "identified pre-review version; full authority/timing reconciliation deferred to stage 03",
+      "celex": "02024R1689-20260727",
+      "version_date": "27.07.2026",
+      "revision": "001.001",
+      "document_role": "documentation consolidation; not an authentic OJ act"
+    },
+    "content_hash": "sha256:f91e11ab371c13b1762b02c1363bf83f21be406539661fb1342170048aeec1d7",
+    "local_reference": "sources/SOURCE-CONSOLIDATED-original.response",
     "mode": "original",
-    "diagnostic_reference": null,
-    "diagnostic_hash": null,
-    "requested_content_available": false,
-    "response_received_at": "2026-10-15T02:27:01.413734+00:00",
-    "http_status": 202,
+    "diagnostic_reference": "sources/SOURCE-CONSOLIDATED-original.response",
+    "diagnostic_hash": "sha256:f91e11ab371c13b1762b02c1363bf83f21be406539661fb1342170048aeec1d7",
+    "requested_content_available": true,
+    "response_received_at": "2026-10-15T03:22:29.435375+00:00",
+    "http_status": 200,
     "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
     "redirects": [],
-    "locators": [],
-    "resolution_need": "Verify returned document/access route",
-    "completed_at": "2026-10-15T02:27:01.413734+00:00",
+    "locators": [
+      "Document header/version",
+      "Article 50 (or amendment references)"
+    ],
+    "extract_reference": "sources/SOURCE-CONSOLIDATED-original.extract.json",
+    "extract_hash": "sha256:f7b6c323fd836fcd4661e77ee57aa2e43abad25946a5ab8322f7cd3aef4e5ecc",
+    "completed_at": "2026-10-15T03:22:29.712356+00:00",
     "transport_limitation": null
   },
   {
@@ -1103,8 +1134,8 @@
       "Accept": "application/xml;notice=tree",
       "Accept-Language": "eng"
     },
-    "started_at": "2026-10-15T02:27:01.418745+00:00",
-    "retrieved_at": "2026-10-15T02:27:02.152386+00:00",
+    "started_at": "2026-10-15T03:22:29.717397+00:00",
+    "retrieved_at": "2026-10-15T03:22:30.412092+00:00",
     "retrieval_status": "retrieved",
     "content_type": "application/xml;notice=tree;charset=UTF-8",
     "version_metadata": {
@@ -1125,7 +1156,7 @@
     "diagnostic_reference": "sources/SOURCE-CONSOLIDATED-cellar-metadata.response",
     "diagnostic_hash": "sha256:893e0aa27e30736f6880c376c11c6b093cb7f3fd93993b5286a8dcde8aa5430e",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:27:02.152386+00:00",
+    "response_received_at": "2026-10-15T03:22:30.412092+00:00",
     "http_status": 200,
     "final_url": "http://publications.europa.eu/resource/cellar/b1730fb2-8f1c-11f1-9262-01aa75ed71a1/xml/tree?decoding=en",
     "redirects": [
@@ -1139,7 +1170,7 @@
     ],
     "extract_reference": "sources/SOURCE-CONSOLIDATED-cellar-metadata.extract.json",
     "extract_hash": "sha256:99d003165ec00c4c089fe0c30415d53e562775077235419b79d196c086aea6e4",
-    "completed_at": "2026-10-15T02:27:02.370906+00:00",
+    "completed_at": "2026-10-15T03:22:30.647394+00:00",
     "transport_limitation": "HTTP redirect observed"
   },
   {
@@ -1155,8 +1186,8 @@
       "Accept": "application/xhtml+xml",
       "Accept-Language": "eng"
     },
-    "started_at": "2026-10-15T02:27:02.374199+00:00",
-    "retrieved_at": "2026-10-15T02:27:03.218552+00:00",
+    "started_at": "2026-10-15T03:22:30.651354+00:00",
+    "retrieved_at": "2026-10-15T03:22:31.781697+00:00",
     "retrieval_status": "retrieved",
     "content_type": "application/xhtml+xml;charset=UTF-8",
     "version_metadata": {
@@ -1173,7 +1204,7 @@
     "diagnostic_reference": "sources/SOURCE-CONSOLIDATED-cellar-content.response",
     "diagnostic_hash": "sha256:5e7719f77e8a606b257dc25958ee3222c4383300a5a34270a5b850a2ce8b8715",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:27:03.218552+00:00",
+    "response_received_at": "2026-10-15T03:22:31.781697+00:00",
     "http_status": 200,
     "final_url": "http://publications.europa.eu/resource/cellar/b1730fb2-8f1c-11f1-9262-01aa75ed71a1.0001.03/DOC_1",
     "redirects": [
@@ -1188,7 +1219,7 @@
     ],
     "extract_reference": "sources/SOURCE-CONSOLIDATED-cellar-content.extract.json",
     "extract_hash": "sha256:6094af3c72a0e7be62bcb90aa3dddb054b588e6563c2ce234cce203fdb8fe847",
-    "completed_at": "2026-10-15T02:27:03.439487+00:00",
+    "completed_at": "2026-10-15T03:22:32.005384+00:00",
     "transport_limitation": "HTTP redirect observed"
   },
   {
@@ -1201,8 +1232,8 @@
     "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
     "original_locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
     "request_headers": {},
-    "started_at": "2026-10-15T02:27:03.445551+00:00",
-    "retrieved_at": "2026-10-15T02:27:03.944544+00:00",
+    "started_at": "2026-10-15T03:22:32.021242+00:00",
+    "retrieved_at": "2026-10-15T03:22:32.602797+00:00",
     "retrieval_status": "retrieved",
     "content_type": "text/html; charset=utf-8",
     "version_metadata": {
@@ -1215,7 +1246,7 @@
     "diagnostic_reference": "sources/SOURCE-TIME-original.response",
     "diagnostic_hash": "sha256:1f3ab3c705d2243e3965747edf90db6ba8e39af8919424c7054a4873566fda21",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:27:03.944544+00:00",
+    "response_received_at": "2026-10-15T03:22:32.602797+00:00",
     "http_status": 200,
     "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
     "redirects": [],
@@ -1225,7 +1256,7 @@
     ],
     "extract_reference": "sources/SOURCE-TIME-original.extract.json",
     "extract_hash": "sha256:e08642c36f6df5ce1a2f53731ffd718f5f6cbf04e27689bd9c2ed50e2c194305",
-    "completed_at": "2026-10-15T02:27:03.977437+00:00",
+    "completed_at": "2026-10-15T03:22:32.633611+00:00",
     "transport_limitation": null
   },
   {
@@ -1238,8 +1269,8 @@
     "locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
     "original_locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
     "request_headers": {},
-    "started_at": "2026-10-15T02:27:03.977437+00:00",
-    "retrieved_at": "2026-10-15T02:27:04.188199+00:00",
+    "started_at": "2026-10-15T03:22:32.633611+00:00",
+    "retrieved_at": "2026-10-15T03:22:32.889105+00:00",
     "retrieval_status": "retrieved",
     "content_type": "text/html; charset=UTF-8",
     "version_metadata": {
@@ -1247,13 +1278,13 @@
       "historical_suitability": "context only; version/date suitability not a legal applicability decision",
       "last_update": "24 July 2026"
     },
-    "content_hash": "sha256:a502c91d1b90f9963086fadec591507e1399d517ce9b36a2aaca5159080622e1",
+    "content_hash": "sha256:362a9be7da41318b0a9501a69aaaf6b8072dbe6a9d360d5f6519d3704704aa61",
     "local_reference": "sources/SOURCE-FAQ-original.response",
     "mode": "original",
     "diagnostic_reference": "sources/SOURCE-FAQ-original.response",
-    "diagnostic_hash": "sha256:a502c91d1b90f9963086fadec591507e1399d517ce9b36a2aaca5159080622e1",
+    "diagnostic_hash": "sha256:362a9be7da41318b0a9501a69aaaf6b8072dbe6a9d360d5f6519d3704704aa61",
     "requested_content_available": true,
-    "response_received_at": "2026-10-15T02:27:04.188199+00:00",
+    "response_received_at": "2026-10-15T03:22:32.889105+00:00",
     "http_status": 200,
     "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
     "redirects": [],
@@ -1262,8 +1293,8 @@
       "Visible text passages"
     ],
     "extract_reference": "sources/SOURCE-FAQ-original.extract.json",
-    "extract_hash": "sha256:68a959ae618550331cc0614fcb974b44c428d0a58bcb4ffca2d014a8bc4bf125",
-    "completed_at": "2026-10-15T02:27:04.246411+00:00",
+    "extract_hash": "sha256:e8b0e5b1069440d4bf9c2f86b87c4a027ff6150d10ffeb319661c0740439e49f",
+    "completed_at": "2026-10-15T03:22:32.936801+00:00",
     "transport_limitation": null
   }
 ]

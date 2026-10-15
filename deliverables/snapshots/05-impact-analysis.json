@@ -1,17 +1,18 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9-5-085110daa6404377b174f82586321f0a",
-  "run_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9",
+  "snapshot_id": "live-bc49293cc50141ca98e0b6ace0e08779-5-f60e9d612fd14ca29bdc9d1f685a3da7",
+  "run_id": "live-bc49293cc50141ca98e0b6ace0e08779",
   "stage": "impact-analysis",
   "sequence": 5,
-  "created_at": "2026-10-15T02:27:09.236530+00:00",
+  "created_at": "2026-10-15T03:22:37.668927+00:00",
   "status": "partial",
   "predecessor": {
-    "snapshot_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9-4-1d654b6647d74dca8fdb2a9c844ea29a",
+    "snapshot_id": "live-bc49293cc50141ca98e0b6ace0e08779-4-a1cc693a11ad4dc8925edce3082c0c3d",
     "path": "snapshots/04-evidence-reconciliation.json",
-    "sha256": "sha256:4de03b668aa18c24da9a5b128896815863fcd55131aab98e0985c6cf19dec4ba"
+    "sha256": "sha256:ab6ea60e4acab4fe0e9fd16dd6c8834c591592179000fb3f727d28ef982aee70"
   },
   "consumed_record_ids": [
+    "BLOCK-AUTHORITY",
     "BLOCK-HISTORICAL",
     "CALENDAR-ACT-001",
     "CALENDAR-ACT-002",
@@ -22,20 +23,9 @@
     "CALENDAR-ACT-007",
     "CALENDAR-ACT-008",
     "CAPTURE-DECISION",
-    "CLAIM-AMEND-Article-1-20",
-    "CLAIM-AMEND-Article-1-39",
-    "CLAIM-AMEND-Article-1-40",
-    "CLAIM-AMEND-Article-4",
-    "CLAIM-CONSOLIDATED-Article-111",
-    "CLAIM-CONSOLIDATED-Article-113",
-    "CLAIM-CONSOLIDATED-Article-50",
-    "CLAIM-CONSOLIDATED-Header",
     "CLAIM-FAQ-Context",
     "CLAIM-LAW-Context",
-    "CLAIM-OJ-Article-113",
-    "CLAIM-OJ-Article-50",
     "CLAIM-TIME-Context",
-    "CONSOLIDATION-CONTEXT",
     "DECISION-STAGE-3",
     "DECISION-STAGE-4",
     "EVIDENCE-REC-001",
@@ -83,13 +73,6 @@
     "JOIN-AI-006",
     "JOIN-AI-007",
     "JOIN-AI-008",
-    "RULE-50-1",
-    "RULE-50-2",
-    "RULE-50-3",
-    "RULE-50-4",
-    "RULE-50-5",
-    "RULE-50-6",
-    "RULE-50-7",
     "SCOPE",
     "SOURCE-AMEND-cellar-content",
     "SOURCE-AMEND-cellar-metadata",
@@ -116,14 +99,10 @@
     "SYSTEMS-AI-006",
     "SYSTEMS-AI-007",
     "SYSTEMS-AI-008",
-    "TIMING-113-OTHER-BASES",
-    "TIMING-50-2-TRANSITION",
-    "TIMING-50-GENERAL",
-    "TIMING-AMEND-ENTRY",
-    "TIMING-OJ-ENTRY",
     "UNRESOLVED-POLICY"
   ],
   "produced_record_ids": [
+    "BLOCK-AUTHORITY",
     "BLOCK-HISTORICAL",
     "DECISION-MILESTONE3-5",
     "GAP-EXCEPTION-EVIDENCE-REC-010",
@@ -236,17 +215,16 @@
     "impacts": [
       {
         "id": "IMPACT-AI-001-50-1",
-        "summary": "Direct-interaction provider notice: Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-1"
+          "EVIDENCE-REC-001"
         ],
         "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-1",
         "owner": "Learner Operations",
-        "reason": "Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -285,17 +263,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-2",
-        "summary": "Provider machine-readable marking: Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-2"
+          "EVIDENCE-REC-001"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-2",
         "owner": "Learner Operations",
-        "reason": "Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -334,17 +311,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-3"
+          "EVIDENCE-REC-001"
         ],
         "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-3",
         "owner": "Learner Operations",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -383,17 +359,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-4-image",
-        "summary": "Deployer deep-fake disclosure: The captured output description does not report image/audio/video generation; bounded screening only.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-4"
+          "EVIDENCE-REC-001"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-4",
         "owner": "Learner Operations",
-        "reason": "The captured output description does not report image/audio/video generation; bounded screening only.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -432,17 +407,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-4-text",
-        "summary": "Public-interest text disclosure: Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-4"
+          "EVIDENCE-REC-001"
         ],
         "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-4",
         "owner": "Learner Operations",
-        "reason": "Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -481,17 +455,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-5",
-        "summary": "Notice timing, clarity and accessibility: Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-5"
+          "EVIDENCE-REC-001"
         ],
         "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-5",
         "owner": "Learner Operations",
-        "reason": "Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -530,17 +503,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-6"
+          "EVIDENCE-REC-001"
         ],
         "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-6",
         "owner": "Learner Operations",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -579,17 +551,16 @@
       },
       {
         "id": "IMPACT-AI-001-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "RULE-50-7"
+          "EVIDENCE-REC-001"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "RULE-50-7",
         "owner": "Learner Operations",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -628,17 +599,16 @@
       },
       {
         "id": "IMPACT-AI-001-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-001",
-          "EVIDENCE-REC-001",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-001"
         ],
         "state": "unresolved",
         "system_id": "AI-001",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Learner Operations",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "2",
@@ -726,17 +696,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-1",
-        "summary": "Direct-interaction provider notice: Provider role is reported no and output is not direct interaction.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-1"
+          "EVIDENCE-REC-002"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-1",
         "owner": "Admissions",
-        "reason": "Provider role is reported no and output is not direct interaction.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -775,17 +744,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-2",
-        "summary": "Provider machine-readable marking: Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-2"
+          "EVIDENCE-REC-002"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-2",
         "owner": "Admissions",
-        "reason": "Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -824,17 +792,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-3"
+          "EVIDENCE-REC-002"
         ],
         "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-3",
         "owner": "Admissions",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -873,17 +840,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-4-image",
-        "summary": "Deployer deep-fake disclosure: The captured output description does not report image/audio/video generation; bounded screening only.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-4"
+          "EVIDENCE-REC-002"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-4",
         "owner": "Admissions",
-        "reason": "The captured output description does not report image/audio/video generation; bounded screening only.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -922,17 +888,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-4-text",
-        "summary": "Public-interest text disclosure: Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-4"
+          "EVIDENCE-REC-002"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-4",
         "owner": "Admissions",
-        "reason": "Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -971,17 +936,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-5",
-        "summary": "Notice timing, clarity and accessibility: Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-5"
+          "EVIDENCE-REC-002"
         ],
         "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-5",
         "owner": "Admissions",
-        "reason": "Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -1020,17 +984,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-6"
+          "EVIDENCE-REC-002"
         ],
         "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-6",
         "owner": "Admissions",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -1069,17 +1032,16 @@
       },
       {
         "id": "IMPACT-AI-002-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "RULE-50-7"
+          "EVIDENCE-REC-002"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "RULE-50-7",
         "owner": "Admissions",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -1118,17 +1080,16 @@
       },
       {
         "id": "IMPACT-AI-002-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-002",
-          "EVIDENCE-REC-002",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-002"
         ],
         "state": "unresolved",
         "system_id": "AI-002",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Admissions",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "3",
@@ -1216,17 +1177,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-1",
-        "summary": "Direct-interaction provider notice: Provider role is reported no and output is not direct interaction.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-1"
+          "EVIDENCE-REC-003"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-1",
         "owner": "Communications",
-        "reason": "Provider role is reported no and output is not direct interaction.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1265,17 +1225,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-2",
-        "summary": "Provider machine-readable marking: Visible-label and exported-metadata claims differ in subject; provenance concern needs investigation, not inference of provider liability.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Visible-label and exported-metadata claims differ in subject; provenance concern needs investigation, not inference of provider liability.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-2"
+          "EVIDENCE-REC-003"
         ],
-        "state": "conflicting",
+        "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-2",
         "owner": "Communications",
-        "reason": "Visible-label and exported-metadata claims differ in subject; provenance concern needs investigation, not inference of provider liability.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Visible-label and exported-metadata claims differ in subject; provenance concern needs investigation, not inference of provider liability.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1314,17 +1273,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-3"
+          "EVIDENCE-REC-003"
         ],
         "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-3",
         "owner": "Communications",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1363,17 +1321,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-4-image",
-        "summary": "Deployer deep-fake disclosure: Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-4"
+          "EVIDENCE-REC-003"
         ],
         "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-4",
         "owner": "Communications",
-        "reason": "Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1412,17 +1369,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-4-text",
-        "summary": "Public-interest text disclosure: Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-4"
+          "EVIDENCE-REC-003"
         ],
         "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-4",
         "owner": "Communications",
-        "reason": "Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1461,17 +1417,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-5",
-        "summary": "Notice timing, clarity and accessibility: Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-5"
+          "EVIDENCE-REC-003"
         ],
         "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-5",
         "owner": "Communications",
-        "reason": "Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1510,17 +1465,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-6"
+          "EVIDENCE-REC-003"
         ],
         "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-6",
         "owner": "Communications",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1559,17 +1513,16 @@
       },
       {
         "id": "IMPACT-AI-003-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "RULE-50-7"
+          "EVIDENCE-REC-003"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "RULE-50-7",
         "owner": "Communications",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1608,17 +1561,16 @@
       },
       {
         "id": "IMPACT-AI-003-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-003",
-          "EVIDENCE-REC-003",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-003"
         ],
         "state": "unresolved",
         "system_id": "AI-003",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Communications",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "4",
@@ -1706,17 +1658,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-1",
-        "summary": "Direct-interaction provider notice: Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-1"
+          "EVIDENCE-REC-004"
         ],
-        "state": "supported-impact",
+        "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-1",
         "owner": "Learning Experience",
-        "reason": "Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -1755,17 +1706,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-2",
-        "summary": "Provider machine-readable marking: Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-2"
+          "EVIDENCE-REC-004"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-2",
         "owner": "Learning Experience",
-        "reason": "Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -1804,17 +1754,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-3"
+          "EVIDENCE-REC-004"
         ],
         "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-3",
         "owner": "Learning Experience",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -1853,17 +1802,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-4-image",
-        "summary": "Deployer deep-fake disclosure: The captured output description does not report image/audio/video generation; bounded screening only.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-4"
+          "EVIDENCE-REC-004"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-4",
         "owner": "Learning Experience",
-        "reason": "The captured output description does not report image/audio/video generation; bounded screening only.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -1902,17 +1850,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-4-text",
-        "summary": "Public-interest text disclosure: Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-4"
+          "EVIDENCE-REC-004"
         ],
         "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-4",
         "owner": "Learning Experience",
-        "reason": "Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -1951,17 +1898,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-5",
-        "summary": "Notice timing, clarity and accessibility: Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-5"
+          "EVIDENCE-REC-004"
         ],
-        "state": "supported-impact",
+        "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-5",
         "owner": "Learning Experience",
-        "reason": "Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Registers support a notice-remediation review need; this is not a finding of legal breach or established provider liability.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -2000,17 +1946,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-6"
+          "EVIDENCE-REC-004"
         ],
         "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-6",
         "owner": "Learning Experience",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -2049,17 +1994,16 @@
       },
       {
         "id": "IMPACT-AI-004-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "RULE-50-7"
+          "EVIDENCE-REC-004"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "RULE-50-7",
         "owner": "Learning Experience",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -2098,17 +2042,16 @@
       },
       {
         "id": "IMPACT-AI-004-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-004",
-          "EVIDENCE-REC-004",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-004"
         ],
         "state": "unresolved",
         "system_id": "AI-004",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Learning Experience",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "5",
@@ -2196,18 +2139,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-1",
-        "summary": "Direct-interaction provider notice: Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-1"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-1",
         "owner": "Assessment Operations",
-        "reason": "Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify provider responsibility, direct interaction and the obviousness/other exceptions; deployer=yes alone does not establish provider duty.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2259,18 +2201,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-2",
-        "summary": "Provider machine-readable marking: Provider role and synthetic generation facts require confirmation; visible notice is not machine-readable marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Provider role and synthetic generation facts require confirmation; visible notice is not machine-readable marking.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-2"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-2",
         "owner": "Assessment Operations",
-        "reason": "Provider role and synthetic generation facts require confirmation; visible notice is not machine-readable marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Provider role and synthetic generation facts require confirmation; visible notice is not machine-readable marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2322,18 +2263,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-3"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-3",
         "owner": "Assessment Operations",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2385,18 +2325,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-4-image",
-        "summary": "Deployer deep-fake disclosure: The captured output description does not report image/audio/video generation; bounded screening only.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-4"
+          "EVIDENCE-REC-006"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-4",
         "owner": "Assessment Operations",
-        "reason": "The captured output description does not report image/audio/video generation; bounded screening only.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2448,18 +2387,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-4-text",
-        "summary": "Public-interest text disclosure: Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-4"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-4",
         "owner": "Assessment Operations",
-        "reason": "Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2511,18 +2449,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-5",
-        "summary": "Notice timing, clarity and accessibility: Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-5"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-5",
         "owner": "Assessment Operations",
-        "reason": "Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2574,18 +2511,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-6"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-6",
         "owner": "Assessment Operations",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2637,18 +2573,17 @@
       },
       {
         "id": "IMPACT-AI-005-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "RULE-50-7"
+          "EVIDENCE-REC-006"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "RULE-50-7",
         "owner": "Assessment Operations",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2700,18 +2635,17 @@
       },
       {
         "id": "IMPACT-AI-005-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-005",
           "EVIDENCE-REC-005",
-          "EVIDENCE-REC-006",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-006"
         ],
         "state": "unresolved",
         "system_id": "AI-005",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Assessment Operations",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "6",
@@ -2826,17 +2760,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-1",
-        "summary": "Direct-interaction provider notice: Provider role is reported no and output is not direct interaction.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-1"
+          "EVIDENCE-REC-007"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-1",
         "owner": "People Operations",
-        "reason": "Provider role is reported no and output is not direct interaction.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -2875,17 +2808,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-2",
-        "summary": "Provider machine-readable marking: Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-2"
+          "EVIDENCE-REC-007"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-2",
         "owner": "People Operations",
-        "reason": "Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -2924,17 +2856,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-3"
+          "EVIDENCE-REC-007"
         ],
         "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-3",
         "owner": "People Operations",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -2973,17 +2904,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-4-image",
-        "summary": "Deployer deep-fake disclosure: The captured output description does not report image/audio/video generation; bounded screening only.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-4"
+          "EVIDENCE-REC-007"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-4",
         "owner": "People Operations",
-        "reason": "The captured output description does not report image/audio/video generation; bounded screening only.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -3022,17 +2952,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-4-text",
-        "summary": "Public-interest text disclosure: Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-4"
+          "EVIDENCE-REC-007"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-4",
         "owner": "People Operations",
-        "reason": "Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Recorded use is internal staff notes or individual applicant replies, not reported public-interest publication; reassess if actual publication differs.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -3071,17 +3000,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-5",
-        "summary": "Notice timing, clarity and accessibility: Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-5"
+          "EVIDENCE-REC-007"
         ],
         "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-5",
         "owner": "People Operations",
-        "reason": "Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -3120,17 +3048,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-6"
+          "EVIDENCE-REC-007"
         ],
         "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-6",
         "owner": "People Operations",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -3169,17 +3096,16 @@
       },
       {
         "id": "IMPACT-AI-006-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "RULE-50-7"
+          "EVIDENCE-REC-007"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "RULE-50-7",
         "owner": "People Operations",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -3218,17 +3144,16 @@
       },
       {
         "id": "IMPACT-AI-006-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-006",
-          "EVIDENCE-REC-007",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-007"
         ],
         "state": "unresolved",
         "system_id": "AI-006",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "People Operations",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "7",
@@ -3316,17 +3241,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-1",
-        "summary": "Direct-interaction provider notice: Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-1"
+          "EVIDENCE-REC-008"
         ],
-        "state": "conflicting",
+        "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-1",
         "owner": "Marketing",
-        "reason": "Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3365,17 +3289,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-2",
-        "summary": "Provider machine-readable marking: Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-2"
+          "EVIDENCE-REC-008"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-2",
         "owner": "Marketing",
-        "reason": "Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3414,17 +3337,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-3"
+          "EVIDENCE-REC-008"
         ],
         "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-3",
         "owner": "Marketing",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3463,17 +3385,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-4-image",
-        "summary": "Deployer deep-fake disclosure: The captured output description does not report image/audio/video generation; bounded screening only.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-4"
+          "EVIDENCE-REC-008"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-4",
         "owner": "Marketing",
-        "reason": "The captured output description does not report image/audio/video generation; bounded screening only.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. The captured output description does not report image/audio/video generation; bounded screening only.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3512,17 +3433,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-4-text",
-        "summary": "Public-interest text disclosure: Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-4"
+          "EVIDENCE-REC-008"
         ],
         "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-4",
         "owner": "Marketing",
-        "reason": "Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3561,17 +3481,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-5",
-        "summary": "Notice timing, clarity and accessibility: Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-5"
+          "EVIDENCE-REC-008"
         ],
-        "state": "conflicting",
+        "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-5",
         "owner": "Marketing",
-        "reason": "Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Opposing notice claims remain unresolved; preserve register and incident statements without choosing a winner.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3610,17 +3529,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-6"
+          "EVIDENCE-REC-008"
         ],
         "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-6",
         "owner": "Marketing",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3659,17 +3577,16 @@
       },
       {
         "id": "IMPACT-AI-007-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "RULE-50-7"
+          "EVIDENCE-REC-008"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "RULE-50-7",
         "owner": "Marketing",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3708,17 +3625,16 @@
       },
       {
         "id": "IMPACT-AI-007-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-007",
-          "EVIDENCE-REC-008",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-008"
         ],
         "state": "unresolved",
         "system_id": "AI-007",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Marketing",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "8",
@@ -3806,18 +3722,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-1",
-        "summary": "Direct-interaction provider notice: Provider role is reported no and output is not direct interaction.",
+        "summary": "Direct-interaction provider notice: Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-1"
+          "EVIDENCE-REC-010"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-1",
         "owner": "Communications",
-        "reason": "Provider role is reported no and output is not direct interaction.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Provider role is reported no and output is not direct interaction.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -3869,18 +3784,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-2",
-        "summary": "Provider machine-readable marking: Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "summary": "Provider machine-readable marking: Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-2"
+          "EVIDENCE-REC-010"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-2",
         "owner": "Communications",
-        "reason": "Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Register reports provider=no; this is bounded actor-role screening, not verification of vendor marking.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -3932,18 +3846,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-3",
-        "summary": "Emotion recognition/biometric categorisation: Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "summary": "Emotion recognition/biometric categorisation: Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-3"
+          "EVIDENCE-REC-010"
         ],
         "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-3",
         "owner": "Communications",
-        "reason": "Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Classification, assessment use and human adjudication do not establish emotion recognition or biometric categorisation; verify actual functionality.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -3995,18 +3908,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-4-image",
-        "summary": "Deployer deep-fake disclosure: Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
+        "summary": "Deployer deep-fake disclosure: Required authority is blocked; dependent formal screening outcome withheld. Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-4"
+          "EVIDENCE-REC-010"
         ],
         "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-4",
         "owner": "Communications",
-        "reason": "Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Synthetic output alone does not establish the deep-fake definition; verify real-person/event resemblance and specific exceptions.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -4058,18 +3970,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-4-text",
-        "summary": "Public-interest text disclosure: Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "summary": "Public-interest text disclosure: Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-4"
+          "EVIDENCE-REC-010"
         ],
         "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-4",
         "owner": "Communications",
-        "reason": "Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify text generation, publication, public-interest purpose and substantive editorial responsibility; human_review labels alone do not establish exemption.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -4121,18 +4032,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-5",
-        "summary": "Notice timing, clarity and accessibility: Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "summary": "Notice timing, clarity and accessibility: Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-5"
+          "EVIDENCE-REC-010"
         ],
         "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-5",
         "owner": "Communications",
-        "reason": "Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Verify first-interaction/exposure timing, clarity and accessibility only after applicable paragraph/actor scope is established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -4184,18 +4094,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-6",
-        "summary": "Other obligations preserved: Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "summary": "Other obligations preserved: Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-6"
+          "EVIDENCE-REC-010"
         ],
         "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-6",
         "owner": "Communications",
-        "reason": "Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Article 50 screening does not settle Chapter III or other transparency obligations; Legal must confirm review boundary.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -4247,18 +4156,17 @@
       },
       {
         "id": "IMPACT-AI-008-50-7",
-        "summary": "Codes-of-practice context: Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "summary": "Codes-of-practice context: Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "RULE-50-7"
+          "EVIDENCE-REC-010"
         ],
-        "state": "supported-no-impact",
+        "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "RULE-50-7",
         "owner": "Communications",
-        "reason": "Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Captured paragraph addresses Commission code mechanisms; no standalone company conformity finding is made from that paragraph.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -4310,18 +4218,17 @@
       },
       {
         "id": "IMPACT-AI-008-111-4",
-        "summary": "Conditional provider transition: Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "summary": "Conditional provider transition: Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "evidence_ids": [
           "SYSTEMS-AI-008",
           "EVIDENCE-REC-009",
-          "EVIDENCE-REC-010",
-          "TIMING-50-2-TRANSITION"
+          "EVIDENCE-REC-010"
         ],
         "state": "unresolved",
         "system_id": "AI-008",
         "rule_ref": "TIMING-50-2-TRANSITION",
         "owner": "Communications",
-        "reason": "Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
+        "reason": "Required authority is blocked; dependent formal screening outcome withheld. Do not grant a blanket delay: provider/synthetic-output facts and pre-2026-08-02 placing-on-market date must be established.",
         "scope": "Provisional register-based review preparation; no compliance or final applicability conclusion",
         "reported_facts": {
           "1": "9",
@@ -4696,25 +4603,34 @@
         "id": "GAP-TRANSITION-AI-005",
         "summary": "Placed-on-market date not disclosed; transition eligibility unresolved",
         "evidence_ids": [
-          "SYSTEMS-AI-005",
-          "TIMING-50-2-TRANSITION"
+          "SYSTEMS-AI-005"
         ],
         "owner": "Assessment Operations",
         "resolution_need": "Verify actor role, synthetic-output facts and placed-on-market date with Legal",
         "status": "unresolved"
       },
       {
+        "id": "BLOCK-AUTHORITY",
+        "summary": "One usable requested document required: OJ",
+        "evidence_ids": [
+          "SOURCE-OJ-original",
+          "SOURCE-OJ-cellar-metadata",
+          "SOURCE-OJ-cellar-content",
+          "SOURCE-AMEND-original",
+          "SOURCE-AMEND-cellar-metadata",
+          "SOURCE-AMEND-cellar-content",
+          "SOURCE-CONSOLIDATED-original",
+          "SOURCE-CONSOLIDATED-cellar-metadata",
+          "SOURCE-CONSOLIDATED-cellar-content"
+        ],
+        "owner": "Legal",
+        "status": "unresolved",
+        "resolution_need": "Verify identity/version/operative clauses before dependent conclusions"
+      },
+      {
         "id": "BLOCK-HISTORICAL",
         "summary": "Later retrieval does not prove exhaustive legal history as of 2026-08-26",
-        "evidence_ids": [
-          "RULE-50-1",
-          "RULE-50-2",
-          "RULE-50-3",
-          "RULE-50-4",
-          "RULE-50-5",
-          "RULE-50-6",
-          "RULE-50-7"
-        ],
+        "evidence_ids": [],
         "owner": "Legal",
         "status": "unresolved",
         "resolution_need": "Legal must confirm authoritative completeness and applicability"
@@ -4944,25 +4860,34 @@
       "id": "GAP-TRANSITION-AI-005",
       "summary": "Placed-on-market date not disclosed; transition eligibility unresolved",
       "evidence_ids": [
-        "SYSTEMS-AI-005",
-        "TIMING-50-2-TRANSITION"
+        "SYSTEMS-AI-005"
       ],
       "owner": "Assessment Operations",
       "resolution_need": "Verify actor role, synthetic-output facts and placed-on-market date with Legal",
       "status": "unresolved"
     },
     {
+      "id": "BLOCK-AUTHORITY",
+      "summary": "One usable requested document required: OJ",
+      "evidence_ids": [
+        "SOURCE-OJ-original",
+        "SOURCE-OJ-cellar-metadata",
+        "SOURCE-OJ-cellar-content",
+        "SOURCE-AMEND-original",
+        "SOURCE-AMEND-cellar-metadata",
+        "SOURCE-AMEND-cellar-content",
+        "SOURCE-CONSOLIDATED-original",
+        "SOURCE-CONSOLIDATED-cellar-metadata",
+        "SOURCE-CONSOLIDATED-cellar-content"
+      ],
+      "owner": "Legal",
+      "status": "unresolved",
+      "resolution_need": "Verify identity/version/operative clauses before dependent conclusions"
+    },
+    {
       "id": "BLOCK-HISTORICAL",
       "summary": "Later retrieval does not prove exhaustive legal history as of 2026-08-26",
-      "evidence_ids": [
-        "RULE-50-1",
-        "RULE-50-2",
-        "RULE-50-3",
-        "RULE-50-4",
-        "RULE-50-5",
-        "RULE-50-6",
-        "RULE-50-7"
-      ],
+      "evidence_ids": [],
       "owner": "Legal",
       "status": "unresolved",
       "resolution_need": "Legal must confirm authoritative completeness and applicability"
@@ -4973,6 +4898,7 @@
       "id": "DECISION-MILESTONE3-5",
       "summary": "Use bounded screening and unsent human requests",
       "evidence_ids": [
+        "BLOCK-AUTHORITY",
         "BLOCK-HISTORICAL",
         "CALENDAR-ACT-001",
         "CALENDAR-ACT-002",
@@ -4983,20 +4909,9 @@
         "CALENDAR-ACT-007",
         "CALENDAR-ACT-008",
         "CAPTURE-DECISION",
-        "CLAIM-AMEND-Article-1-20",
-        "CLAIM-AMEND-Article-1-39",
-        "CLAIM-AMEND-Article-1-40",
-        "CLAIM-AMEND-Article-4",
-        "CLAIM-CONSOLIDATED-Article-111",
-        "CLAIM-CONSOLIDATED-Article-113",
-        "CLAIM-CONSOLIDATED-Article-50",
-        "CLAIM-CONSOLIDATED-Header",
         "CLAIM-FAQ-Context",
         "CLAIM-LAW-Context",
-        "CLAIM-OJ-Article-113",
-        "CLAIM-OJ-Article-50",
         "CLAIM-TIME-Context",
-        "CONSOLIDATION-CONTEXT",
         "DECISION-STAGE-3",
         "DECISION-STAGE-4",
         "EVIDENCE-REC-001",
@@ -5044,13 +4959,6 @@
         "JOIN-AI-006",
         "JOIN-AI-007",
         "JOIN-AI-008",
-        "RULE-50-1",
-        "RULE-50-2",
-        "RULE-50-3",
-        "RULE-50-4",
-        "RULE-50-5",
-        "RULE-50-6",
-        "RULE-50-7",
         "SCOPE",
         "SOURCE-AMEND-cellar-content",
         "SOURCE-AMEND-cellar-metadata",
@@ -5077,11 +4985,6 @@
         "SYSTEMS-AI-006",
         "SYSTEMS-AI-007",
         "SYSTEMS-AI-008",
-        "TIMING-113-OTHER-BASES",
-        "TIMING-50-2-TRANSITION",
-        "TIMING-50-GENERAL",
-        "TIMING-AMEND-ENTRY",
-        "TIMING-OJ-ENTRY",
         "UNRESOLVED-POLICY"
       ],
       "concern": "Missing evidence, authority limitations and unverified approvals",

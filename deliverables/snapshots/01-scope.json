@@ -1,10 +1,10 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9-1",
-  "run_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9",
+  "snapshot_id": "live-bc49293cc50141ca98e0b6ace0e08779-1",
+  "run_id": "live-bc49293cc50141ca98e0b6ace0e08779",
   "stage": "scope",
   "sequence": 1,
-  "created_at": "2026-10-15T02:26:51.977287+00:00",
+  "created_at": "2026-10-15T03:22:16.416636+00:00",
   "status": "complete",
   "predecessor": null,
   "consumed_record_ids": [],
@@ -32,8 +32,8 @@
       "summary": "All Quillhaven Academy AI systems in the disclosed SYSTEMS register; individual IDs captured in stage 02.",
       "evidence_ids": []
     },
-    "supersedes_run_id": "live-3de35e38c0b44bc9bd964de5baf74737",
-    "change_reason": "Fresh end-to-end rerun after hook trust review and Entire checkpoint recovery"
+    "supersedes_run_id": "live-cbf3e01bbbaa4176845f4a457fd08ed9",
+    "change_reason": "Fresh source retrieval and full review-only recomputation"
   },
   "unresolved": [],
   "decisions": []

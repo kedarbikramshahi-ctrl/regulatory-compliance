@@ -1,0 +1,21 @@
+{
+  "source_id": "SOURCE-OJ-cellar-metadata",
+  "raw_reference": "sources/SOURCE-OJ-cellar-metadata.response",
+  "raw_hash": "sha256:f51011cd3bb6ecf95c71b4f2c16a81614ec79ee025219d4ed374bb26ecb75500",
+  "metadata": {
+    "title": "Cellar metadata for CELEX 32024R1689",
+    "historical_suitability": "unverified",
+    "celex": "32024R1689",
+    "identifiers": [
+      "32024R1689",
+      "L_202401689",
+      "dc8116a1-3fe6-11ef-865a-01aa75ed71a1",
+      "reg:2024:1689:oj"
+    ],
+    "document_role": "metadata only, not legal text"
+  },
+  "locators": [
+    "XML /NOTICE/WORK/URI and /NOTICE/WORK/SAMEAS"
+  ],
+  "visible_text": []
+}
