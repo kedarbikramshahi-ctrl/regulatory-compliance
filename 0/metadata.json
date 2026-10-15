@@ -1,0 +1,99 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4YP9ANYBB3PMN5JKNBRR9TZ",
+  "session_id": "01a138bd-0d69-75c2-bbca-0135a2d2a8c9",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-15T02:29:33.5789078Z",
+  "branch": "main",
+  "checkpoints_count": 29,
+  "save_step_count": 5,
+  "files_touched": [
+    "docs/capture-recovery-rerun.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6.1-sol",
+  "turn_id": "1eec15648d2d",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 474072,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 23392768,
+    "output_tokens": 53711,
+    "api_call_count": 179,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 29
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-15T02:29:33.4632948Z",
+    "agent_lines": 38,
+    "agent_removed": 0,
+    "human_added": 477712,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 477750,
+    "total_lines_changed": 481635,
+    "agent_percentage": 0.007889792062453932,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 88,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1601035,
+      "agent_lines_removed": 17,
+      "user_added_per_file": {
+        ".codex/hooks.json": 88
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 113,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "ProjectB.md": 113
+      }
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 113,
+      "user_lines_removed": 0,
+      "agent_lines_added": 176,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "ProjectB.md": 113
+      }
+    },
+    {
+      "checkpoint_number": 5,
+      "user_lines_added": 113,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "ProjectB.md": 113
+      }
+    },
+    {
+      "checkpoint_number": 6,
+      "user_lines_added": 113,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "ProjectB.md": 113
+      }
+    }
+  ]
+}
